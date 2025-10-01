@@ -455,10 +455,6 @@ header::after {
   box-shadow: inset 0 0 0 1px var(--color-white-outline-strong);
 }
 
-.nav-actions .btn {
-  font-size: clamp(1.17rem, 1.05rem + 0.4vw, 1.25rem);
-}
-
 .hero {
   max-width: var(--layout-container);
   margin: 0 auto;
@@ -928,19 +924,6 @@ footer span {
   color: var(--color-white-dim);
 }
 
-.flow-top-actions {
-  display: flex;
-  gap: var(--spacing-md-plus);
-  flex-wrap: wrap;
-}
-
-.flow-top-actions .btn {
-  padding: var(--spacing-sm-plus) var(--spacing-xl);
-  border-radius: var(--radius-md);
-  letter-spacing: 0.3px;
-  font-size: clamp(1.17rem, 1.05rem + 0.4vw, 1.25rem);
-}
-
 .flow-hero-main {
   max-width: var(--layout-container-wide);
   margin: 0 auto;
@@ -956,21 +939,8 @@ footer span {
 .flow-hero-text h1 {
   font-size: var(--font-size-display);
   line-height: 1.15;
+  margin-top: 0;
   margin-bottom: var(--spacing-lg-plus);
-}
-
-.flow-pill {
-  display: inline-flex;
-  align-items: center;
-  gap: var(--spacing-sm);
-  padding: var(--spacing-xs) var(--spacing-card-gap);
-  border-radius: var(--radius-pill);
-  background: var(--color-white-glass);
-  font-size: var(--font-size-xs);
-  letter-spacing: 1.4px;
-  text-transform: uppercase;
-  margin-bottom: var(--spacing-card-gap);
-  box-shadow: inset 0 0 0 1px var(--color-white-outline-ghost);
 }
 
 .flow-hero-text p {
@@ -1431,16 +1401,6 @@ footer span {
     align-items: flex-start;
     gap: var(--spacing-card-gap);
     padding: 0 var(--spacing-gutter);
-  }
-
-  .flow-top-actions {
-    width: 100%;
-  }
-
-  .flow-top-actions .btn {
-    flex: 1 1 auto;
-    justify-content: center;
-    text-align: center;
   }
 
   .flow-hero-main {
