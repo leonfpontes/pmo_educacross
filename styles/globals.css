@@ -1554,16 +1554,21 @@ footer span {
 
 .site-footer {
   margin-top: var(--space-64);
-  background: var(--color-surface);
-  border-top: 1px solid var(--color-border);
-  color: var(--color-text-muted);
+  background: linear-gradient(
+    135deg,
+    rgba(var(--color-primary-rgb), 0.95),
+    rgba(var(--color-secondary-rgb), 0.9)
+  );
+  border-top: 1px solid var(--color-white-outline);
+  color: var(--color-white);
   font-size: var(--font-size-sm);
+  box-shadow: 0 -16px 28px rgba(var(--color-primary-rgb), 0.2);
 }
 
 .site-footer__inner {
   max-width: var(--layout-container);
   margin: 0 auto;
-  padding: 0 var(--spacing-gutter);
+  padding: var(--space-20) var(--spacing-gutter);
   display: flex;
   justify-content: center;
   align-items: center;
