@@ -19,17 +19,7 @@ const flowSections = [
             visão executiva.
           </li>
           <li>
-            <strong>
-              Governança com{' '}
-              <a
-                href="https://www.notion.so/O-que-s-o-Stage-Gates-277e9f3bb81e80589759c9043334eed4?pvs=21"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Stage Gates
-              </a>
-              :
-            </strong>{' '}
+            <strong>Governança com Stage Gates:</strong>{' '}
             decisões em pontos de controle (Gates G0→G4) para foco e eficiência.
           </li>
           <li>
@@ -85,49 +75,19 @@ const flowSections = [
         </p>
         <ul className="link-list">
           <li>
-            <a
-              href="https://www.notion.so/Fluxo-do-Escrit-rio-de-Projetos-PMO-Educacross-277e9f3bb81e80e5a81bc16554c44efa?pvs=21"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <strong>Intake &amp; Triage → G0 (Aceitar para Descoberta?)</strong>
-            </a>
+            <strong>Intake &amp; Triage → G0 (Aceitar para Descoberta?)</strong>
           </li>
           <li>
-            <a
-              href="https://www.notion.so/Fluxo-do-Escrit-rio-de-Projetos-PMO-Educacross-277e9f3bb81e80e5a81bc16554c44efa?pvs=21"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <strong>Descoberta &amp; Iniciação → G1 (Aprovar Charter/Business Case?)</strong>
-            </a>
+            <strong>Descoberta &amp; Iniciação → G1 (Aprovar Charter/Business Case?)</strong>
           </li>
           <li>
-            <a
-              href="https://www.notion.so/Fluxo-do-Escrit-rio-de-Projetos-PMO-Educacross-277e9f3bb81e80e5a81bc16554c44efa?pvs=21"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <strong>Planejamento Detalhado → G2 (Plano pronto para Execução?)</strong>
-            </a>
+            <strong>Planejamento Detalhado → G2 (Plano pronto para Execução?)</strong>
           </li>
           <li>
-            <a
-              href="https://www.notion.so/Fluxo-do-Escrit-rio-de-Projetos-PMO-Educacross-277e9f3bb81e80e5a81bc16554c44efa?pvs=21"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <strong>Execução &amp; Monitoramento → G3 (Liberar para Implantação?)</strong>
-            </a>
+            <strong>Execução &amp; Monitoramento → G3 (Liberar para Implantação?)</strong>
           </li>
           <li>
-            <a
-              href="https://www.notion.so/Fluxo-do-Escrit-rio-de-Projetos-PMO-Educacross-277e9f3bb81e80e5a81bc16554c44efa?pvs=21"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <strong>Lançamento &amp; Estabilização → G4 (Aprovar Encerramento?)</strong>
-            </a>
+            <strong>Lançamento &amp; Estabilização → G4 (Aprovar Encerramento?)</strong>
           </li>
           <li>
             <Link href="/stage-gates">
