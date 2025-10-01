@@ -3,15 +3,15 @@ import { useRouter } from 'next/router';
 import { useEffect, useId, useMemo, useState } from 'react';
 
 const phaseLinks = [
-  { href: '/g0', label: 'G0' },
-  { href: '/g1', label: 'G1' },
-  { href: '/g2', label: 'G2' },
-  { href: '/g3', label: 'G3' },
-  { href: '/g4', label: 'G4' },
+  { href: '/fases/g0', label: 'G0' },
+  { href: '/fases/g1', label: 'G1' },
+  { href: '/fases/g2', label: 'G2' },
+  { href: '/fases/g3', label: 'G3' },
+  { href: '/fases/g4', label: 'G4' },
 ];
 
 const instrumentLinks = phaseLinks.map((phase) => ({
-  href: `/instrumentos${phase.href}`,
+  href: `/instrumentos/${phase.label.toLowerCase()}`,
   label: phase.label,
 }));
 
