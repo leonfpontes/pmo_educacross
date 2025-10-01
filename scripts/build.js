@@ -1,5 +1,6 @@
-#!/usr/bin/env node
 const { execSync } = require('child_process');
+const fs = require('fs');
+const path = require('path');
 
 const run = (command) => {
   execSync(command, {
@@ -10,8 +11,19 @@ const run = (command) => {
 
 run('next build');
 
-if (process.env.VERCEL) {
-  console.log('\nDetected Vercel environment. Skipping `next export` and relying on Next.js static output.');
+console.log('\nRunning `next export` to generate the static output directory.');
+run('next export');
+
+const manifestSource = path.join('.next', 'routes-manifest.json');
+const manifestDestination = path.join('out', 'routes-manifest.json');
+
+if (!fs.existsSync(manifestDestination) && fs.existsSync(manifestSource)) {
+  fs.copyFileSync(manifestSource, manifestDestination);
+  console.log('Copied `.next/routes-manifest.json` to `out/routes-manifest.json` for Vercel compatibility.');
+}
+
+if (fs.existsSync(manifestDestination)) {
+  console.log('\nStatic export complete. Files (including routes-manifest.json) are available in the `out` directory.');
 } else {
-  console.log('\nBuild complete. Static files are available in the `out` directory.');
+  console.warn('\nWarning: `routes-manifest.json` was not found after export.');
 }
