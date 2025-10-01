@@ -293,6 +293,110 @@ button:focus-visible,
   background-color: var(--color-accent);
 }
 
+.stage-gates-page {
+  display: grid;
+  gap: var(--space-32);
+}
+
+.stage-gates-page .content-card {
+  margin: 0;
+}
+
+.stage-gates-benefits {
+  list-style: none;
+  padding: 0;
+  margin: var(--space-16) 0 0;
+  display: grid;
+  gap: var(--space-18);
+}
+
+.stage-gates-benefits li {
+  padding-left: 0;
+  font-size: var(--font-size-body-lg);
+}
+
+.stage-gates-benefits li::before {
+  display: none;
+}
+
+.stage-gates-benefits strong {
+  color: var(--color-primary-dark);
+  font-weight: 600;
+}
+
+.stage-gates-steps {
+  list-style: none;
+  padding: 0;
+  margin: var(--space-24) 0 0;
+  display: grid;
+  gap: var(--space-24);
+  counter-reset: stage-gate -1;
+}
+
+.stage-gates-steps li {
+  background: var(--color-surface-soft);
+  border: 1px solid var(--color-border-strong);
+  border-radius: var(--radius-2xl);
+  padding: var(--space-24);
+  box-shadow: var(--shadow-card-soft);
+  color: var(--color-text-muted);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-12);
+}
+
+.stage-gates-steps li::before {
+  counter-increment: stage-gate;
+  content: 'G' counter(stage-gate);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 46px;
+  border-radius: var(--radius-pill);
+  background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+  color: var(--color-white);
+  font-weight: 700;
+  font-size: var(--font-size-lg);
+  margin-bottom: var(--space-8);
+}
+
+.stage-gates-steps li > strong {
+  font-size: var(--font-size-heading-xs);
+  color: var(--color-primary-dark);
+}
+
+.stage-gates-steps li p {
+  margin: 0;
+  font-size: var(--font-size-body);
+  line-height: 1.55;
+}
+
+.stage-gates-steps li p strong {
+  color: var(--color-primary);
+}
+
+.stage-gates-flow {
+  margin-top: var(--space-20);
+  padding: var(--space-20);
+  background: var(--color-surface-soft);
+  border: 1px dashed var(--color-border-contrast);
+  border-radius: var(--radius-2xl);
+  font-family: 'DM Mono', 'Fira Code', 'Source Code Pro', 'Menlo', 'Monaco', monospace;
+  font-size: var(--font-size-body-lg);
+  text-align: center;
+  color: var(--color-primary-dark);
+  overflow-x: auto;
+}
+
+.stage-gates-actions {
+  margin-top: var(--space-24);
+}
+
+.stage-gates-actions .btn {
+  margin-top: 0;
+}
+
 .double-column {
   display: grid;
   gap: var(--spacing-xl);

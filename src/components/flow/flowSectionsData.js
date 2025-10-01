@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 const flowSections = [
   {
     id: 'objetivo-principios',
@@ -126,6 +128,11 @@ const flowSections = [
             >
               <strong>Lançamento &amp; Estabilização → G4 (Aprovar Encerramento?)</strong>
             </a>
+          </li>
+          <li>
+            <Link href="/stage-gates">
+              <strong>O que são Stage&nbsp;Gates?</strong>
+            </Link>
           </li>
         </ul>
       </>
