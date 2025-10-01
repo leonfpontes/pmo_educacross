@@ -315,6 +315,176 @@
       color: rgba(255, 255, 255, 0.92);
     }
 
+    .cta-section {
+      position: relative;
+      margin: -40px auto 40px;
+      max-width: 1100px;
+      padding: 0 24px;
+      z-index: 2;
+    }
+
+    .cta-card {
+      background: radial-gradient(circle at top left, rgba(124, 58, 237, 0.98), rgba(31, 75, 216, 0.92));
+      color: #fff;
+      border-radius: 28px;
+      padding: 48px 44px;
+      overflow: hidden;
+      position: relative;
+      box-shadow: 0 35px 65px rgba(23, 39, 94, 0.35);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+    }
+
+    .cta-card::before,
+    .cta-card::after {
+      content: "";
+      position: absolute;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.16);
+      filter: blur(2px);
+      opacity: 0.9;
+      pointer-events: none;
+    }
+
+    .cta-card::before {
+      width: 280px;
+      height: 280px;
+      top: -120px;
+      right: -80px;
+    }
+
+    .cta-card::after {
+      width: 220px;
+      height: 220px;
+      bottom: -120px;
+      left: -60px;
+    }
+
+    .cta-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 18px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.16);
+      font-size: 0.88rem;
+      letter-spacing: 0.8px;
+      text-transform: uppercase;
+      margin-bottom: 18px;
+      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.35);
+    }
+
+    .cta-tag::before {
+      content: "⚡";
+      font-size: 1rem;
+    }
+
+    .cta-card h2 {
+      font-size: 2.1rem;
+      line-height: 1.25;
+      margin-bottom: 16px;
+    }
+
+    .cta-intro {
+      font-size: 1.05rem;
+      color: rgba(255, 255, 255, 0.92);
+      margin-bottom: 32px;
+      max-width: 780px;
+    }
+
+    .cta-highlights {
+      display: grid;
+      gap: 18px;
+      margin-bottom: 32px;
+    }
+
+    .cta-highlights h3 {
+      font-size: 1.15rem;
+      letter-spacing: 0.4px;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.8);
+    }
+
+    .cta-highlights ul {
+      list-style: none;
+      display: grid;
+      gap: 16px;
+    }
+
+    .cta-highlights li {
+      position: relative;
+      padding-left: 46px;
+      font-size: 1rem;
+      line-height: 1.5;
+      background: rgba(15, 45, 143, 0.28);
+      border-radius: 18px;
+      padding-top: 18px;
+      padding-bottom: 18px;
+      padding-right: 22px;
+      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.08);
+    }
+
+    .cta-highlights li::before {
+      content: "";
+      position: absolute;
+      left: 18px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #f5a524, #ffdf80);
+      box-shadow: 0 0 18px rgba(245, 165, 36, 0.65);
+    }
+
+    .cta-footer {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 22px;
+      align-items: center;
+    }
+
+    .cta-footer p {
+      font-size: 1rem;
+      color: rgba(255, 255, 255, 0.9);
+      flex: 1 1 280px;
+      margin: 0;
+    }
+
+    .cta-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 14px 28px;
+      border-radius: 999px;
+      background: #f5a524;
+      color: #0f2d8f;
+      font-weight: 700;
+      text-decoration: none;
+      letter-spacing: 0.6px;
+      box-shadow: 0 18px 28px rgba(245, 165, 36, 0.4);
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+      white-space: nowrap;
+    }
+
+    .cta-button:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 24px 32px rgba(245, 165, 36, 0.45);
+    }
+
+    @media (max-width: 640px) {
+      .cta-card {
+        padding: 38px 28px;
+      }
+
+      .cta-card h2 {
+        font-size: 1.8rem;
+      }
+
+      .cta-highlights li {
+        padding-left: 54px;
+      }
+    }
+
     footer {
       padding: 48px 24px;
       text-align: center;
@@ -355,6 +525,26 @@
       </div>
     </div>
   </header>
+
+  <section class="cta-section" id="fluxo-pmo">
+    <div class="cta-card">
+      <span class="cta-tag">Seção de Chamada – Fluxo do PMO Educacross</span>
+      <h2>PMO Educacross: governança para transformar caos em orquestra</h2>
+      <p class="cta-intro">Quer entender como organizamos a entrada de demandas, priorizamos projetos e entregamos com previsibilidade? Desenvolvemos um fluxo único de ponta a ponta que une estratégia, tecnologia e pessoas para reduzir custos operacionais e escalar resultados.</p>
+      <div class="cta-highlights">
+        <h3>Principais destaques:</h3>
+        <ul>
+          <li>Governança com Stage Gates (G0→G4) para decisões rápidas e eficientes, do intake à estabilização e pós‑projeto.</li>
+          <li>Papéis claros (Sponsor, Liderança, PMO, Gerentes de Projeto, Leads) em um RACI de alto nível para que ninguém jogue no escuro.</li>
+          <li>Pipeline automatizado no Bitrix24, com semáforo padrão, dashboards executivos e artefatos essenciais — só o que agrega valor, sem burocracia.</li>
+        </ul>
+      </div>
+      <div class="cta-footer">
+        <p>Se ficou curioso para conhecer o passo a passo, os critérios de cada Gate e o roadmap de implantação, clique em “Saiba Mais” e mergulhe na proposta completa.</p>
+        <a class="cta-button" href="#roadmap">Saiba Mais</a>
+      </div>
+    </div>
+  </section>
 
   <main>
     <section class="content-card" id="posicionamento">
