@@ -90,11 +90,6 @@ export default function Header() {
           </li>
         </ul>
       </nav>
-      <div className="nav-actions">
-        <Link href="/fluxo-pmo" className="btn btn-secondary">
-          Roadmap 90 dias
-        </Link>
-      </div>
     </div>
   );
 }

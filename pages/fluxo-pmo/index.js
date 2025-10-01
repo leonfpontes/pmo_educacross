@@ -124,19 +124,10 @@ export default function FluxoPMO() {
             <span className="flow-brand-mark">educacross</span>
             <span className="flow-brand-tag">PMO</span>
           </a>
-          <nav className="flow-top-actions" aria-label="Navegação primária">
-            <Link className="btn btn-secondary" href="/">
-              Visão geral
-            </Link>
-            <a className="btn btn-secondary" href="#implantacao">
-              Implantação
-            </a>
-          </nav>
         </div>
 
         <div className="flow-hero-main">
           <div className="flow-hero-text">
-            <span className="flow-pill">Escritório de Projetos</span>
             <h1>Fluxo integrado do PMO Educacross</h1>
             <p>
               Fluxo de ponta a ponta para intake, planejamento, execução e acompanhamento dos projetos Educacross, com
