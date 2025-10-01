@@ -1,6 +1,5 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import Header from '../components/Header';
 
 export default function Home() {
   return (
@@ -12,8 +11,7 @@ export default function Home() {
           content="Visão geral do PMO Educacross com governança, metodologia e roadmap de implantação."
         />
       </Head>
-      <header>
-        <Header />
+      <header className="page-hero">
         <div className="hero">
           <div className="hero-text">
             <div className="hero-highlight">Estratégia • Governança • Resultados</div>

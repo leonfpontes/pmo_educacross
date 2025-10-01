@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import { useEffect, useRef } from 'react';
-import Header from '../../components/Header';
 
 export default function FluxoPMO() {
   const navContainerRef = useRef(null);
@@ -118,7 +117,6 @@ export default function FluxoPMO() {
         />
       </Head>
       <header className="flow-hero" role="banner">
-        <Header />
         <div className="flow-topbar">
           <a className="flow-brand" href="https://educacross.com.br" target="_blank" rel="noopener noreferrer">
             <span className="flow-brand-mark">educacross</span>
