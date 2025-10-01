@@ -218,6 +218,65 @@ body {
   min-height: 100vh;
 }
 
+/* Button system */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-xs);
+  cursor: pointer;
+  border: none;
+  outline: none;
+  appearance: none;
+  font-family: var(--font-family-base);
+  font-weight: 600;
+  border-radius: var(--radius-md);
+  padding: 0.75rem 1.5rem;
+  font-size: 0.875rem;
+  line-height: 1.2;
+  text-decoration: none;
+  box-shadow: var(--btn-shadow, none);
+  transition: background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn:focus-visible {
+  box-shadow: 0 0 0 3px rgba(var(--color-accent-rgb), 0.5), var(--btn-shadow, none);
+}
+
+.btn-primary {
+  background-color: var(--color-accent);
+  color: var(--color-primary-dark);
+  --btn-shadow: 0 12px 24px rgba(var(--color-accent-rgb), 0.28);
+}
+
+.btn-primary:hover,
+.btn-primary:active {
+  background-color: #dd9320;
+  --btn-shadow: 0 16px 28px rgba(var(--color-accent-rgb), 0.35);
+}
+
+.btn-secondary {
+  background-color: transparent;
+  border: 1px solid var(--color-accent);
+  color: var(--color-accent);
+  font-size: clamp(1.17rem, 1.05rem + 0.35vw, 1.25rem);
+  font-weight: 700;
+}
+
+.btn-secondary:hover,
+.btn-secondary:active {
+  background-color: var(--color-accent);
+  color: var(--color-primary-dark);
+}
+
+.btn:disabled,
+.btn[aria-disabled="true"] {
+  cursor: not-allowed;
+  opacity: 0.6;
+  box-shadow: none;
+  pointer-events: none;
+}
+
 header {
   background: var(--gradient-hero);
   color: var(--color-white);
@@ -279,19 +338,8 @@ header::after {
   box-shadow: inset 0 0 0 1px var(--color-white-outline-strong);
 }
 
-.nav-actions a {
-  color: var(--color-white-muted);
-  text-decoration: none;
-  font-weight: 500;
-  font-size: var(--font-size-sm-strong);
-  padding: var(--spacing-sm) var(--spacing-xl);
-  border-radius: var(--radius-pill);
-  border: 1px solid var(--color-white-outline-soft);
-  transition: background 0.3s ease;
-}
-
-.nav-actions a:hover {
-  background: var(--color-white-pill);
+.nav-actions .btn {
+  font-size: clamp(1.17rem, 1.05rem + 0.4vw, 1.25rem);
 }
 
 .hero {
@@ -652,25 +700,9 @@ main {
   margin: 0;
 }
 
-.cta-button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: var(--spacing-md) var(--spacing-2xl-plus);
-  border-radius: var(--radius-pill);
-  background: var(--color-accent);
-  color: var(--color-primary-dark);
-  font-weight: 700;
-  text-decoration: none;
-  letter-spacing: 0.6px;
-  box-shadow: var(--shadow-card-pop-strong);
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-  white-space: nowrap;
-}
 
-.cta-button:hover {
-  transform: translateY(-3px);
-  box-shadow: var(--shadow-card-pop-intense);
+.cta-footer .btn {
+  white-space: nowrap;
 }
 
 @media (max-width: 640px) {
@@ -785,19 +817,11 @@ footer span {
   flex-wrap: wrap;
 }
 
-.flow-top-link {
-  color: var(--color-white-medium);
-  text-decoration: none;
-  font-weight: 500;
-  padding: var(--spacing-sm) var(--spacing-xl);
-  border-radius: var(--radius-pill);
-  border: 1px solid var(--color-white-outline-faint);
-  transition: background 0.25s ease, color 0.25s ease;
-}
-
-.flow-top-link:hover {
-  background: var(--color-white-glass);
-  color: var(--color-white);
+.flow-top-actions .btn {
+  padding: var(--spacing-sm-plus) var(--spacing-xl);
+  border-radius: var(--radius-md);
+  letter-spacing: 0.3px;
+  font-size: clamp(1.17rem, 1.05rem + 0.4vw, 1.25rem);
 }
 
 .flow-hero-main {
@@ -929,29 +953,13 @@ footer span {
   box-shadow: var(--shadow-outline);
 }
 
-.flow-card-cta {
+.flow-hero-card .btn {
   justify-self: start;
-  display: inline-flex;
-  align-items: center;
-  gap: var(--spacing-xs);
-  padding: var(--spacing-sm-plus) var(--spacing-xl);
-  border-radius: var(--radius-pill);
-  background: var(--color-accent);
-  color: var(--color-primary-dark);
-  text-decoration: none;
-  font-weight: 700;
-  letter-spacing: 0.6px;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.flow-card-cta::after {
+.flow-hero-card .btn-primary::after {
   content: "→";
   font-size: var(--font-size-base-plus);
-}
-
-.flow-card-cta:hover {
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-card-accent-hover);
 }
 
 .flow-main-layout {
@@ -1289,7 +1297,7 @@ footer span {
     width: 100%;
   }
 
-  .flow-top-link {
+  .flow-top-actions .btn {
     flex: 1 1 auto;
     justify-content: center;
     text-align: center;
