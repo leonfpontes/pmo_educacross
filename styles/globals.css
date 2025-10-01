@@ -323,7 +323,115 @@ header::after {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: var(--spacing-5xl);
   padding: 0 var(--spacing-gutter);
+}
+
+.main-nav {
+  flex: 1;
+}
+
+.main-nav > ul {
+  list-style: none;
+  display: flex;
+  gap: var(--spacing-2xl-plus);
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.main-nav__link,
+.submenu__link,
+.submenu-label {
+  font-weight: 500;
+  color: var(--color-white);
+  text-decoration: none;
+  font-size: var(--font-size-sm-strong);
+  transition: color 0.2s ease;
+}
+
+.main-nav__link:hover,
+.submenu__link:hover,
+.main-nav__link:focus-visible,
+.submenu__link:focus-visible {
+  color: var(--color-accent-light);
+}
+
+.main-nav__link.active,
+.submenu__link.active,
+.has-submenu.active > .submenu-label {
+  color: var(--color-accent-light);
+}
+
+.has-submenu {
+  position: relative;
+}
+
+.submenu-label {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-2xs);
+  cursor: default;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  top: calc(100% + var(--spacing-sm));
+  left: 0;
+  background: var(--color-primary-tint-soft);
+  backdrop-filter: blur(12px);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-md-plus) var(--spacing-2xl);
+  list-style: none;
+  box-shadow: 0 18px 35px rgba(var(--color-primary-rgb), 0.25);
+  min-width: 160px;
+  z-index: 10;
+}
+
+.submenu li + li {
+  margin-top: var(--spacing-sm-plus);
+}
+
+.has-submenu:hover > .submenu,
+.has-submenu:focus-within > .submenu {
+  display: block;
+}
+
+.flow-hero > .top-bar {
+  max-width: var(--layout-container-wide);
+  padding: 0 var(--spacing-3xl-plus);
+  margin-bottom: var(--spacing-6xl);
+}
+
+.page-header-minimal {
+  background: var(--gradient-hero);
+  color: var(--color-white);
+  padding: var(--spacing-6xl) 0 var(--spacing-6xl);
+}
+
+.page-header-minimal .top-bar {
+  margin-bottom: 0;
+}
+
+.simple-page {
+  max-width: var(--layout-container);
+  margin: var(--spacing-section) auto;
+  padding: 0 var(--spacing-gutter) var(--spacing-section);
+}
+
+.simple-page h1 {
+  font-size: var(--font-size-heading-md);
+  margin-bottom: var(--spacing-3xl);
+}
+
+.simple-page p {
+  font-size: var(--font-size-body-lg);
+  color: var(--color-text-muted);
+}
+
+.simple-page .btn {
+  margin-top: var(--spacing-3xl);
 }
 
 .brand {
