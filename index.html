@@ -407,33 +407,53 @@
     .cta-highlights ul {
       list-style: none;
       display: grid;
-      gap: 16px;
+      gap: 18px;
     }
 
     .cta-highlights li {
-      position: relative;
-      padding-left: 46px;
+      display: flex;
+      align-items: flex-start;
+      gap: 18px;
       font-size: 1rem;
-      line-height: 1.5;
-      background: rgba(15, 45, 143, 0.28);
-      border-radius: 18px;
-      padding-top: 18px;
-      padding-bottom: 18px;
-      padding-right: 22px;
-      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.08);
+      line-height: 1.6;
+      background: rgba(255, 255, 255, 0.12);
+      border-radius: 20px;
+      padding: 20px 24px;
+      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.16);
+      backdrop-filter: blur(6px);
     }
 
-    .cta-highlights li::before {
-      content: "";
-      position: absolute;
-      left: 18px;
-      top: 50%;
-      transform: translateY(-50%);
-      width: 18px;
-      height: 18px;
-      border-radius: 50%;
+    .highlight-icon {
+      flex-shrink: 0;
+      width: 56px;
+      height: 56px;
+      border-radius: 18px;
       background: linear-gradient(135deg, #f5a524, #ffdf80);
-      box-shadow: 0 0 18px rgba(245, 165, 36, 0.65);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: #0f2d8f;
+      font-weight: 700;
+      font-size: 0.85rem;
+      letter-spacing: 0.8px;
+      box-shadow: 0 12px 26px rgba(245, 165, 36, 0.35);
+    }
+
+    .highlight-content {
+      display: grid;
+      gap: 6px;
+    }
+
+    .highlight-content strong {
+      display: block;
+      font-size: 1.05rem;
+      letter-spacing: 0.3px;
+      color: #fff;
+    }
+
+    .highlight-content p {
+      margin: 0;
+      color: rgba(255, 255, 255, 0.9);
     }
 
     .cta-footer {
@@ -481,7 +501,14 @@
       }
 
       .cta-highlights li {
-        padding-left: 54px;
+        padding: 18px 20px;
+      }
+
+      .highlight-icon {
+        width: 48px;
+        height: 48px;
+        border-radius: 16px;
+        font-size: 0.75rem;
       }
     }
 
@@ -534,9 +561,27 @@
       <div class="cta-highlights">
         <h3>Principais destaques:</h3>
         <ul>
-          <li>Governança com Stage Gates (G0→G4) para decisões rápidas e eficientes, do intake à estabilização e pós‑projeto.</li>
-          <li>Papéis claros (Sponsor, Liderança, PMO, Gerentes de Projeto, Leads) em um RACI de alto nível para que ninguém jogue no escuro.</li>
-          <li>Pipeline automatizado no Bitrix24, com semáforo padrão, dashboards executivos e artefatos essenciais — só o que agrega valor, sem burocracia.</li>
+          <li>
+            <div class="highlight-icon">G0→G4</div>
+            <div class="highlight-content">
+              <strong>Governança com Stage Gates</strong>
+              <p>Decisões rápidas e eficientes do intake à estabilização e ao pós-projeto, com critérios claros em cada etapa.</p>
+            </div>
+          </li>
+          <li>
+            <div class="highlight-icon">RACI</div>
+            <div class="highlight-content">
+              <strong>Papéis e responsabilidades sem ruído</strong>
+              <p>Sponsor, Liderança, PMO, Gerentes de Projeto e Leads atuam com accountability definida — ninguém joga no escuro.</p>
+            </div>
+          </li>
+          <li>
+            <div class="highlight-icon">BI</div>
+            <div class="highlight-content">
+              <strong>Pipeline automatizado no Bitrix24</strong>
+              <p>Semáforo padrão, dashboards executivos e artefatos essenciais — tudo enxuto para gerar valor real, sem burocracia.</p>
+            </div>
+          </li>
         </ul>
       </div>
       <div class="cta-footer">
