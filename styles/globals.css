@@ -461,6 +461,36 @@ main {
   margin-top: var(--spacing-card-gap);
 }
 
+.callout ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.callout ul li {
+  position: relative;
+  padding-left: 28px;
+  margin: 0 0 var(--spacing-sm);
+  line-height: 1.45;
+}
+
+.callout ul li:last-child {
+  margin-bottom: 0;
+}
+
+.callout ul li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.6em;
+  transform: translateY(-50%);
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: var(--color-accent);
+}
+
 .double-column {
   display: grid;
   gap: var(--spacing-xl);
