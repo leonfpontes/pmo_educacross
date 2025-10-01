@@ -1,7 +1,7 @@
 # PMO Educacross
 
 Aplicação Next.js que reúne o material de apresentação do PMO Educacross, com
-páginas dedicadas ao fluxo completo, às fases G0–G4 e aos instrumentos
+páginas dedicadas ao fluxo completo, às fases G0–G4 e aos artefatos
 correspondentes. A interface foi modularizada em componentes reutilizáveis para
 facilitar manutenção e evolução futura.
 
@@ -12,7 +12,7 @@ pages/
   index.js                # Página inicial que apenas monta as seções
   fluxo-pmo/index.js      # Página do fluxo montada a partir dos componentes de flow
   fases/                  # Páginas placeholder para cada Gate (G0–G4)
-  instrumentos/           # Páginas placeholder para instrumentos por Gate
+  artefatos/              # Páginas placeholder para artefatos por Gate
 src/components/
   common/                 # Botões, badges, cartões e utilitários visuais
   flow/                   # Hero, navegação e seções do fluxo

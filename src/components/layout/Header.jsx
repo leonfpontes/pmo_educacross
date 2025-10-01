@@ -10,8 +10,8 @@ const phaseLinks = [
   { href: '/fases/g4', label: 'G4' },
 ];
 
-const instrumentLinks = phaseLinks.map((phase) => ({
-  href: `/instrumentos/${phase.label.toLowerCase()}`,
+const artefatoLinks = phaseLinks.map((phase) => ({
+  href: `/artefatos/${phase.label.toLowerCase()}`,
   label: phase.label,
 }));
 
@@ -23,8 +23,8 @@ const menuItems = [
     children: phaseLinks,
   },
   {
-    label: 'Instrumentos',
-    children: instrumentLinks,
+    label: 'Artefatos',
+    children: artefatoLinks,
   },
 ];
 
