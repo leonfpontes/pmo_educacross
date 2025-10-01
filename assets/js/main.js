@@ -3,26 +3,25 @@
 'use strict';
 
 document.addEventListener("DOMContentLoaded", () => {
-  const sideNav = document.querySelector(".flow-side-nav");
-  if (!sideNav) {
-    return;
-  }
-
-  const navLinks = Array.from(sideNav.querySelectorAll("a[data-section]"));
+  const navLinks = Array.from(document.querySelectorAll("a[data-section]"));
   if (!navLinks.length) {
     return;
   }
 
-  const sections = navLinks
-    .map((link) => {
-      const sectionId = link.dataset.section || link.getAttribute("href").replace("#", "");
-      const sectionEl = sectionId ? document.getElementById(sectionId) : null;
-      if (sectionEl) {
-        link.dataset.section = sectionId;
-      }
-      return sectionEl;
-    })
-    .filter(Boolean);
+  const sections = Array.from(
+    new Set(
+      navLinks
+        .map((link) => {
+          const sectionId = link.dataset.section || link.getAttribute("href").replace("#", "");
+          const sectionEl = sectionId ? document.getElementById(sectionId) : null;
+          if (sectionEl) {
+            link.dataset.section = sectionId;
+          }
+          return sectionEl;
+        })
+        .filter(Boolean)
+    )
+  );
 
   if (!sections.length) {
     return;
@@ -30,11 +29,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const setActiveLink = (sectionId) => {
     navLinks.forEach((link) => {
-      if (link.dataset.section === sectionId) {
-        link.classList.add("active");
+      const isActive = link.dataset.section === sectionId;
+      link.classList.toggle("active", isActive);
+      if (isActive) {
         link.setAttribute("aria-current", "true");
       } else {
-        link.classList.remove("active");
         link.removeAttribute("aria-current");
       }
     });
