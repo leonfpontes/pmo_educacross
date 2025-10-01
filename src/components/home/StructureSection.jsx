@@ -24,7 +24,7 @@ export default function StructureSection() {
           <ul className="custom-bullets">
             <li>Kickoff → Planejamento → Execução → Monitoramento → Encerramento.</li>
           </ul>
-          <Callout title="Instrumentos de gestão">
+          <Callout title="Artefatos de gestão">
             <ul>
               <li>Bitrix24 para gestão operacional de atividades.</li>
               <li>Dashboards no Looker/Metabase com indicadores semaforizados.</li>
