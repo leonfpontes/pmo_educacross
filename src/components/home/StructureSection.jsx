@@ -13,7 +13,7 @@ export default function StructureSection() {
       <div className="double-column">
         <div>
           <h3>Governança</h3>
-          <ul>
+          <ul className="custom-bullets">
             <li>Diretoria aprova projetos estratégicos e orçamentos.</li>
             <li>Times de Operações, Produto, Marketing e outros executam entregas.</li>
             <li>PMO coordena, acompanha e garante aderência metodológica.</li>
@@ -21,7 +21,7 @@ export default function StructureSection() {
         </div>
         <div>
           <h3>Metodologia padrão</h3>
-          <ul>
+          <ul className="custom-bullets">
             <li>Kickoff → Planejamento → Execução → Monitoramento → Encerramento.</li>
           </ul>
           <Callout title="Instrumentos de gestão">

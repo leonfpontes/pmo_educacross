@@ -402,6 +402,30 @@ button:focus-visible,
   gap: var(--spacing-xl);
 }
 
+.custom-bullets {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.custom-bullets > li {
+  position: relative;
+  padding-left: 1.8rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.4;
+}
+
+.custom-bullets > li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.4em;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: var(--color-accent);
+}
+
 @media (min-width: 720px) {
   .double-column {
     grid-template-columns: repeat(2, minmax(0, 1fr));
