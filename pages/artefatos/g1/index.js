@@ -25,6 +25,15 @@ export default function ArtefatoG1Page() {
         </p>
         <Button href="/artefatos/g1/business-case">Acessar modelo</Button>
       </section>
+
+      <section className="content-card">
+        <h2>Definição Preliminar de Dados</h2>
+        <p>
+          Estabeleça desde o G1 quais indicadores serão acompanhados, as fontes de dados necessárias e os
+          responsáveis por manter as informações atualizadas.
+        </p>
+        <Button href="/artefatos/g1/definicao-preliminar-dados">Acessar guia</Button>
+      </section>
     </Layout>
   );
 }
