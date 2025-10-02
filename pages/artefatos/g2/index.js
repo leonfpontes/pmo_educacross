@@ -24,6 +24,13 @@ const g2Artifacts = [
     actionLabel: 'Acessar guia',
   },
   {
+    title: 'Plano de Implantação & Rollback',
+    description:
+      'Estruture o Go-Live com cronograma, critérios de Go/No-Go, plano de rollback e comunicação para uma transição segura no Gate G2.',
+    href: '/artefatos/g2/plano-implantacao-rollback',
+    actionLabel: 'Acessar guia',
+  },
+  {
     title: 'Cronograma',
     description:
       'Construa o cronograma integrado com fases, entregas, responsáveis, prazos e dependências para garantir o alinhamento da execução no Gate G2.',
