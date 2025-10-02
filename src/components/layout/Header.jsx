@@ -10,10 +10,24 @@ const phaseLinks = [
   { href: '/fases/g4', label: 'G4' },
 ];
 
-const artefatoLinks = phaseLinks.map((phase) => ({
-  href: `/artefatos/${phase.label.toLowerCase()}`,
-  label: phase.label,
-}));
+const artefatoLinks = [
+  { href: '/artefatos/g0', label: 'G0' },
+  {
+    href: '/artefatos/g1',
+    label: 'G1',
+    children: [
+      { href: '/artefatos/g1/business-case', label: 'Business Case' },
+      { href: '/artefatos/g1/carta-abertura', label: 'Carta de Abertura' },
+      { href: '/artefatos/g1/definicao-preliminar-dados', label: 'Definição Preliminar de Dados' },
+      { href: '/artefatos/g1/escopo-alto-nivel', label: 'Escopo de Alto Nível' },
+      { href: '/artefatos/g1/kickoff-descoberta', label: 'Kickoff de Descoberta' },
+      { href: '/artefatos/g1/mapa-stakeholders', label: 'Mapa de Stakeholders' },
+    ],
+  },
+  { href: '/artefatos/g2', label: 'G2' },
+  { href: '/artefatos/g3', label: 'G3' },
+  { href: '/artefatos/g4', label: 'G4' },
+];
 
 const menuItems = [
   { label: 'Home', href: '/' },
@@ -44,11 +58,23 @@ export default function Header() {
     return basePath === href;
   };
 
+  const hasActiveNestedLink = (link) => {
+    if (link.href && isActive(link.href)) {
+      return true;
+    }
+
+    if (Array.isArray(link.children) && link.children.length > 0) {
+      return link.children.some((childLink) => hasActiveNestedLink(childLink));
+    }
+
+    return false;
+  };
+
   const itemsWithActiveState = useMemo(
     () =>
       menuItems.map((item) => ({
         ...item,
-        isActive: item.href ? isActive(item.href) : item.children?.some((child) => isActive(child.href)),
+        isActive: item.href ? isActive(item.href) : item.children?.some((child) => hasActiveNestedLink(child)),
       })),
     [basePath]
   );
@@ -134,13 +160,52 @@ export default function Header() {
                     </button>
                     <ul id={submenuId} className="site-nav__submenu">
                       {item.children.map((child) => {
-                        const active = isActive(child.href);
+                        const childHasChildren = Array.isArray(child.children) && child.children.length > 0;
+                        const childIsActive = childHasChildren
+                          ? child.children.some((grandchild) => isActive(grandchild.href)) || (child.href ? isActive(child.href) : false)
+                          : isActive(child.href);
+
+                        if (childHasChildren) {
+                          return (
+                            <li
+                              key={child.label}
+                              className={`site-nav__submenu-item has-nested${childIsActive ? ' is-active' : ''}`}
+                            >
+                              <Link
+                                href={child.href}
+                                className={`site-nav__submenu-link${childIsActive ? ' is-active' : ''}`}
+                                aria-current={childIsActive && child.href ? 'page' : undefined}
+                                onClick={handleLinkClick}
+                              >
+                                {child.label}
+                              </Link>
+                              <ul className="site-nav__subsubmenu">
+                                {child.children.map((grandchild) => {
+                                  const grandchildActive = isActive(grandchild.href);
+                                  return (
+                                    <li key={grandchild.href} className="site-nav__subsubmenu-item">
+                                      <Link
+                                        href={grandchild.href}
+                                        className={`site-nav__subsubmenu-link${grandchildActive ? ' is-active' : ''}`}
+                                        aria-current={grandchildActive ? 'page' : undefined}
+                                        onClick={handleLinkClick}
+                                      >
+                                        {grandchild.label}
+                                      </Link>
+                                    </li>
+                                  );
+                                })}
+                              </ul>
+                            </li>
+                          );
+                        }
+
                         return (
                           <li key={child.href} className="site-nav__submenu-item">
                             <Link
                               href={child.href}
-                              className={`site-nav__submenu-link${active ? ' is-active' : ''}`}
-                              aria-current={active ? 'page' : undefined}
+                              className={`site-nav__submenu-link${childIsActive ? ' is-active' : ''}`}
+                              aria-current={childIsActive ? 'page' : undefined}
                               onClick={handleLinkClick}
                             >
                               {child.label}

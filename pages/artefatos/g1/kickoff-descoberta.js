@@ -1,4 +1,5 @@
 import Layout from '../../../src/components/layout/Layout';
+import Button from '../../../src/components/common/Button';
 
 export default function KickoffDescobertaPage() {
   const hero = (
@@ -100,6 +101,12 @@ export default function KickoffDescobertaPage() {
             </span>{' '}
             Em resumo: o <strong>Kickoff de Descoberta</strong> é como acender a lanterna no início da trilha — dá a direção, mostra os principais riscos e garante que todos entendam <strong>para onde estamos indo e por que</strong> antes de começar a desenhar o caminho detalhado.
           </p>
+        </section>
+
+        <section className="content-card content-card--actions">
+          <Button href="/artefatos/g1" variant="secondary">
+            Voltar para Artefatos G1
+          </Button>
         </section>
       </article>
     </Layout>

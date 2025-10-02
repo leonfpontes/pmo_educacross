@@ -1,5 +1,6 @@
 import Layout from '../../../src/components/layout/Layout';
 import Callout from '../../../src/components/common/Callout';
+import Button from '../../../src/components/common/Button';
 
 const approvalOptions = [
   { id: 'aprovado-planejamento', label: 'Aprovado para Planejamento Detalhado (G2)' },
@@ -280,6 +281,12 @@ export default function ProjectCharterPage() {
             </p>
             <p>Deve ser anexada no repositório padrão e usada como referência em todas as reuniões de status.</p>
           </Callout>
+        </section>
+
+        <section className="content-card content-card--actions">
+          <Button href="/artefatos/g1" variant="secondary">
+            Voltar para Artefatos G1
+          </Button>
         </section>
       </article>
     </Layout>
