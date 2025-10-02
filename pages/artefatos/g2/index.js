@@ -17,6 +17,13 @@ const g2Artifacts = [
     actionLabel: 'Acessar guia',
   },
   {
+    title: 'Plano de Tecnologia & Dados',
+    description:
+      'Defina infraestrutura, integrações, governança de dados e critérios de segurança para sustentar o projeto na fase G2.',
+    href: '/artefatos/g2/plano-tecnologia-dados',
+    actionLabel: 'Acessar guia',
+  },
+  {
     title: 'Plano de Comunicação Detalhado',
     description:
       'Oriente a comunicação estratégica, tática e operacional do projeto com cadências, formatos, responsáveis e registros alinhados ao modelo Educacross para o Gate G2.',
