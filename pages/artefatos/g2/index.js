@@ -24,6 +24,13 @@ const g2Artifacts = [
     actionLabel: 'Acessar guia',
   },
   {
+    title: 'Plano de Riscos',
+    description:
+      'Mapeie, avalie e trate riscos críticos do projeto com matrizes PxI, estratégias de resposta e rotinas de monitoramento para o Gate G2.',
+    href: '/artefatos/g2/plano-riscos',
+    actionLabel: 'Acessar guia',
+  },
+  {
     title: 'EAP/WBS',
     description:
       'Estruture a decomposição do trabalho do projeto em níveis claros, conectando fases, pacotes e entregáveis para orientar o planejamento detalhado do Gate G2.',
