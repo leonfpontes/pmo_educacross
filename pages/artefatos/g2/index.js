@@ -17,6 +17,13 @@ const g2Artifacts = [
     actionLabel: 'Acessar guia',
   },
   {
+    title: 'Plano de Marketing & Comunicação',
+    description:
+      'Organize posicionamento, campanhas, cronogramas e responsabilidades para garantir consistência da marca e engajamento dos públicos do projeto no Gate G2.',
+    href: '/artefatos/g2/plano-marketing-comunicacao',
+    actionLabel: 'Acessar guia',
+  },
+  {
     title: 'EAP/WBS',
     description:
       'Estruture a decomposição do trabalho do projeto em níveis claros, conectando fases, pacotes e entregáveis para orientar o planejamento detalhado do Gate G2.',
