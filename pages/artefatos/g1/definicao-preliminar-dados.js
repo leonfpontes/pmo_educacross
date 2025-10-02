@@ -1,4 +1,5 @@
 import Layout from '../../../src/components/layout/Layout';
+import Button from '../../../src/components/common/Button';
 
 export default function PreliminaryDataDefinitionPage() {
   const hero = (
@@ -77,6 +78,12 @@ export default function PreliminaryDataDefinitionPage() {
               </ul>
             </li>
           </ul>
+        </section>
+
+        <section className="content-card content-card--actions">
+          <Button href="/artefatos/g1" variant="secondary">
+            Voltar para Artefatos G1
+          </Button>
         </section>
       </article>
     </Layout>

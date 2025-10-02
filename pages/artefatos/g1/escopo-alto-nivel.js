@@ -1,4 +1,5 @@
 import Layout from '../../../src/components/layout/Layout';
+import Button from '../../../src/components/common/Button';
 
 export default function HighLevelScopePage() {
   const hero = (
@@ -103,6 +104,12 @@ export default function HighLevelScopePage() {
               Revisar OKRs a cada <strong>Gate</strong> → podem ser refinados conforme o projeto amadurece.
             </li>
           </ul>
+        </section>
+
+        <section className="content-card content-card--actions">
+          <Button href="/artefatos/g1" variant="secondary">
+            Voltar para Artefatos G1
+          </Button>
         </section>
       </article>
     </Layout>

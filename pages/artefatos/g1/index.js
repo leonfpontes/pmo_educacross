@@ -1,6 +1,51 @@
 import Layout from '../../../src/components/layout/Layout';
 import Button from '../../../src/components/common/Button';
 
+const g1Artifacts = [
+  {
+    title: 'Kickoff de Descoberta',
+    description:
+      'Organize o encontro inicial da fase de Descoberta garantindo alinhamento de propósito, stakeholders e expectativas antes da elaboração dos artefatos mínimos exigidos pelo Gate G1.',
+    href: '/artefatos/g1/kickoff-descoberta',
+    actionLabel: 'Acessar guia',
+  },
+  {
+    title: 'Business Case',
+    description:
+      'Consolide a justificativa estratégica e financeira para iniciativas que avançam do Gate G0 para o G1. Utilize o modelo para registrar objetivos, benefícios esperados, custos, riscos e a recomendação final do comitê.',
+    href: '/artefatos/g1/business-case',
+    actionLabel: 'Acessar modelo',
+  },
+  {
+    title: 'Carta de Abertura',
+    description:
+      'Formalize o início da iniciativa aprovando o escopo de alto nível, patrocinadores, times envolvidos e governança mínima que sustentará a fase de Descoberta.',
+    href: '/artefatos/g1/carta-abertura',
+    actionLabel: 'Acessar modelo',
+  },
+  {
+    title: 'Mapa de Stakeholders',
+    description:
+      'Identifique os públicos-chave do projeto, avalie poder e interesse de cada grupo e defina estratégias de relacionamento para garantir engajamento na fase de Descoberta.',
+    href: '/artefatos/g1/mapa-stakeholders',
+    actionLabel: 'Acessar modelo',
+  },
+  {
+    title: 'Escopo de Alto Nível',
+    description:
+      'Estabeleça a visão macro do projeto, delimitando entregas, exclusões e restrições iniciais para orientar o planejamento e o alinhamento entre as áreas impactadas.',
+    href: '/artefatos/g1/escopo-alto-nivel',
+    actionLabel: 'Acessar guia',
+  },
+  {
+    title: 'Definição Preliminar de Dados',
+    description:
+      'Antecipe quais indicadores serão acompanhados, as fontes de dados necessárias e os responsáveis por manter as informações atualizadas desde o Gate G1.',
+    href: '/artefatos/g1/definicao-preliminar-dados',
+    actionLabel: 'Acessar guia',
+  },
+];
+
 export default function ArtefatoG1Page() {
   const hero = (
     <header className="page-header-minimal">
@@ -16,51 +61,17 @@ export default function ArtefatoG1Page() {
       description="Artefatos da fase G1 do PMO Educacross."
       hero={hero}
     >
-      <section className="content-card">
-        <h2>Kickoff de Descoberta</h2>
-        <p>
-          Organize o encontro inicial da fase de Descoberta garantindo alinhamento de propósito, stakeholders e
-          expectativas antes da elaboração dos artefatos mínimos exigidos pelo Gate G1.
-        </p>
-        <Button href="/artefatos/g1/kickoff-descoberta">Acessar guia</Button>
-      </section>
-
-      <section className="content-card">
-        <h2>Business Case</h2>
-        <p>
-          Consolide a justificativa estratégica e financeira para iniciativas que avançam do Gate G0 para o G1.
-          Utilize o modelo de Business Case para registrar objetivos, benefícios esperados, custos, riscos e a
-          recomendação final do comitê.
-        </p>
-        <Button href="/artefatos/g1/business-case">Acessar modelo</Button>
-      </section>
-
-      <section className="content-card">
-        <h2>Mapa de Stakeholders</h2>
-        <p>
-          Identifique os públicos-chave do projeto, avalie poder e interesse de cada grupo e defina estratégias de
-          relacionamento para garantir engajamento na fase de Descoberta.
-        </p>
-        <Button href="/artefatos/g1/mapa-stakeholders">Acessar modelo</Button>
-      </section>
-
-      <section className="content-card">
-        <h2>Escopo de Alto Nível</h2>
-        <p>
-          Estabeleça a visão macro do projeto, delimitando entregas, exclusões e restrições iniciais para orientar o
-          planejamento e o alinhamento entre as áreas impactadas.
-        </p>
-        <Button href="/artefatos/g1/escopo-alto-nivel">Acessar guia</Button>
-      </section>
-
-      <section className="content-card">
-        <h2>Definição Preliminar de Dados</h2>
-        <p>
-          Estabeleça desde o G1 quais indicadores serão acompanhados, as fontes de dados necessárias e os
-          responsáveis por manter as informações atualizadas.
-        </p>
-        <Button href="/artefatos/g1/definicao-preliminar-dados">Acessar guia</Button>
-      </section>
+      <div className="artifact-grid">
+        {g1Artifacts.map((artifact) => (
+          <section key={artifact.href} className="content-card artifact-card">
+            <h2>{artifact.title}</h2>
+            <p>{artifact.description}</p>
+            <Button href={artifact.href} variant="secondary">
+              {artifact.actionLabel}
+            </Button>
+          </section>
+        ))}
+      </div>
     </Layout>
   );
 }
