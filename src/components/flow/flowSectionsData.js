@@ -260,7 +260,7 @@ const flowSections = [
             <strong>Reunião de Encerramento:</strong> validação de entregas, lições aprendidas, assinatura de termo de encerramento.
           </li>
         </ol>
-        <h3>Saídas &amp; Critérios para Pós-Projeto</h3>
+        <h3>Saídas / Critérios para Pós-Projeto</h3>
         <ul>
           <li>Operação assumida pela área responsável.</li>
           <li>KPIs de estabilização acompanhados (30/60/90 dias).</li>
