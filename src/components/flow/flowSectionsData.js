@@ -71,23 +71,23 @@ const flowSections = [
     content: (
       <>
         <p>
-          <strong>Fases &amp; Gates:</strong>
+          <strong>Fases / Gates:</strong>
         </p>
         <ul className="link-list">
           <li>
-            <strong>Intake &amp; Triage → G0 (Aceitar para Descoberta?)</strong>
+            <strong>Intake / Triage → G0 (Aceitar para Descoberta?)</strong>
           </li>
           <li>
-            <strong>Descoberta &amp; Iniciação → G1 (Aprovar Charter/Business Case?)</strong>
+            <strong>Descoberta / Iniciação → G1 (Aprovar Charter/Business Case?)</strong>
           </li>
           <li>
             <strong>Planejamento Detalhado → G2 (Plano pronto para Execução?)</strong>
           </li>
           <li>
-            <strong>Execução &amp; Monitoramento → G3 (Liberar para Implantação?)</strong>
+            <strong>Execução / Monitoramento → G3 (Liberar para Implantação?)</strong>
           </li>
           <li>
-            <strong>Lançamento &amp; Estabilização → G4 (Aprovar Encerramento?)</strong>
+            <strong>Lançamento / Estabilização → G4 (Aprovar Encerramento?)</strong>
           </li>
           <li>
             <Link href="/stage-gates">
@@ -102,7 +102,7 @@ const flowSections = [
     id: 'g0',
     badge: '3',
     label: 'G0',
-    title: 'G0: Intake &amp; Triage',
+    title: 'G0: Intake / Triage',
     content: (
       <>
         <p>
@@ -120,7 +120,7 @@ const flowSections = [
             <strong>Checklist de prontidão:</strong> objetivos claros, patrocinador, valor esperado.
           </li>
         </ol>
-        <h3>Saídas &amp; Critérios para G1</h3>
+        <h3>Saídas / Critérios para G1</h3>
         <ul>
           <li>Iniciativas priorizadas com sponsor designado.</li>
           <li>Estimativa macro de esforço/benefício.</li>
@@ -157,7 +157,7 @@ const flowSections = [
             <strong>Kickoff Executivo (opcional):</strong> alinhar expectativas com diretoria.
           </li>
         </ol>
-        <h3>Saídas &amp; Critérios para G2</h3>
+        <h3>Saídas / Critérios para G2</h3>
         <ul>
           <li>Charter/Business Case aprovado pela diretoria.</li>
           <li>Financiamento aprovado (se necessário) + estimativa inicial de ROI.</li>
@@ -192,7 +192,7 @@ const flowSections = [
             <strong>Plano de Implantação (se aplicável):</strong> preparação de operações, treinamento, suporte.
           </li>
         </ol>
-        <h3>Saídas &amp; Critérios para G3</h3>
+        <h3>Saídas / Critérios para G3</h3>
         <ul>
           <li>Plano aprovado pelo sponsor + diretoria.</li>
           <li>Recursos alocados (pessoas, orçamento, tecnologia).</li>
@@ -205,7 +205,7 @@ const flowSections = [
     id: 'g3',
     badge: '6',
     label: 'G3',
-    title: 'G3: Execução &amp; Monitoramento',
+    title: 'G3: Execução / Monitoramento',
     content: (
       <>
         <p>
@@ -226,7 +226,7 @@ const flowSections = [
             <strong>Gestão de mudanças:</strong> avaliação de impactos, aprovação de sponsor, atualização de plano.
           </li>
         </ol>
-        <h3>Saídas &amp; Critérios para G4</h3>
+        <h3>Saídas / Critérios para G4</h3>
         <ul>
           <li>Entregáveis concluídos e validados (critérios de aceite).</li>
           <li>Plano de lançamento/implantação aprovado.</li>
@@ -239,7 +239,7 @@ const flowSections = [
     id: 'g4',
     badge: '7',
     label: 'G4',
-    title: 'G4: Lançamento &amp; Estabilização',
+    title: 'G4: Lançamento / Estabilização',
     content: (
       <>
         <p>
@@ -273,7 +273,7 @@ const flowSections = [
     id: 'pos-projeto',
     badge: '8',
     label: 'Pós-Projeto',
-    title: 'Pós-Projeto &amp; Benefícios',
+    title: 'Pós-Projeto / Benefícios',
     content: (
       <>
         <p>
