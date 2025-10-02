@@ -2,19 +2,11 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useEffect, useId, useMemo, useState } from 'react';
 
-const phaseLinks = [
-  { href: '/fases/g0', label: 'G0' },
-  { href: '/fases/g1', label: 'G1' },
-  { href: '/fases/g2', label: 'G2' },
-  { href: '/fases/g3', label: 'G3' },
-  { href: '/fases/g4', label: 'G4' },
-];
-
 const artefatoLinks = [
-  { href: '/artefatos/g0', label: 'G0' },
+  { href: '/artefatos/g0', label: 'G0 - Intake & Triage' },
   {
     href: '/artefatos/g1',
-    label: 'G1',
+    label: 'G1 - Descoberta & Iniciação',
     children: [
       { href: '/artefatos/g1/business-case', label: 'Business Case' },
       { href: '/artefatos/g1/carta-abertura', label: 'Carta de Abertura' },
@@ -24,18 +16,14 @@ const artefatoLinks = [
       { href: '/artefatos/g1/mapa-stakeholders', label: 'Mapa de Stakeholders' },
     ],
   },
-  { href: '/artefatos/g2', label: 'G2' },
-  { href: '/artefatos/g3', label: 'G3' },
-  { href: '/artefatos/g4', label: 'G4' },
+  { href: '/artefatos/g2', label: 'G2 - Planejamento Detalhado' },
+  { href: '/artefatos/g3', label: 'G3 - Execução & Monitoramento' },
+  { href: '/artefatos/g4', label: 'G4 - Lançamento & Estabilização' },
 ];
 
 const menuItems = [
   { label: 'Home', href: '/' },
   { label: 'Fluxo PMO', href: '/fluxo-pmo' },
-  {
-    label: 'Fases',
-    children: phaseLinks,
-  },
   {
     label: 'Artefatos',
     children: artefatoLinks,
