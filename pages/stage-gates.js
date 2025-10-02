@@ -64,7 +64,7 @@ export default function StageGatesPage() {
             <h2>Como funciona na Educacross</h2>
             <ol className="stage-gates-steps">
               <li>
-                <strong>G0 – Intake &amp; Triage</strong>
+                <strong>G0 – Intake / Triage</strong>
                 <p>
                   <strong>Decisão:</strong> Vale investir tempo da equipe para estruturar a descoberta?
                 </p>
@@ -74,7 +74,7 @@ export default function StageGatesPage() {
                 </p>
               </li>
               <li>
-                <strong>G1 – Descoberta &amp; Iniciação</strong>
+                <strong>G1 – Descoberta / Iniciação</strong>
                 <p>
                   <strong>Decisão:</strong> Charter e Business Case aprovados para planejar em detalhe?
                 </p>
@@ -94,7 +94,7 @@ export default function StageGatesPage() {
                 </p>
               </li>
               <li>
-                <strong>G3 – Execução &amp; Monitoramento</strong>
+                <strong>G3 – Execução / Monitoramento</strong>
                 <p>
                   <strong>Decisão:</strong> Produto ou serviço preparado para implantação/piloto controlado?
                 </p>
@@ -104,7 +104,7 @@ export default function StageGatesPage() {
                 </p>
               </li>
               <li>
-                <strong>G4 – Lançamento &amp; Estabilização</strong>
+                <strong>G4 – Lançamento / Estabilização</strong>
                 <p>
                   <strong>Decisão:</strong> Aprovar o encerramento e seguir para medições pós-implantação?
                 </p>
