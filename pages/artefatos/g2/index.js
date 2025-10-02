@@ -10,6 +10,13 @@ const g2Artifacts = [
     actionLabel: 'Acessar guia',
   },
   {
+    title: 'Plano de Operação & Logística',
+    description:
+      'Organize infraestrutura, fornecedores, cronogramas logísticos e responsabilidades para garantir a execução operacional no Gate G2.',
+    href: '/artefatos/g2/plano-operacao-logistica',
+    actionLabel: 'Acessar guia',
+  },
+  {
     title: 'Plano de Comunicação Detalhado',
     description:
       'Oriente a comunicação estratégica, tática e operacional do projeto com cadências, formatos, responsáveis e registros alinhados ao modelo Educacross para o Gate G2.',
