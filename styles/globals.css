@@ -1216,6 +1216,18 @@ footer span {
   font-size: var(--font-size-base);
 }
 
+.artifact-image-placeholder {
+  margin-top: var(--spacing-2xl);
+  padding: var(--spacing-3xl) var(--spacing-2xl);
+  border-radius: var(--radius-xl);
+  border: 2px dashed var(--color-border-strong);
+  background: var(--color-surface-muted);
+  text-align: center;
+  color: var(--color-text-muted);
+  font-size: var(--font-size-md);
+  line-height: 1.6;
+}
+
 .flow-footer {
   max-width: var(--layout-container-wide);
   margin: 0 auto var(--spacing-section-xl);
