@@ -1644,9 +1644,7 @@ footer span {
   transition: transform 0.2s ease;
 }
 
-.site-nav__item.is-open > .site-nav__toggle::after,
-.site-nav__item:hover > .site-nav__toggle::after,
-.site-nav__item:focus-within > .site-nav__toggle::after {
+.site-nav__item.is-open > .site-nav__toggle::after {
   transform: rotate(-180deg);
 }
 
@@ -1749,9 +1747,7 @@ footer span {
   color: var(--color-accent-light);
 }
 
-.site-nav__item.is-open > .site-nav__submenu,
-.site-nav__item:hover > .site-nav__submenu,
-.site-nav__item:focus-within > .site-nav__submenu {
+.site-nav__item.is-open > .site-nav__submenu {
   opacity: 1;
   transform: translateY(0);
   visibility: visible;

@@ -4,18 +4,7 @@ import { useEffect, useId, useMemo, useState } from 'react';
 
 const artefatoLinks = [
   { href: '/artefatos/g0', label: 'G0 - Intake & Triage' },
-  {
-    href: '/artefatos/g1',
-    label: 'G1 - Descoberta & Iniciação',
-    children: [
-      { href: '/artefatos/g1/business-case', label: 'Business Case' },
-      { href: '/artefatos/g1/carta-abertura', label: 'Carta de Abertura' },
-      { href: '/artefatos/g1/definicao-preliminar-dados', label: 'Definição Preliminar de Dados' },
-      { href: '/artefatos/g1/escopo-alto-nivel', label: 'Escopo de Alto Nível' },
-      { href: '/artefatos/g1/kickoff-descoberta', label: 'Kickoff de Descoberta' },
-      { href: '/artefatos/g1/mapa-stakeholders', label: 'Mapa de Stakeholders' },
-    ],
-  },
+  { href: '/artefatos/g1', label: 'G1 - Descoberta & Iniciação' },
   { href: '/artefatos/g2', label: 'G2 - Planejamento Detalhado' },
   { href: '/artefatos/g3', label: 'G3 - Execução & Monitoramento' },
   { href: '/artefatos/g4', label: 'G4 - Lançamento & Estabilização' },
@@ -29,8 +18,6 @@ const menuItems = [
     children: artefatoLinks,
   },
 ];
-
-const CTA_LINK = { href: '/fluxo-pmo#objetivo-principios', label: 'Saiba Mais' };
 
 export default function Header() {
   const router = useRouter();
@@ -148,45 +135,7 @@ export default function Header() {
                     </button>
                     <ul id={submenuId} className="site-nav__submenu">
                       {item.children.map((child) => {
-                        const childHasChildren = Array.isArray(child.children) && child.children.length > 0;
-                        const childIsActive = childHasChildren
-                          ? child.children.some((grandchild) => isActive(grandchild.href)) || (child.href ? isActive(child.href) : false)
-                          : isActive(child.href);
-
-                        if (childHasChildren) {
-                          return (
-                            <li
-                              key={child.label}
-                              className={`site-nav__submenu-item has-nested${childIsActive ? ' is-active' : ''}`}
-                            >
-                              <Link
-                                href={child.href}
-                                className={`site-nav__submenu-link${childIsActive ? ' is-active' : ''}`}
-                                aria-current={childIsActive && child.href ? 'page' : undefined}
-                                onClick={handleLinkClick}
-                              >
-                                {child.label}
-                              </Link>
-                              <ul className="site-nav__subsubmenu">
-                                {child.children.map((grandchild) => {
-                                  const grandchildActive = isActive(grandchild.href);
-                                  return (
-                                    <li key={grandchild.href} className="site-nav__subsubmenu-item">
-                                      <Link
-                                        href={grandchild.href}
-                                        className={`site-nav__subsubmenu-link${grandchildActive ? ' is-active' : ''}`}
-                                        aria-current={grandchildActive ? 'page' : undefined}
-                                        onClick={handleLinkClick}
-                                      >
-                                        {grandchild.label}
-                                      </Link>
-                                    </li>
-                                  );
-                                })}
-                              </ul>
-                            </li>
-                          );
-                        }
+                        const childIsActive = isActive(child.href);
 
                         return (
                           <li key={child.href} className="site-nav__submenu-item">
@@ -219,18 +168,10 @@ export default function Header() {
                 </li>
               );
             })}
-            <li className="site-nav__item site-nav__item--cta">
-              <Link href={CTA_LINK.href} className="btn btn-secondary" onClick={handleLinkClick}>
-                {CTA_LINK.label}
-              </Link>
-            </li>
           </ul>
         </nav>
 
         <div className="site-header__actions">
-          <Link href={CTA_LINK.href} className="btn btn-secondary" onClick={handleLinkClick}>
-            {CTA_LINK.label}
-          </Link>
           <button
             type="button"
             className="menu-toggle"
