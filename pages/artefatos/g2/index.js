@@ -3,6 +3,13 @@ import Button from '../../../src/components/common/Button';
 
 const g2Artifacts = [
   {
+    title: 'Plano de Aquisições/Suprimentos',
+    description:
+      'Defina itens, fornecedores, prazos, responsáveis e riscos das compras essenciais para garantir o abastecimento do projeto no Gate G2.',
+    href: '/artefatos/g2/plano-aquisicoes',
+    actionLabel: 'Acessar guia',
+  },
+  {
     title: 'EAP/WBS',
     description:
       'Estruture a decomposição do trabalho do projeto em níveis claros, conectando fases, pacotes e entregáveis para orientar o planejamento detalhado do Gate G2.',
