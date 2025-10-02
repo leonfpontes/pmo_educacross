@@ -1654,14 +1654,20 @@ footer span {
   position: absolute;
   top: calc(100% + var(--space-12));
   left: 0;
-  min-width: 220px;
+  min-width: 260px;
+  width: max-content;
+  max-width: min(640px, calc(100vw - var(--space-48)));
   background: rgba(14, 26, 78, 0.92);
   border-radius: var(--radius-lg);
   border: 1px solid var(--color-white-outline);
-  padding: var(--space-16) var(--space-22);
+  padding: var(--space-18) var(--space-24);
   list-style: none;
   margin: 0;
   box-shadow: 0 22px 45px rgba(10, 20, 66, 0.32);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, max-content));
+  column-gap: var(--space-24);
+  row-gap: var(--space-14);
   opacity: 0;
   transform: translateY(-6px);
   visibility: hidden;
@@ -1670,13 +1676,13 @@ footer span {
 }
 
 .site-nav__submenu-item + .site-nav__submenu-item {
-  margin-top: var(--space-12);
+  margin-top: 0;
 }
 
 .site-nav__submenu-item.has-nested {
   display: flex;
   flex-direction: column;
-  gap: var(--space-12);
+  gap: var(--space-10);
 }
 
 .site-nav__submenu-link {
@@ -1686,11 +1692,12 @@ footer span {
   justify-content: space-between;
   gap: var(--space-12);
   padding: var(--space-10) var(--space-14);
-  font-weight: 500;
+  font-weight: 600;
   color: var(--color-white);
   text-decoration: none;
   border-radius: var(--radius-md);
   transition: background-color 0.2s ease, color 0.2s ease;
+  white-space: nowrap;
 }
 
 .site-nav__submenu-link:hover,
@@ -1723,9 +1730,11 @@ footer span {
   padding: var(--space-6) var(--space-10);
   color: rgba(255, 255, 255, 0.92);
   font-size: var(--font-size-sm-strong);
+  font-weight: 400;
   text-decoration: none;
   border-radius: var(--radius-sm);
   transition: background-color 0.2s ease, color 0.2s ease;
+  white-space: nowrap;
 }
 
 .site-nav__subsubmenu-link:hover,
@@ -2048,6 +2057,7 @@ footer span {
     padding: var(--space-10) var(--space-12);
     font-size: var(--font-size-sm-strong);
     color: var(--color-text);
+    white-space: normal;
   }
 
   .site-nav__subsubmenu {
@@ -2057,6 +2067,8 @@ footer span {
   .site-nav__subsubmenu-link {
     padding: var(--space-8) var(--space-10);
     color: var(--color-text);
+    font-weight: 500;
+    white-space: normal;
   }
 
   .site-nav__subsubmenu-link:hover,
