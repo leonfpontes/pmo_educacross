@@ -27,6 +27,15 @@ export default function ArtefatoG1Page() {
       </section>
 
       <section className="content-card">
+        <h2>Escopo de Alto Nível</h2>
+        <p>
+          Estabeleça a visão macro do projeto, delimitando entregas, exclusões e restrições iniciais para orientar o
+          planejamento e o alinhamento entre as áreas impactadas.
+        </p>
+        <Button href="/artefatos/g1/escopo-alto-nivel">Acessar guia</Button>
+      </section>
+
+      <section className="content-card">
         <h2>Definição Preliminar de Dados</h2>
         <p>
           Estabeleça desde o G1 quais indicadores serão acompanhados, as fontes de dados necessárias e os
