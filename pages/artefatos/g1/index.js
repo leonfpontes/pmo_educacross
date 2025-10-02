@@ -36,6 +36,15 @@ export default function ArtefatoG1Page() {
       </section>
 
       <section className="content-card">
+        <h2>Mapa de Stakeholders</h2>
+        <p>
+          Identifique os públicos-chave do projeto, avalie poder e interesse de cada grupo e defina estratégias de
+          relacionamento para garantir engajamento na fase de Descoberta.
+        </p>
+        <Button href="/artefatos/g1/mapa-stakeholders">Acessar modelo</Button>
+      </section>
+
+      <section className="content-card">
         <h2>Escopo de Alto Nível</h2>
         <p>
           Estabeleça a visão macro do projeto, delimitando entregas, exclusões e restrições iniciais para orientar o
