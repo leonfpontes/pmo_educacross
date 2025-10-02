@@ -9,6 +9,13 @@ const g2Artifacts = [
     href: '/artefatos/g2/eap-wbs',
     actionLabel: 'Acessar guia',
   },
+  {
+    title: 'Cronograma',
+    description:
+      'Construa o cronograma integrado com fases, entregas, responsáveis, prazos e dependências para garantir o alinhamento da execução no Gate G2.',
+    href: '/artefatos/g2/cronograma',
+    actionLabel: 'Acessar modelo',
+  },
 ];
 
 export default function ArtefatoG2Page() {
