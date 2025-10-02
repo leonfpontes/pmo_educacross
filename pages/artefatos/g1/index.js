@@ -17,6 +17,15 @@ export default function ArtefatoG1Page() {
       hero={hero}
     >
       <section className="content-card">
+        <h2>Kickoff de Descoberta</h2>
+        <p>
+          Organize o encontro inicial da fase de Descoberta garantindo alinhamento de propósito, stakeholders e
+          expectativas antes da elaboração dos artefatos mínimos exigidos pelo Gate G1.
+        </p>
+        <Button href="/artefatos/g1/kickoff-descoberta">Acessar guia</Button>
+      </section>
+
+      <section className="content-card">
         <h2>Business Case</h2>
         <p>
           Consolide a justificativa estratégica e financeira para iniciativas que avançam do Gate G0 para o G1.
