@@ -133,7 +133,7 @@ const flowSections = [
     id: 'g1',
     badge: '4',
     label: 'G1',
-    title: 'G1: Descoberta &amp; Iniciação',
+    title: 'G1: Descoberta / Iniciação',
     content: (
       <>
         <p>
