@@ -10,6 +10,13 @@ const g2Artifacts = [
     actionLabel: 'Acessar guia',
   },
   {
+    title: 'Plano de Comunicação Detalhado',
+    description:
+      'Oriente a comunicação estratégica, tática e operacional do projeto com cadências, formatos, responsáveis e registros alinhados ao modelo Educacross para o Gate G2.',
+    href: '/artefatos/g2/plano-comunicacao-detalhado',
+    actionLabel: 'Acessar guia',
+  },
+  {
     title: 'EAP/WBS',
     description:
       'Estruture a decomposição do trabalho do projeto em níveis claros, conectando fases, pacotes e entregáveis para orientar o planejamento detalhado do Gate G2.',
