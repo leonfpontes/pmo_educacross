@@ -3,6 +3,13 @@ import Button from '../../../src/components/common/Button';
 
 const g3Artifacts = [
   {
+    title: 'Registro de Testes Aprovados – Educacross',
+    description:
+      'Consolide e aprove formalmente os testes do Gate G3 com matriz detalhada, checklist de aprovação e boas práticas Educacross.',
+    href: '/artefatos/g3/registro-testes-aprovados',
+    actionLabel: 'Acessar registro',
+  },
+  {
     title: 'Plano de Gestão de Fornecedores – Educacross',
     description:
       'Garanta gestão centralizada de fornecedores no Gate G3 com escopo, processo, matriz de acompanhamento, indicadores e boas práticas Educacross.',
