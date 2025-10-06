@@ -3,6 +3,13 @@ import Button from '../../../src/components/common/Button';
 
 const g3Artifacts = [
   {
+    title: 'Registro de Treinamento Concluído – Educacross',
+    description:
+      'Comprove treinamentos realizados no Gate G3 com públicos atendidos, sessões concluídas, evidências e aprovação para o Go-Live.',
+    href: '/artefatos/g3/registro-treinamento-concluido',
+    actionLabel: 'Acessar registro',
+  },
+  {
     title: 'Registro de Testes Aprovados – Educacross',
     description:
       'Consolide e aprove formalmente os testes do Gate G3 com matriz detalhada, checklist de aprovação e boas práticas Educacross.',
