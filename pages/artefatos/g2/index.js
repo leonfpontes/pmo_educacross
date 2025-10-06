@@ -59,6 +59,13 @@ const g2Artifacts = [
     actionLabel: 'Acessar guia',
   },
   {
+    title: 'Plano Pedagógico & Produto',
+    description:
+      'Integre visões pedagógica e de produto detalhando objetivos, qualidade, funcionalidades e responsabilidades para garantir coerência no Gate G2.',
+    href: '/artefatos/g2/plano-pedagogico-produto',
+    actionLabel: 'Acessar guia',
+  },
+  {
     title: 'EAP/WBS',
     description:
       'Estruture a decomposição do trabalho do projeto em níveis claros, conectando fases, pacotes e entregáveis para orientar o planejamento detalhado do Gate G2.',
