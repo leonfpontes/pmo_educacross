@@ -1,6 +1,8 @@
+import dynamic from 'next/dynamic';
 import Head from 'next/head';
 import SiteFooter from './SiteFooter';
-import SiteHeader from './SiteHeader';
+
+const SiteHeader = dynamic(() => import('./SiteHeader'), { ssr: false });
 
 /**
  * Shell responsável por estruturar páginas renderizadas via Pages Router.
