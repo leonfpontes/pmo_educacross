@@ -3,6 +3,13 @@ import Button from '../../../src/components/common/Button';
 
 const g4Artifacts = [
   {
+    title: 'Relatório Final do Projeto – Educacross',
+    description:
+      'Registre a conclusão do projeto com identificação, resumo executivo, indicadores, lições aprendidas e encerramento formal para a fase G4.',
+    href: '/artefatos/g4/relatorio-final-projeto',
+    actionLabel: 'Acessar modelo',
+  },
+  {
     title: 'Lições Aprendidas – Educacross',
     description:
       'Consolide sucessos, falhas, pontos de melhoria e recomendações do projeto na fase G4 com o registro estruturado de lições aprendidas.',
