@@ -3,6 +3,13 @@ import Button from '../../../src/components/common/Button';
 
 const g3Artifacts = [
   {
+    title: 'Report Executivo (Quinzenal/Mensal)',
+    description:
+      'Modelo executivo consolidado para apresentar status, pendências e recomendações do portfólio Educacross no Gate G3.',
+    href: '/artefatos/g3/report-executivo',
+    actionLabel: 'Acessar report',
+  },
+  {
     title: 'Plano de Gestão de Fornecedores – Educacross',
     description:
       'Garanta gestão centralizada de fornecedores no Gate G3 com escopo, processo, matriz de acompanhamento, indicadores e boas práticas Educacross.',
