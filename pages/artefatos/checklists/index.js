@@ -3,6 +3,13 @@ import Button from '../../../src/components/common/Button';
 
 const checklistArtifacts = [
   {
+    title: 'Checklist - Gate 1 (Iniciação / Descoberta)',
+    description:
+      'Garanta que todos os requisitos mínimos da fase de Iniciação/Descoberta foram cumpridos antes de avançar para o Gate 2, validando alinhamento estratégico, artefatos e aprovações.',
+    href: '/artefatos/checklists/gate-1',
+    actionLabel: 'Acessar checklist',
+  },
+  {
     title: 'G0: Checklist de Triagem / Intake',
     description:
       'Valide rapidamente se uma nova demanda possui informações mínimas para avançar no funil do PMO com alinhamento sobre contexto, premissas e decisão do Gate 0.',
