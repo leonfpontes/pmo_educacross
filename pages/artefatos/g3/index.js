@@ -3,6 +3,13 @@ import Button from '../../../src/components/common/Button';
 
 const g3Artifacts = [
   {
+    title: 'Weekly de Times – Educacross',
+    description:
+      'Template da weekly do Gate G3 para registrar conquistas, pendências, prioridades, indicadores e próximos passos do time.',
+    href: '/artefatos/g3/weekly-de-times',
+    actionLabel: 'Preencher weekly',
+  },
+  {
     title: 'Registro de Treinamento Concluído – Educacross',
     description:
       'Comprove treinamentos realizados no Gate G3 com públicos atendidos, sessões concluídas, evidências e aprovação para o Go-Live.',
