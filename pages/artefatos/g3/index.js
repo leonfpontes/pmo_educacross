@@ -3,6 +3,13 @@ import Button from '../../../src/components/common/Button';
 
 const g3Artifacts = [
   {
+    title: 'Weekly de Times – Educacross',
+    description:
+      'Template da weekly do Gate G3 para registrar conquistas, pendências, prioridades, indicadores e próximos passos do time.',
+    href: '/artefatos/g3/weekly-de-times',
+    actionLabel: 'Preencher weekly',
+  },
+  {
     title: 'Plano de Gestão de Fornecedores – Educacross',
     description:
       'Garanta gestão centralizada de fornecedores no Gate G3 com escopo, processo, matriz de acompanhamento, indicadores e boas práticas Educacross.',
