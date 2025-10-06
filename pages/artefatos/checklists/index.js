@@ -9,6 +9,20 @@ const checklistArtifacts = [
     href: '/artefatos/checklists/gate-2-planejamento-detalhado',
     actionLabel: 'Acessar checklist',
   },
+  {
+    title: 'Checklist - Gate 1 (Iniciação / Descoberta)',
+    description:
+      'Garanta que todos os requisitos mínimos da fase de Iniciação/Descoberta foram cumpridos antes de avançar para o Gate 2, validando alinhamento estratégico, artefatos e aprovações.',
+    href: '/artefatos/checklists/gate-1',
+    actionLabel: 'Acessar checklist',
+  },
+  {
+    title: 'G0: Checklist de Triagem / Intake',
+    description:
+      'Valide rapidamente se uma nova demanda possui informações mínimas para avançar no funil do PMO com alinhamento sobre contexto, premissas e decisão do Gate 0.',
+    href: '/artefatos/checklists/g0-triagem-intake',
+    actionLabel: 'Acessar checklist',
+  },
 ];
 
 export default function ChecklistsPage() {
@@ -24,6 +38,8 @@ export default function ChecklistsPage() {
     <Layout
       title="Artefatos - Checklists - PMO Educacross"
       description="Modelos de checklists do PMO Educacross para garantir entregas alinhadas aos Gates."
+      title="Artefatos Checklists - PMO Educacross"
+      description="Checklists de apoio aos gates do PMO Educacross."
       hero={hero}
     >
       <div className="artifact-grid">
