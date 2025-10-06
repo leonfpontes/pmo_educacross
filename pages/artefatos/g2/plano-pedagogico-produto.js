@@ -18,14 +18,6 @@ export default function PlanoPedagogicoProdutoPage() {
     >
       <article className="artifact-form">
         <section className="content-card">
-          <h2>O que é o Plano Jurídico &amp; Contratos</h2>
-          <p>
-            É o documento que organiza <strong>todas as obrigações legais, contratuais e regulatórias</strong> do projeto,
-            definindo responsabilidades, prazos, cláusulas críticas e formas de mitigação de riscos jurídicos.
-          </p>
-        </section>
-
-        <section className="content-card">
           <h2>O que é o Plano Pedagógico &amp; Produto</h2>
           <p>É o documento que define:</p>
           <ul>
