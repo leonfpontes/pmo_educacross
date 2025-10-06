@@ -3,6 +3,12 @@ import Button from '../../../src/components/common/Button';
 
 const g4Artifacts = [
   {
+    title: 'Runbook Operacional',
+    description:
+      'Compreenda o conceito, a finalidade e a estrutura de runbooks para garantir execuções consistentes e seguras na fase G4.',
+    href: '/artefatos/g4/runbook',
+  },
+  {
     title: 'Relatório Final do Projeto – Educacross',
     description:
       'Registre a conclusão do projeto com identificação, resumo executivo, indicadores, lições aprendidas e encerramento formal para a fase G4.',
