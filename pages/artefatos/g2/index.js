@@ -59,6 +59,13 @@ const g2Artifacts = [
     actionLabel: 'Acessar guia',
   },
   {
+    title: 'Qualidade & Critérios de Aceite',
+    description:
+      'Defina padrões de qualidade e critérios objetivos de aceite para assegurar entregas consistentes e aprovadas sem retrabalho no Gate G2.',
+    href: '/artefatos/g2/plano-qualidade-criterios-aceite',
+    actionLabel: 'Acessar guia',
+  },
+  {
     title: 'Orçamento Baseline',
     description:
       'Estabeleça a linha de base aprovada de custos com categorias detalhadas, responsáveis e contingência mínima para o Gate G2.',
