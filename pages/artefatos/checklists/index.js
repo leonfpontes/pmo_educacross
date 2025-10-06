@@ -3,6 +3,13 @@ import Button from '../../../src/components/common/Button';
 
 const checklistArtifacts = [
   {
+    title: 'Checklist - Gate 2 (Planejamento Detalhado)',
+    description:
+      'Valide se todos os planos do Gate 2 estão completos, aprovados e disponíveis antes de seguir para execução, alinhando escopo, governança e decisão final.',
+    href: '/artefatos/checklists/gate-2-planejamento-detalhado',
+    actionLabel: 'Acessar checklist',
+  },
+  {
     title: 'Checklist - Gate 1 (Iniciação / Descoberta)',
     description:
       'Garanta que todos os requisitos mínimos da fase de Iniciação/Descoberta foram cumpridos antes de avançar para o Gate 2, validando alinhamento estratégico, artefatos e aprovações.',
@@ -29,6 +36,8 @@ export default function ChecklistsPage() {
 
   return (
     <Layout
+      title="Artefatos - Checklists - PMO Educacross"
+      description="Modelos de checklists do PMO Educacross para garantir entregas alinhadas aos Gates."
       title="Artefatos Checklists - PMO Educacross"
       description="Checklists de apoio aos gates do PMO Educacross."
       hero={hero}
