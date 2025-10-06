@@ -1,7 +1,7 @@
 import Layout from '../../../src/components/layout/Layout';
 import Callout from '../../../src/components/common/Callout';
 
-export default function PlanoJuridicoContratosG3Page() {
+export default function ComiteDeProjetoG3Page() {
   const hero = (
     <header className="page-header-minimal">
       <div className="page-header-minimal__inner">
@@ -12,18 +12,11 @@ export default function PlanoJuridicoContratosG3Page() {
 
   return (
     <Layout
-      title="Plano Jurídico & Contratos G3 - PMO Educacross"
+      title="Comitê de Projeto G3 - PMO Educacross"
       description="Template do comitê de projeto quinzenal com foco em governança jurídica e contratual para o Gate G3."
       hero={hero}
     >
       <article className="artifact-form">
-        <section className="content-card">
-          <h2>O que é o Plano Jurídico &amp; Contratos</h2>
-          <p>
-            É o documento que organiza <strong>todas as obrigações legais, contratuais e regulatórias</strong> do projeto,
-            definindo responsabilidades, prazos, cláusulas críticas e formas de mitigação de riscos jurídicos.
-          </p>
-        </section>
 
         <section className="content-card">
           <h2>Dados do Comitê</h2>
