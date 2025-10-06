@@ -3,6 +3,13 @@ import Button from '../../../src/components/common/Button';
 
 const g3Artifacts = [
   {
+    title: 'Registro de Testes Aprovados – Educacross',
+    description:
+      'Consolide e aprove formalmente os testes do Gate G3 com matriz detalhada, checklist de aprovação e boas práticas Educacross.',
+    href: '/artefatos/g3/registro-testes-aprovados',
+    actionLabel: 'Acessar registro',
+  },
+  {
     title: 'Revisão Semanal do GP/PMO',
     description:
       'Template para acompanhar a revisão semanal do portfólio no Gate G3 com visão geral, pendências, riscos e planos da próxima semana.',
