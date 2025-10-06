@@ -59,6 +59,13 @@ const g2Artifacts = [
     actionLabel: 'Acessar guia',
   },
   {
+    title: 'Plano de Treinamento & Change Management',
+    description:
+      'Estruture públicos, impactos, estratégias de treinamento e gestão da mudança para garantir adoção e suporte completo no Gate G2.',
+    href: '/artefatos/g2/plano-treinamento-change-management',
+    actionLabel: 'Acessar guia',
+  },
+  {
     title: 'Qualidade & Critérios de Aceite',
     description:
       'Defina padrões de qualidade e critérios objetivos de aceite para assegurar entregas consistentes e aprovadas sem retrabalho no Gate G2.',
