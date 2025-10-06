@@ -52,6 +52,13 @@ const g2Artifacts = [
     actionLabel: 'Acessar guia',
   },
   {
+    title: 'Plano Jurídico & Contratos',
+    description:
+      'Centralize obrigações legais, cláusulas críticas, contratos e responsabilidades para garantir governança jurídica completa no Gate G2.',
+    href: '/artefatos/g2/plano-juridico-contratos',
+    actionLabel: 'Acessar guia',
+  },
+  {
     title: 'EAP/WBS',
     description:
       'Estruture a decomposição do trabalho do projeto em níveis claros, conectando fases, pacotes e entregáveis para orientar o planejamento detalhado do Gate G2.',
