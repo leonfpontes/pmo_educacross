@@ -3,6 +3,13 @@ import Button from '../../../src/components/common/Button';
 
 const g3Artifacts = [
   {
+    title: 'Plano de Comunicação – Educacross',
+    description:
+      'Guia completo de comunicação do Gate G3 com princípios, matriz de stakeholders, ferramentas e boas práticas para manter todos alinhados.',
+    href: '/artefatos/g3/plano-comunicacao',
+    actionLabel: 'Acessar plano',
+  },
+  {
     title: 'Plano Jurídico & Contratos',
     description:
       'Template completo do comitê quinzenal com foco em decisões jurídicas, pendências contratuais e governança executiva do Gate G3.',
