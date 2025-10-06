@@ -40,7 +40,7 @@ const checklistArtifacts = [
 ];
 
 export default function ChecklistArtifactsPage() {
-export default function ChecklistsPage() {
+/* export default function ChecklistsPage() { */
   const hero = (
     <header className="page-header-minimal">
       <div className="page-header-minimal__inner">
@@ -51,12 +51,6 @@ export default function ChecklistsPage() {
 
   return (
     <Layout
-      title="Checklists - PMO Educacross"
-      description="Checklists oficiais do PMO Educacross."
-      title="Artefatos Checklists - PMO Educacross"
-      description="Coleção de checklists de apoio aos gates do PMO Educacross."
-      title="Artefatos - Checklists - PMO Educacross"
-      description="Modelos de checklists do PMO Educacross para garantir entregas alinhadas aos Gates."
       title="Artefatos Checklists - PMO Educacross"
       description="Checklists de apoio aos gates do PMO Educacross."
       hero={hero}
