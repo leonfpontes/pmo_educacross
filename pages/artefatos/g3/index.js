@@ -3,6 +3,13 @@ import Button from '../../../src/components/common/Button';
 
 const g3Artifacts = [
   {
+    title: 'Plano de Gestão de Fornecedores – Educacross',
+    description:
+      'Garanta gestão centralizada de fornecedores no Gate G3 com escopo, processo, matriz de acompanhamento, indicadores e boas práticas Educacross.',
+    href: '/artefatos/g3/plano-gestao-fornecedores',
+    actionLabel: 'Acessar plano',
+  },
+  {
     title: 'Plano de Comunicação – Educacross',
     description:
       'Guia completo de comunicação do Gate G3 com princípios, matriz de stakeholders, ferramentas e boas práticas para manter todos alinhados.',
