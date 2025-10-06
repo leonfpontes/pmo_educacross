@@ -17,7 +17,7 @@ const g3Artifacts = [
     actionLabel: 'Acessar plano',
   },
   {
-    title: 'Plano Jurídico & Contratos',
+    title: 'Comitê de Projeto (quinzenal)',
     description:
       'Template completo do comitê quinzenal com foco em decisões jurídicas, pendências contratuais e governança executiva do Gate G3.',
     href: '/artefatos/g3/plano-juridico-contratos',
