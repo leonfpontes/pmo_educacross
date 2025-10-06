@@ -11,6 +11,14 @@ const run = (command) => {
 
 run('next build');
 
+const hasAppDirectory = fs.existsSync('app') || fs.existsSync(path.join('src', 'app'));
+const shouldSkipExport = hasAppDirectory || process.env.SKIP_NEXT_EXPORT === 'true';
+
+if (shouldSkipExport) {
+  console.log('\nSkipping `next export` because the App Router is enabled or export was explicitly disabled.');
+  process.exit(0);
+}
+
 console.log('\nRunning `next export` to generate the static output directory.');
 run('next export');
 

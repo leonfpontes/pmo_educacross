@@ -1,5 +1,5 @@
-import ContentCard from '../src/components/common/ContentCard';
-import Layout from '../src/components/layout/Layout';
+import ContentCard from '@/components/data-display/ContentCard';
+import Layout from '@/components/layout/SiteLayout';
 
 export default function DodDorPage() {
   const hero = (

@@ -1,4 +1,52 @@
-@import './tokens.css';
+.site-shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.site-shell .page-main {
+  flex: 1;
+}
+
+.skip-to-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-brand-500);
+  color: var(--color-white);
+  padding: var(--space-2) var(--space-4);
+  transform: translateY(-150%);
+  transition: transform 0.2s ease;
+  z-index: 1000;
+}
+
+.skip-to-content:focus {
+  transform: translateY(0);
+}
+
+.section-wrapper {
+  padding: var(--space-16) var(--space-4);
+}
+
+.section-content {
+  margin: 0 auto;
+  max-width: 1120px;
+  display: grid;
+  gap: var(--space-8);
+}
+
+@media (min-width: 768px) {
+  .section-wrapper {
+    padding: var(--space-20) var(--space-6);
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-content {
+    gap: var(--space-10);
+  }
+}
+
 
 * {
   box-sizing: border-box;

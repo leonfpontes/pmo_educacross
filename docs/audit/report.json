@@ -1,0 +1,2100 @@
+{
+  "generatedAt": "2025-10-06T18:26:11.698Z",
+  "summary": {
+    "totalFiles": 84,
+    "duplicateGroups": 92,
+    "antiPatternFiles": 6,
+    "componentCandidateCount": 19
+  },
+  "duplicates": [
+    {
+      "hash": "27d3f958075d326eec6afed2eacd1fb7",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/checklists/checklist-g3-execucao-go-live.js",
+          "startLine": 17,
+          "endLine": 26,
+          "snippet": "hero={hero} > <article className=\"artifact-form\"> <section className=\"content-card\"> <p>"
+        },
+        {
+          "file": "pages/artefatos/checklists/gate-2-planejamento-detalhado.js",
+          "startLine": 17,
+          "endLine": 26,
+          "snippet": "hero={hero} > <article className=\"artifact-form\"> <section className=\"content-card\"> <p>"
+        }
+      ]
+    },
+    {
+      "hash": "f89a05ae841cc8547369f365498ae504",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/checklists/checklist-g3-execucao-go-live.js",
+          "startLine": 18,
+          "endLine": 27,
+          "snippet": "> <article className=\"artifact-form\"> <section className=\"content-card\"> <p> <strong>Projeto:</strong> ____________________________________"
+        },
+        {
+          "file": "pages/artefatos/checklists/gate-2-planejamento-detalhado.js",
+          "startLine": 18,
+          "endLine": 27,
+          "snippet": "> <article className=\"artifact-form\"> <section className=\"content-card\"> <p> <strong>Projeto:</strong> ____________________________________"
+        }
+      ]
+    },
+    {
+      "hash": "40afbf7f242c4d23ddea4a5333cf2500",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/checklists/checklist-g3-execucao-go-live.js",
+          "startLine": 19,
+          "endLine": 28,
+          "snippet": "<article className=\"artifact-form\"> <section className=\"content-card\"> <p> <strong>Projeto:</strong> ____________________________________ </p>"
+        },
+        {
+          "file": "pages/artefatos/checklists/gate-2-planejamento-detalhado.js",
+          "startLine": 19,
+          "endLine": 28,
+          "snippet": "<article className=\"artifact-form\"> <section className=\"content-card\"> <p> <strong>Projeto:</strong> ____________________________________ </p>"
+        }
+      ]
+    },
+    {
+      "hash": "4a6c3c38d5e309cfcf72c13bb7925029",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/checklists/checklist-g3-execucao-go-live.js",
+          "startLine": 20,
+          "endLine": 29,
+          "snippet": "<section className=\"content-card\"> <p> <strong>Projeto:</strong> ____________________________________ </p> <p>"
+        },
+        {
+          "file": "pages/artefatos/checklists/gate-1.js",
+          "startLine": 141,
+          "endLine": 150,
+          "snippet": "<section className=\"content-card\"> <p> <strong>Projeto:</strong> ____________________________________ </p> <p>"
+        },
+        {
+          "file": "pages/artefatos/checklists/gate-2-planejamento-detalhado.js",
+          "startLine": 20,
+          "endLine": 29,
+          "snippet": "<section className=\"content-card\"> <p> <strong>Projeto:</strong> ____________________________________ </p> <p>"
+        }
+      ]
+    },
+    {
+      "hash": "0df63f6288b21c5db846b76aa8ef56eb",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/checklists/checklist-g3-execucao-go-live.js",
+          "startLine": 21,
+          "endLine": 30,
+          "snippet": "<p> <strong>Projeto:</strong> ____________________________________ </p> <p> <strong>Sponsor:</strong> _________________________________"
+        },
+        {
+          "file": "pages/artefatos/checklists/gate-1.js",
+          "startLine": 142,
+          "endLine": 151,
+          "snippet": "<p> <strong>Projeto:</strong> ____________________________________ </p> <p> <strong>Sponsor:</strong> _________________________________"
+        },
+        {
+          "file": "pages/artefatos/checklists/gate-2-planejamento-detalhado.js",
+          "startLine": 21,
+          "endLine": 30,
+          "snippet": "<p> <strong>Projeto:</strong> ____________________________________ </p> <p> <strong>Sponsor:</strong> _________________________________"
+        },
+        {
+          "file": "pages/artefatos/checklists/gate-4.js",
+          "startLine": 22,
+          "endLine": 31,
+          "snippet": "<p> <strong>Projeto:</strong> ____________________________________ </p> <p> <strong>Sponsor:</strong> _________________________________"
+        }
+      ]
+    },
+    {
+      "hash": "4da41990333319f3fb7f9497928306c4",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/checklists/checklist-g3-execucao-go-live.js",
+          "startLine": 22,
+          "endLine": 31,
+          "snippet": "<strong>Projeto:</strong> ____________________________________ </p> <p> <strong>Sponsor:</strong> _________________________________ </p>"
+        },
+        {
+          "file": "pages/artefatos/checklists/gate-1.js",
+          "startLine": 143,
+          "endLine": 152,
+          "snippet": "<strong>Projeto:</strong> ____________________________________ </p> <p> <strong>Sponsor:</strong> _________________________________ </p>"
+        },
+        {
+          "file": "pages/artefatos/checklists/gate-2-planejamento-detalhado.js",
+          "startLine": 22,
+          "endLine": 31,
+          "snippet": "<strong>Projeto:</strong> ____________________________________ </p> <p> <strong>Sponsor:</strong> _________________________________ </p>"
+        },
+        {
+          "file": "pages/artefatos/checklists/gate-4.js",
+          "startLine": 23,
+          "endLine": 32,
+          "snippet": "<strong>Projeto:</strong> ____________________________________ </p> <p> <strong>Sponsor:</strong> _________________________________ </p>"
+        }
+      ]
+    },
+    {
+      "hash": "fc5630211efc2d30a083f79bdb4e2178",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/checklists/checklist-g3-execucao-go-live.js",
+          "startLine": 23,
+          "endLine": 32,
+          "snippet": "</p> <p> <strong>Sponsor:</strong> _________________________________ </p> <p>"
+        },
+        {
+          "file": "pages/artefatos/checklists/gate-1.js",
+          "startLine": 144,
+          "endLine": 153,
+          "snippet": "</p> <p> <strong>Sponsor:</strong> _________________________________ </p> <p>"
+        },
+        {
+          "file": "pages/artefatos/checklists/gate-2-planejamento-detalhado.js",
+          "startLine": 23,
+          "endLine": 32,
+          "snippet": "</p> <p> <strong>Sponsor:</strong> _________________________________ </p> <p>"
+        },
+        {
+          "file": "pages/artefatos/checklists/gate-4.js",
+          "startLine": 24,
+          "endLine": 33,
+          "snippet": "</p> <p> <strong>Sponsor:</strong> _________________________________ </p> <p>"
+        }
+      ]
+    },
+    {
+      "hash": "e22196cea1ac4bb15d2abed475dbf4ce",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/checklists/checklist-g3-execucao-go-live.js",
+          "startLine": 24,
+          "endLine": 33,
+          "snippet": "<p> <strong>Sponsor:</strong> _________________________________ </p> <p> <strong>Responsável (GP/PMO):</strong> ____________________"
+        },
+        {
+          "file": "pages/artefatos/checklists/gate-1.js",
+          "startLine": 145,
+          "endLine": 154,
+          "snippet": "<p> <strong>Sponsor:</strong> _________________________________ </p> <p> <strong>Responsável (GP/PMO):</strong> ____________________"
+        },
+        {
+          "file": "pages/artefatos/checklists/gate-2-planejamento-detalhado.js",
+          "startLine": 24,
+          "endLine": 33,
+          "snippet": "<p> <strong>Sponsor:</strong> _________________________________ </p> <p> <strong>Responsável (GP/PMO):</strong> ____________________"
+        },
+        {
+          "file": "pages/artefatos/checklists/gate-4.js",
+          "startLine": 25,
+          "endLine": 34,
+          "snippet": "<p> <strong>Sponsor:</strong> _________________________________ </p> <p> <strong>Responsável (GP/PMO):</strong> ____________________"
+        }
+      ]
+    },
+    {
+      "hash": "e8e9c875962c38ff2b8fcecba7479540",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/checklists/checklist-g3-execucao-go-live.js",
+          "startLine": 25,
+          "endLine": 34,
+          "snippet": "<strong>Sponsor:</strong> _________________________________ </p> <p> <strong>Responsável (GP/PMO):</strong> ____________________ </p>"
+        },
+        {
+          "file": "pages/artefatos/checklists/gate-1.js",
+          "startLine": 146,
+          "endLine": 155,
+          "snippet": "<strong>Sponsor:</strong> _________________________________ </p> <p> <strong>Responsável (GP/PMO):</strong> ____________________ </p>"
+        },
+        {
+          "file": "pages/artefatos/checklists/gate-2-planejamento-detalhado.js",
+          "startLine": 25,
+          "endLine": 34,
+          "snippet": "<strong>Sponsor:</strong> _________________________________ </p> <p> <strong>Responsável (GP/PMO):</strong> ____________________ </p>"
+        },
+        {
+          "file": "pages/artefatos/checklists/gate-4.js",
+          "startLine": 26,
+          "endLine": 35,
+          "snippet": "<strong>Sponsor:</strong> _________________________________ </p> <p> <strong>Responsável (GP/PMO):</strong> ____________________ </p>"
+        }
+      ]
+    },
+    {
+      "hash": "ee76fc08eb1608c50496565447f9eff7",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/checklists/checklist-g3-execucao-go-live.js",
+          "startLine": 26,
+          "endLine": 35,
+          "snippet": "</p> <p> <strong>Responsável (GP/PMO):</strong> ____________________ </p> <p>"
+        },
+        {
+          "file": "pages/artefatos/checklists/gate-2-planejamento-detalhado.js",
+          "startLine": 26,
+          "endLine": 35,
+          "snippet": "</p> <p> <strong>Responsável (GP/PMO):</strong> ____________________ </p> <p>"
+        },
+        {
+          "file": "pages/artefatos/checklists/gate-4.js",
+          "startLine": 27,
+          "endLine": 36,
+          "snippet": "</p> <p> <strong>Responsável (GP/PMO):</strong> ____________________ </p> <p>"
+        }
+      ]
+    },
+    {
+      "hash": "7c9dc1f229ea8fc0a7a14d4eadd4fe6b",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/checklists/index.js",
+          "startLine": 60,
+          "endLine": 69,
+          "snippet": "<section key={artifact.href} className=\"content-card artifact-card\"> <h2>{artifact.title}</h2> <p>{artifact.description}</p> <Button href={artifact.href} variant=\"secondary\"> {artifact.actionLabel}"
+        },
+        {
+          "file": "pages/artefatos/g1/index.js",
+          "startLine": 66,
+          "endLine": 75,
+          "snippet": "<section key={artifact.href} className=\"content-card artifact-card\"> <h2>{artifact.title}</h2> <p>{artifact.description}</p> <Button href={artifact.href} variant=\"secondary\"> {artifact.actionLabel}"
+        },
+        {
+          "file": "pages/artefatos/g2/index.js",
+          "startLine": 129,
+          "endLine": 138,
+          "snippet": "<section key={artifact.href} className=\"content-card artifact-card\"> <h2>{artifact.title}</h2> <p>{artifact.description}</p> <Button href={artifact.href} variant=\"secondary\"> {artifact.actionLabel}"
+        },
+        {
+          "file": "pages/artefatos/g3/index.js",
+          "startLine": 80,
+          "endLine": 89,
+          "snippet": "<section key={artifact.href} className=\"content-card artifact-card\"> <h2>{artifact.title}</h2> <p>{artifact.description}</p> <Button href={artifact.href} variant=\"secondary\"> {artifact.actionLabel}"
+        },
+        {
+          "file": "pages/artefatos/g4/index.js",
+          "startLine": 59,
+          "endLine": 68,
+          "snippet": "<section key={artifact.href} className=\"content-card artifact-card\"> <h2>{artifact.title}</h2> <p>{artifact.description}</p> <Button href={artifact.href} variant=\"secondary\"> {artifact.actionLabel}"
+        }
+      ]
+    },
+    {
+      "hash": "514c4fb0f597d6cc8125bed684fdc19d",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/checklists/index.js",
+          "startLine": 61,
+          "endLine": 70,
+          "snippet": "<h2>{artifact.title}</h2> <p>{artifact.description}</p> <Button href={artifact.href} variant=\"secondary\"> {artifact.actionLabel} </Button>"
+        },
+        {
+          "file": "pages/artefatos/g1/index.js",
+          "startLine": 67,
+          "endLine": 76,
+          "snippet": "<h2>{artifact.title}</h2> <p>{artifact.description}</p> <Button href={artifact.href} variant=\"secondary\"> {artifact.actionLabel} </Button>"
+        },
+        {
+          "file": "pages/artefatos/g2/index.js",
+          "startLine": 130,
+          "endLine": 139,
+          "snippet": "<h2>{artifact.title}</h2> <p>{artifact.description}</p> <Button href={artifact.href} variant=\"secondary\"> {artifact.actionLabel} </Button>"
+        },
+        {
+          "file": "pages/artefatos/g3/index.js",
+          "startLine": 81,
+          "endLine": 90,
+          "snippet": "<h2>{artifact.title}</h2> <p>{artifact.description}</p> <Button href={artifact.href} variant=\"secondary\"> {artifact.actionLabel} </Button>"
+        },
+        {
+          "file": "pages/artefatos/g4/index.js",
+          "startLine": 60,
+          "endLine": 69,
+          "snippet": "<h2>{artifact.title}</h2> <p>{artifact.description}</p> <Button href={artifact.href} variant=\"secondary\"> {artifact.actionLabel} </Button>"
+        }
+      ]
+    },
+    {
+      "hash": "89eb19535df8bc397dc9b2a405f6b4e2",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/checklists/index.js",
+          "startLine": 62,
+          "endLine": 71,
+          "snippet": "<p>{artifact.description}</p> <Button href={artifact.href} variant=\"secondary\"> {artifact.actionLabel} </Button> </section>"
+        },
+        {
+          "file": "pages/artefatos/g1/index.js",
+          "startLine": 68,
+          "endLine": 77,
+          "snippet": "<p>{artifact.description}</p> <Button href={artifact.href} variant=\"secondary\"> {artifact.actionLabel} </Button> </section>"
+        },
+        {
+          "file": "pages/artefatos/g2/index.js",
+          "startLine": 131,
+          "endLine": 140,
+          "snippet": "<p>{artifact.description}</p> <Button href={artifact.href} variant=\"secondary\"> {artifact.actionLabel} </Button> </section>"
+        },
+        {
+          "file": "pages/artefatos/g3/index.js",
+          "startLine": 82,
+          "endLine": 91,
+          "snippet": "<p>{artifact.description}</p> <Button href={artifact.href} variant=\"secondary\"> {artifact.actionLabel} </Button> </section>"
+        },
+        {
+          "file": "pages/artefatos/g4/index.js",
+          "startLine": 61,
+          "endLine": 70,
+          "snippet": "<p>{artifact.description}</p> <Button href={artifact.href} variant=\"secondary\"> {artifact.actionLabel} </Button> </section>"
+        }
+      ]
+    },
+    {
+      "hash": "5d7e0ea4301ae46081dd0ec1a94159db",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/checklists/index.js",
+          "startLine": 63,
+          "endLine": 72,
+          "snippet": "<Button href={artifact.href} variant=\"secondary\"> {artifact.actionLabel} </Button> </section> ))}"
+        },
+        {
+          "file": "pages/artefatos/g1/index.js",
+          "startLine": 69,
+          "endLine": 78,
+          "snippet": "<Button href={artifact.href} variant=\"secondary\"> {artifact.actionLabel} </Button> </section> ))}"
+        },
+        {
+          "file": "pages/artefatos/g2/index.js",
+          "startLine": 132,
+          "endLine": 141,
+          "snippet": "<Button href={artifact.href} variant=\"secondary\"> {artifact.actionLabel} </Button> </section> ))}"
+        },
+        {
+          "file": "pages/artefatos/g3/index.js",
+          "startLine": 83,
+          "endLine": 92,
+          "snippet": "<Button href={artifact.href} variant=\"secondary\"> {artifact.actionLabel} </Button> </section> ))}"
+        },
+        {
+          "file": "pages/artefatos/g4/index.js",
+          "startLine": 62,
+          "endLine": 71,
+          "snippet": "<Button href={artifact.href} variant=\"secondary\"> {artifact.actionLabel} </Button> </section> ))}"
+        }
+      ]
+    },
+    {
+      "hash": "9eeea6a3f82695cceadf4a7938c342e4",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g1/business-case.js",
+          "startLine": 1,
+          "endLine": 10,
+          "snippet": "import Layout from '@/components/layout/SiteLayout'; import Callout from '@/components/data-display/Callout'; import Button from '@/components/ui/Button';  const approvalOptions = ["
+        },
+        {
+          "file": "pages/artefatos/g1/carta-abertura.js",
+          "startLine": 1,
+          "endLine": 10,
+          "snippet": "import Layout from '@/components/layout/SiteLayout'; import Callout from '@/components/data-display/Callout'; import Button from '@/components/ui/Button';  const approvalOptions = ["
+        }
+      ]
+    },
+    {
+      "hash": "23aabd63c3f5c0770f9a2da657507752",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g1/business-case.js",
+          "startLine": 129,
+          "endLine": 138,
+          "snippet": "<fieldset className=\"form-fieldset\"> <legend>Decisão</legend> <div className=\"checkbox-grid\"> {approvalOptions.map((option) => ( <label key={option.id} className=\"checkbox-item\" htmlFor={option.id}>"
+        },
+        {
+          "file": "pages/artefatos/g1/carta-abertura.js",
+          "startLine": 240,
+          "endLine": 249,
+          "snippet": "<fieldset className=\"form-fieldset\"> <legend>Decisão</legend> <div className=\"checkbox-grid\"> {approvalOptions.map((option) => ( <label key={option.id} className=\"checkbox-item\" htmlFor={option.id}>"
+        }
+      ]
+    },
+    {
+      "hash": "2ec7e430798976502ba2e750921749f3",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g1/business-case.js",
+          "startLine": 130,
+          "endLine": 139,
+          "snippet": "<legend>Decisão</legend> <div className=\"checkbox-grid\"> {approvalOptions.map((option) => ( <label key={option.id} className=\"checkbox-item\" htmlFor={option.id}> <input id={option.id} name=\"aprovacao\" type=\"checkbox\" value={option.label} />"
+        },
+        {
+          "file": "pages/artefatos/g1/carta-abertura.js",
+          "startLine": 241,
+          "endLine": 250,
+          "snippet": "<legend>Decisão</legend> <div className=\"checkbox-grid\"> {approvalOptions.map((option) => ( <label key={option.id} className=\"checkbox-item\" htmlFor={option.id}> <input id={option.id} name=\"aprovacao\" type=\"checkbox\" value={option.label} />"
+        }
+      ]
+    },
+    {
+      "hash": "abd2cf646ede45537992beb3c540f670",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g1/business-case.js",
+          "startLine": 131,
+          "endLine": 140,
+          "snippet": "<div className=\"checkbox-grid\"> {approvalOptions.map((option) => ( <label key={option.id} className=\"checkbox-item\" htmlFor={option.id}> <input id={option.id} name=\"aprovacao\" type=\"checkbox\" value={option.label} /> <span>{option.label}</span>"
+        },
+        {
+          "file": "pages/artefatos/g1/carta-abertura.js",
+          "startLine": 242,
+          "endLine": 251,
+          "snippet": "<div className=\"checkbox-grid\"> {approvalOptions.map((option) => ( <label key={option.id} className=\"checkbox-item\" htmlFor={option.id}> <input id={option.id} name=\"aprovacao\" type=\"checkbox\" value={option.label} /> <span>{option.label}</span>"
+        }
+      ]
+    },
+    {
+      "hash": "cf6369028ab16c2ecee6936c07dc9323",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g1/business-case.js",
+          "startLine": 132,
+          "endLine": 141,
+          "snippet": "{approvalOptions.map((option) => ( <label key={option.id} className=\"checkbox-item\" htmlFor={option.id}> <input id={option.id} name=\"aprovacao\" type=\"checkbox\" value={option.label} /> <span>{option.label}</span> </label>"
+        },
+        {
+          "file": "pages/artefatos/g1/carta-abertura.js",
+          "startLine": 243,
+          "endLine": 252,
+          "snippet": "{approvalOptions.map((option) => ( <label key={option.id} className=\"checkbox-item\" htmlFor={option.id}> <input id={option.id} name=\"aprovacao\" type=\"checkbox\" value={option.label} /> <span>{option.label}</span> </label>"
+        }
+      ]
+    },
+    {
+      "hash": "2b591715f8cd39e140a769e75cdc1ea0",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g1/business-case.js",
+          "startLine": 133,
+          "endLine": 142,
+          "snippet": "<label key={option.id} className=\"checkbox-item\" htmlFor={option.id}> <input id={option.id} name=\"aprovacao\" type=\"checkbox\" value={option.label} /> <span>{option.label}</span> </label> ))}"
+        },
+        {
+          "file": "pages/artefatos/g1/carta-abertura.js",
+          "startLine": 244,
+          "endLine": 253,
+          "snippet": "<label key={option.id} className=\"checkbox-item\" htmlFor={option.id}> <input id={option.id} name=\"aprovacao\" type=\"checkbox\" value={option.label} /> <span>{option.label}</span> </label> ))}"
+        }
+      ]
+    },
+    {
+      "hash": "571792c3dd8a1e9bc69f2010cb04a0e4",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g1/business-case.js",
+          "startLine": 134,
+          "endLine": 143,
+          "snippet": "<input id={option.id} name=\"aprovacao\" type=\"checkbox\" value={option.label} /> <span>{option.label}</span> </label> ))} </div>"
+        },
+        {
+          "file": "pages/artefatos/g1/carta-abertura.js",
+          "startLine": 245,
+          "endLine": 254,
+          "snippet": "<input id={option.id} name=\"aprovacao\" type=\"checkbox\" value={option.label} /> <span>{option.label}</span> </label> ))} </div>"
+        }
+      ]
+    },
+    {
+      "hash": "ea6d6bfb9941e695899fa1d5d44cfe6f",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g1/business-case.js",
+          "startLine": 135,
+          "endLine": 144,
+          "snippet": "<span>{option.label}</span> </label> ))} </div> </fieldset>"
+        },
+        {
+          "file": "pages/artefatos/g1/carta-abertura.js",
+          "startLine": 246,
+          "endLine": 255,
+          "snippet": "<span>{option.label}</span> </label> ))} </div> </fieldset>"
+        }
+      ]
+    },
+    {
+      "hash": "55553715a3fee0412054710590edc26f",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g1/business-case.js",
+          "startLine": 136,
+          "endLine": 145,
+          "snippet": "</label> ))} </div> </fieldset> "
+        },
+        {
+          "file": "pages/artefatos/g1/carta-abertura.js",
+          "startLine": 247,
+          "endLine": 256,
+          "snippet": "</label> ))} </div> </fieldset> "
+        }
+      ]
+    },
+    {
+      "hash": "b7ce5bed254428bf02d031bbc03d6f21",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g1/business-case.js",
+          "startLine": 137,
+          "endLine": 146,
+          "snippet": "))} </div> </fieldset>  <div className=\"form-grid\">"
+        },
+        {
+          "file": "pages/artefatos/g1/carta-abertura.js",
+          "startLine": 248,
+          "endLine": 257,
+          "snippet": "))} </div> </fieldset>  <div className=\"form-grid\">"
+        }
+      ]
+    },
+    {
+      "hash": "6160b9c02c91be15d21e34069283339b",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g1/business-case.js",
+          "startLine": 138,
+          "endLine": 147,
+          "snippet": "</div> </fieldset>  <div className=\"form-grid\"> <label className=\"form-field\" htmlFor=\"data-aprovacao\">"
+        },
+        {
+          "file": "pages/artefatos/g1/carta-abertura.js",
+          "startLine": 249,
+          "endLine": 258,
+          "snippet": "</div> </fieldset>  <div className=\"form-grid\"> <label className=\"form-field\" htmlFor=\"data-aprovacao\">"
+        }
+      ]
+    },
+    {
+      "hash": "a35603bc389b97caedd4675bc6b41d3d",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g1/business-case.js",
+          "startLine": 139,
+          "endLine": 148,
+          "snippet": "</fieldset>  <div className=\"form-grid\"> <label className=\"form-field\" htmlFor=\"data-aprovacao\"> <span>Data da Aprovação</span>"
+        },
+        {
+          "file": "pages/artefatos/g1/carta-abertura.js",
+          "startLine": 250,
+          "endLine": 259,
+          "snippet": "</fieldset>  <div className=\"form-grid\"> <label className=\"form-field\" htmlFor=\"data-aprovacao\"> <span>Data da Aprovação</span>"
+        }
+      ]
+    },
+    {
+      "hash": "3e89caa23d3bb09fe993d515bae74c28",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g1/business-case.js",
+          "startLine": 140,
+          "endLine": 149,
+          "snippet": " <div className=\"form-grid\"> <label className=\"form-field\" htmlFor=\"data-aprovacao\"> <span>Data da Aprovação</span> <input id=\"data-aprovacao\" name=\"dataAprovacao\" type=\"date\" />"
+        },
+        {
+          "file": "pages/artefatos/g1/carta-abertura.js",
+          "startLine": 251,
+          "endLine": 260,
+          "snippet": " <div className=\"form-grid\"> <label className=\"form-field\" htmlFor=\"data-aprovacao\"> <span>Data da Aprovação</span> <input id=\"data-aprovacao\" name=\"dataAprovacao\" type=\"date\" />"
+        }
+      ]
+    },
+    {
+      "hash": "810679465c4c67a59ca44d3f3a783e7c",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g1/business-case.js",
+          "startLine": 141,
+          "endLine": 150,
+          "snippet": "<div className=\"form-grid\"> <label className=\"form-field\" htmlFor=\"data-aprovacao\"> <span>Data da Aprovação</span> <input id=\"data-aprovacao\" name=\"dataAprovacao\" type=\"date\" /> </label>"
+        },
+        {
+          "file": "pages/artefatos/g1/carta-abertura.js",
+          "startLine": 252,
+          "endLine": 261,
+          "snippet": "<div className=\"form-grid\"> <label className=\"form-field\" htmlFor=\"data-aprovacao\"> <span>Data da Aprovação</span> <input id=\"data-aprovacao\" name=\"dataAprovacao\" type=\"date\" /> </label>"
+        }
+      ]
+    },
+    {
+      "hash": "5496d7be97245893987dee5a6b59323c",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g1/business-case.js",
+          "startLine": 142,
+          "endLine": 151,
+          "snippet": "<label className=\"form-field\" htmlFor=\"data-aprovacao\"> <span>Data da Aprovação</span> <input id=\"data-aprovacao\" name=\"dataAprovacao\" type=\"date\" /> </label> <label className=\"form-field\" htmlFor=\"assinatura-sponsor\">"
+        },
+        {
+          "file": "pages/artefatos/g1/carta-abertura.js",
+          "startLine": 253,
+          "endLine": 262,
+          "snippet": "<label className=\"form-field\" htmlFor=\"data-aprovacao\"> <span>Data da Aprovação</span> <input id=\"data-aprovacao\" name=\"dataAprovacao\" type=\"date\" /> </label> <label className=\"form-field\" htmlFor=\"assinatura-sponsor\">"
+        }
+      ]
+    },
+    {
+      "hash": "7064987b4b5c18457a39abf9f6f3e4df",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g1/business-case.js",
+          "startLine": 143,
+          "endLine": 152,
+          "snippet": "<span>Data da Aprovação</span> <input id=\"data-aprovacao\" name=\"dataAprovacao\" type=\"date\" /> </label> <label className=\"form-field\" htmlFor=\"assinatura-sponsor\"> <span>Sponsor</span>"
+        },
+        {
+          "file": "pages/artefatos/g1/carta-abertura.js",
+          "startLine": 254,
+          "endLine": 263,
+          "snippet": "<span>Data da Aprovação</span> <input id=\"data-aprovacao\" name=\"dataAprovacao\" type=\"date\" /> </label> <label className=\"form-field\" htmlFor=\"assinatura-sponsor\"> <span>Sponsor</span>"
+        }
+      ]
+    },
+    {
+      "hash": "e49cf28b8dea9c8bea2dde28a41a39e6",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g1/business-case.js",
+          "startLine": 144,
+          "endLine": 153,
+          "snippet": "<input id=\"data-aprovacao\" name=\"dataAprovacao\" type=\"date\" /> </label> <label className=\"form-field\" htmlFor=\"assinatura-sponsor\"> <span>Sponsor</span> <input id=\"assinatura-sponsor\" name=\"assinaturaSponsor\" type=\"text\" placeholder=\"Nome do sponsor\" />"
+        },
+        {
+          "file": "pages/artefatos/g1/carta-abertura.js",
+          "startLine": 255,
+          "endLine": 264,
+          "snippet": "<input id=\"data-aprovacao\" name=\"dataAprovacao\" type=\"date\" /> </label> <label className=\"form-field\" htmlFor=\"assinatura-sponsor\"> <span>Sponsor</span> <input id=\"assinatura-sponsor\" name=\"assinaturaSponsor\" type=\"text\" placeholder=\"Nome do sponsor\" />"
+        }
+      ]
+    },
+    {
+      "hash": "f918798e57147e98d8e4ffe1658a7c09",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g1/business-case.js",
+          "startLine": 145,
+          "endLine": 154,
+          "snippet": "</label> <label className=\"form-field\" htmlFor=\"assinatura-sponsor\"> <span>Sponsor</span> <input id=\"assinatura-sponsor\" name=\"assinaturaSponsor\" type=\"text\" placeholder=\"Nome do sponsor\" /> </label>"
+        },
+        {
+          "file": "pages/artefatos/g1/carta-abertura.js",
+          "startLine": 256,
+          "endLine": 265,
+          "snippet": "</label> <label className=\"form-field\" htmlFor=\"assinatura-sponsor\"> <span>Sponsor</span> <input id=\"assinatura-sponsor\" name=\"assinaturaSponsor\" type=\"text\" placeholder=\"Nome do sponsor\" /> </label>"
+        }
+      ]
+    },
+    {
+      "hash": "94d02cca44900ab961902a3c447df2b7",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g1/business-case.js",
+          "startLine": 146,
+          "endLine": 155,
+          "snippet": "<label className=\"form-field\" htmlFor=\"assinatura-sponsor\"> <span>Sponsor</span> <input id=\"assinatura-sponsor\" name=\"assinaturaSponsor\" type=\"text\" placeholder=\"Nome do sponsor\" /> </label> <label className=\"form-field\" htmlFor=\"assinatura-diretoria\">"
+        },
+        {
+          "file": "pages/artefatos/g1/carta-abertura.js",
+          "startLine": 257,
+          "endLine": 266,
+          "snippet": "<label className=\"form-field\" htmlFor=\"assinatura-sponsor\"> <span>Sponsor</span> <input id=\"assinatura-sponsor\" name=\"assinaturaSponsor\" type=\"text\" placeholder=\"Nome do sponsor\" /> </label> <label className=\"form-field\" htmlFor=\"assinatura-diretoria\">"
+        }
+      ]
+    },
+    {
+      "hash": "19bd1c395ec506e1e1fa1f60f43bde35",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g1/business-case.js",
+          "startLine": 147,
+          "endLine": 156,
+          "snippet": "<span>Sponsor</span> <input id=\"assinatura-sponsor\" name=\"assinaturaSponsor\" type=\"text\" placeholder=\"Nome do sponsor\" /> </label> <label className=\"form-field\" htmlFor=\"assinatura-diretoria\"> <span>Diretoria/Comitê</span>"
+        },
+        {
+          "file": "pages/artefatos/g1/carta-abertura.js",
+          "startLine": 258,
+          "endLine": 267,
+          "snippet": "<span>Sponsor</span> <input id=\"assinatura-sponsor\" name=\"assinaturaSponsor\" type=\"text\" placeholder=\"Nome do sponsor\" /> </label> <label className=\"form-field\" htmlFor=\"assinatura-diretoria\"> <span>Diretoria/Comitê</span>"
+        }
+      ]
+    },
+    {
+      "hash": "66dc38271e47ca7813fb1d148e2a190c",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g1/business-case.js",
+          "startLine": 148,
+          "endLine": 157,
+          "snippet": "<input id=\"assinatura-sponsor\" name=\"assinaturaSponsor\" type=\"text\" placeholder=\"Nome do sponsor\" /> </label> <label className=\"form-field\" htmlFor=\"assinatura-diretoria\"> <span>Diretoria/Comitê</span> <input"
+        },
+        {
+          "file": "pages/artefatos/g1/carta-abertura.js",
+          "startLine": 259,
+          "endLine": 268,
+          "snippet": "<input id=\"assinatura-sponsor\" name=\"assinaturaSponsor\" type=\"text\" placeholder=\"Nome do sponsor\" /> </label> <label className=\"form-field\" htmlFor=\"assinatura-diretoria\"> <span>Diretoria/Comitê</span> <input"
+        }
+      ]
+    },
+    {
+      "hash": "5271a0ed29cf771b0199d892b26419dd",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g1/business-case.js",
+          "startLine": 149,
+          "endLine": 158,
+          "snippet": "</label> <label className=\"form-field\" htmlFor=\"assinatura-diretoria\"> <span>Diretoria/Comitê</span> <input id=\"assinatura-diretoria\""
+        },
+        {
+          "file": "pages/artefatos/g1/carta-abertura.js",
+          "startLine": 260,
+          "endLine": 269,
+          "snippet": "</label> <label className=\"form-field\" htmlFor=\"assinatura-diretoria\"> <span>Diretoria/Comitê</span> <input id=\"assinatura-diretoria\""
+        }
+      ]
+    },
+    {
+      "hash": "8240c5def286e59ed536cf8d66e4368a",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g1/business-case.js",
+          "startLine": 150,
+          "endLine": 159,
+          "snippet": "<label className=\"form-field\" htmlFor=\"assinatura-diretoria\"> <span>Diretoria/Comitê</span> <input id=\"assinatura-diretoria\" name=\"assinaturaDiretoria\""
+        },
+        {
+          "file": "pages/artefatos/g1/carta-abertura.js",
+          "startLine": 261,
+          "endLine": 270,
+          "snippet": "<label className=\"form-field\" htmlFor=\"assinatura-diretoria\"> <span>Diretoria/Comitê</span> <input id=\"assinatura-diretoria\" name=\"assinaturaDiretoria\""
+        }
+      ]
+    },
+    {
+      "hash": "56e3ea90d9c40fe6a03633df4ea113cc",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g1/business-case.js",
+          "startLine": 151,
+          "endLine": 160,
+          "snippet": "<span>Diretoria/Comitê</span> <input id=\"assinatura-diretoria\" name=\"assinaturaDiretoria\" type=\"text\""
+        },
+        {
+          "file": "pages/artefatos/g1/carta-abertura.js",
+          "startLine": 262,
+          "endLine": 271,
+          "snippet": "<span>Diretoria/Comitê</span> <input id=\"assinatura-diretoria\" name=\"assinaturaDiretoria\" type=\"text\""
+        }
+      ]
+    },
+    {
+      "hash": "44b3eac03a52504454a8246faf5bed1a",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g1/business-case.js",
+          "startLine": 152,
+          "endLine": 161,
+          "snippet": "<input id=\"assinatura-diretoria\" name=\"assinaturaDiretoria\" type=\"text\" placeholder=\"Nome da diretoria/comitê\""
+        },
+        {
+          "file": "pages/artefatos/g1/carta-abertura.js",
+          "startLine": 263,
+          "endLine": 272,
+          "snippet": "<input id=\"assinatura-diretoria\" name=\"assinaturaDiretoria\" type=\"text\" placeholder=\"Nome da diretoria/comitê\""
+        }
+      ]
+    },
+    {
+      "hash": "b8cec1361467abf83490cb6894786f5c",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g1/business-case.js",
+          "startLine": 153,
+          "endLine": 162,
+          "snippet": "id=\"assinatura-diretoria\" name=\"assinaturaDiretoria\" type=\"text\" placeholder=\"Nome da diretoria/comitê\" />"
+        },
+        {
+          "file": "pages/artefatos/g1/carta-abertura.js",
+          "startLine": 264,
+          "endLine": 273,
+          "snippet": "id=\"assinatura-diretoria\" name=\"assinaturaDiretoria\" type=\"text\" placeholder=\"Nome da diretoria/comitê\" />"
+        }
+      ]
+    },
+    {
+      "hash": "0d854849d7a55735fcdccbd876d306fb",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g1/business-case.js",
+          "startLine": 154,
+          "endLine": 163,
+          "snippet": "name=\"assinaturaDiretoria\" type=\"text\" placeholder=\"Nome da diretoria/comitê\" /> </label>"
+        },
+        {
+          "file": "pages/artefatos/g1/carta-abertura.js",
+          "startLine": 265,
+          "endLine": 274,
+          "snippet": "name=\"assinaturaDiretoria\" type=\"text\" placeholder=\"Nome da diretoria/comitê\" /> </label>"
+        }
+      ]
+    },
+    {
+      "hash": "6560948acae6750e6ad325178617442e",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g1/business-case.js",
+          "startLine": 155,
+          "endLine": 164,
+          "snippet": "type=\"text\" placeholder=\"Nome da diretoria/comitê\" /> </label> <label className=\"form-field\" htmlFor=\"assinatura-pmo\">"
+        },
+        {
+          "file": "pages/artefatos/g1/carta-abertura.js",
+          "startLine": 266,
+          "endLine": 275,
+          "snippet": "type=\"text\" placeholder=\"Nome da diretoria/comitê\" /> </label> <label className=\"form-field\" htmlFor=\"assinatura-pmo\">"
+        }
+      ]
+    },
+    {
+      "hash": "b94550fd56755cc8e94d4ba458782a67",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g1/business-case.js",
+          "startLine": 156,
+          "endLine": 165,
+          "snippet": "placeholder=\"Nome da diretoria/comitê\" /> </label> <label className=\"form-field\" htmlFor=\"assinatura-pmo\"> <span>PMO</span>"
+        },
+        {
+          "file": "pages/artefatos/g1/carta-abertura.js",
+          "startLine": 267,
+          "endLine": 276,
+          "snippet": "placeholder=\"Nome da diretoria/comitê\" /> </label> <label className=\"form-field\" htmlFor=\"assinatura-pmo\"> <span>PMO</span>"
+        }
+      ]
+    },
+    {
+      "hash": "f03c321b9174aefef7ad1be7767b8f96",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g1/business-case.js",
+          "startLine": 157,
+          "endLine": 166,
+          "snippet": "/> </label> <label className=\"form-field\" htmlFor=\"assinatura-pmo\"> <span>PMO</span> <input id=\"assinatura-pmo\" name=\"assinaturaPmo\" type=\"text\" placeholder=\"Nome do responsável do PMO\" />"
+        },
+        {
+          "file": "pages/artefatos/g1/carta-abertura.js",
+          "startLine": 268,
+          "endLine": 277,
+          "snippet": "/> </label> <label className=\"form-field\" htmlFor=\"assinatura-pmo\"> <span>PMO</span> <input id=\"assinatura-pmo\" name=\"assinaturaPmo\" type=\"text\" placeholder=\"Nome do responsável do PMO\" />"
+        }
+      ]
+    },
+    {
+      "hash": "613493dbdd70f7bd963c851bdf0b0805",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g1/business-case.js",
+          "startLine": 158,
+          "endLine": 167,
+          "snippet": "</label> <label className=\"form-field\" htmlFor=\"assinatura-pmo\"> <span>PMO</span> <input id=\"assinatura-pmo\" name=\"assinaturaPmo\" type=\"text\" placeholder=\"Nome do responsável do PMO\" /> </label>"
+        },
+        {
+          "file": "pages/artefatos/g1/carta-abertura.js",
+          "startLine": 269,
+          "endLine": 278,
+          "snippet": "</label> <label className=\"form-field\" htmlFor=\"assinatura-pmo\"> <span>PMO</span> <input id=\"assinatura-pmo\" name=\"assinaturaPmo\" type=\"text\" placeholder=\"Nome do responsável do PMO\" /> </label>"
+        }
+      ]
+    },
+    {
+      "hash": "10298fbe1b8b2d5ced9c2c05758ec15b",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g1/business-case.js",
+          "startLine": 159,
+          "endLine": 168,
+          "snippet": "<label className=\"form-field\" htmlFor=\"assinatura-pmo\"> <span>PMO</span> <input id=\"assinatura-pmo\" name=\"assinaturaPmo\" type=\"text\" placeholder=\"Nome do responsável do PMO\" /> </label> </div>"
+        },
+        {
+          "file": "pages/artefatos/g1/carta-abertura.js",
+          "startLine": 270,
+          "endLine": 279,
+          "snippet": "<label className=\"form-field\" htmlFor=\"assinatura-pmo\"> <span>PMO</span> <input id=\"assinatura-pmo\" name=\"assinaturaPmo\" type=\"text\" placeholder=\"Nome do responsável do PMO\" /> </label> </div>"
+        }
+      ]
+    },
+    {
+      "hash": "3968465609e2eea15230602b60f5bc2b",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g1/business-case.js",
+          "startLine": 172,
+          "endLine": 181,
+          "snippet": "</Callout> </section>  <section className=\"content-card content-card--actions\"> <Button href=\"/artefatos/g1\" variant=\"secondary\">"
+        },
+        {
+          "file": "pages/artefatos/g1/carta-abertura.js",
+          "startLine": 283,
+          "endLine": 292,
+          "snippet": "</Callout> </section>  <section className=\"content-card content-card--actions\"> <Button href=\"/artefatos/g1\" variant=\"secondary\">"
+        },
+        {
+          "file": "pages/artefatos/g1/mapa-stakeholders.js",
+          "startLine": 181,
+          "endLine": 190,
+          "snippet": "</Callout> </section>  <section className=\"content-card content-card--actions\"> <Button href=\"/artefatos/g1\" variant=\"secondary\">"
+        }
+      ]
+    },
+    {
+      "hash": "74daa3aec5efd3a5894ce68af29aed33",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g1/business-case.js",
+          "startLine": 173,
+          "endLine": 182,
+          "snippet": "</section>  <section className=\"content-card content-card--actions\"> <Button href=\"/artefatos/g1\" variant=\"secondary\"> Voltar para Artefatos G1"
+        },
+        {
+          "file": "pages/artefatos/g1/carta-abertura.js",
+          "startLine": 284,
+          "endLine": 293,
+          "snippet": "</section>  <section className=\"content-card content-card--actions\"> <Button href=\"/artefatos/g1\" variant=\"secondary\"> Voltar para Artefatos G1"
+        },
+        {
+          "file": "pages/artefatos/g1/definicao-preliminar-dados.js",
+          "startLine": 81,
+          "endLine": 90,
+          "snippet": "</section>  <section className=\"content-card content-card--actions\"> <Button href=\"/artefatos/g1\" variant=\"secondary\"> Voltar para Artefatos G1"
+        },
+        {
+          "file": "pages/artefatos/g1/escopo-alto-nivel.js",
+          "startLine": 107,
+          "endLine": 116,
+          "snippet": "</section>  <section className=\"content-card content-card--actions\"> <Button href=\"/artefatos/g1\" variant=\"secondary\"> Voltar para Artefatos G1"
+        },
+        {
+          "file": "pages/artefatos/g1/kickoff-descoberta.js",
+          "startLine": 104,
+          "endLine": 113,
+          "snippet": "</section>  <section className=\"content-card content-card--actions\"> <Button href=\"/artefatos/g1\" variant=\"secondary\"> Voltar para Artefatos G1"
+        },
+        {
+          "file": "pages/artefatos/g1/mapa-stakeholders.js",
+          "startLine": 182,
+          "endLine": 191,
+          "snippet": "</section>  <section className=\"content-card content-card--actions\"> <Button href=\"/artefatos/g1\" variant=\"secondary\"> Voltar para Artefatos G1"
+        }
+      ]
+    },
+    {
+      "hash": "7b2db6a2ce1411b87c2cf7e6f1315e2c",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g1/business-case.js",
+          "startLine": 174,
+          "endLine": 183,
+          "snippet": " <section className=\"content-card content-card--actions\"> <Button href=\"/artefatos/g1\" variant=\"secondary\"> Voltar para Artefatos G1 </Button>"
+        },
+        {
+          "file": "pages/artefatos/g1/carta-abertura.js",
+          "startLine": 285,
+          "endLine": 294,
+          "snippet": " <section className=\"content-card content-card--actions\"> <Button href=\"/artefatos/g1\" variant=\"secondary\"> Voltar para Artefatos G1 </Button>"
+        },
+        {
+          "file": "pages/artefatos/g1/definicao-preliminar-dados.js",
+          "startLine": 82,
+          "endLine": 91,
+          "snippet": " <section className=\"content-card content-card--actions\"> <Button href=\"/artefatos/g1\" variant=\"secondary\"> Voltar para Artefatos G1 </Button>"
+        },
+        {
+          "file": "pages/artefatos/g1/escopo-alto-nivel.js",
+          "startLine": 108,
+          "endLine": 117,
+          "snippet": " <section className=\"content-card content-card--actions\"> <Button href=\"/artefatos/g1\" variant=\"secondary\"> Voltar para Artefatos G1 </Button>"
+        },
+        {
+          "file": "pages/artefatos/g1/kickoff-descoberta.js",
+          "startLine": 105,
+          "endLine": 114,
+          "snippet": " <section className=\"content-card content-card--actions\"> <Button href=\"/artefatos/g1\" variant=\"secondary\"> Voltar para Artefatos G1 </Button>"
+        },
+        {
+          "file": "pages/artefatos/g1/mapa-stakeholders.js",
+          "startLine": 183,
+          "endLine": 192,
+          "snippet": " <section className=\"content-card content-card--actions\"> <Button href=\"/artefatos/g1\" variant=\"secondary\"> Voltar para Artefatos G1 </Button>"
+        }
+      ]
+    },
+    {
+      "hash": "84d9243ea563a8108acb6771864723a3",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g1/business-case.js",
+          "startLine": 175,
+          "endLine": 184,
+          "snippet": "<section className=\"content-card content-card--actions\"> <Button href=\"/artefatos/g1\" variant=\"secondary\"> Voltar para Artefatos G1 </Button> </section>"
+        },
+        {
+          "file": "pages/artefatos/g1/carta-abertura.js",
+          "startLine": 286,
+          "endLine": 295,
+          "snippet": "<section className=\"content-card content-card--actions\"> <Button href=\"/artefatos/g1\" variant=\"secondary\"> Voltar para Artefatos G1 </Button> </section>"
+        },
+        {
+          "file": "pages/artefatos/g1/definicao-preliminar-dados.js",
+          "startLine": 83,
+          "endLine": 92,
+          "snippet": "<section className=\"content-card content-card--actions\"> <Button href=\"/artefatos/g1\" variant=\"secondary\"> Voltar para Artefatos G1 </Button> </section>"
+        },
+        {
+          "file": "pages/artefatos/g1/escopo-alto-nivel.js",
+          "startLine": 109,
+          "endLine": 118,
+          "snippet": "<section className=\"content-card content-card--actions\"> <Button href=\"/artefatos/g1\" variant=\"secondary\"> Voltar para Artefatos G1 </Button> </section>"
+        },
+        {
+          "file": "pages/artefatos/g1/kickoff-descoberta.js",
+          "startLine": 106,
+          "endLine": 115,
+          "snippet": "<section className=\"content-card content-card--actions\"> <Button href=\"/artefatos/g1\" variant=\"secondary\"> Voltar para Artefatos G1 </Button> </section>"
+        },
+        {
+          "file": "pages/artefatos/g1/mapa-stakeholders.js",
+          "startLine": 184,
+          "endLine": 193,
+          "snippet": "<section className=\"content-card content-card--actions\"> <Button href=\"/artefatos/g1\" variant=\"secondary\"> Voltar para Artefatos G1 </Button> </section>"
+        }
+      ]
+    },
+    {
+      "hash": "0282871adc7aac139f394a7b74492209",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g1/definicao-preliminar-dados.js",
+          "startLine": 79,
+          "endLine": 88,
+          "snippet": "</li> </ul> </section>  <section className=\"content-card content-card--actions\">"
+        },
+        {
+          "file": "pages/artefatos/g1/escopo-alto-nivel.js",
+          "startLine": 105,
+          "endLine": 114,
+          "snippet": "</li> </ul> </section>  <section className=\"content-card content-card--actions\">"
+        }
+      ]
+    },
+    {
+      "hash": "3c0c9acc0d517c0e088d4855684e9c16",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g1/definicao-preliminar-dados.js",
+          "startLine": 80,
+          "endLine": 89,
+          "snippet": "</ul> </section>  <section className=\"content-card content-card--actions\"> <Button href=\"/artefatos/g1\" variant=\"secondary\">"
+        },
+        {
+          "file": "pages/artefatos/g1/escopo-alto-nivel.js",
+          "startLine": 106,
+          "endLine": 115,
+          "snippet": "</ul> </section>  <section className=\"content-card content-card--actions\"> <Button href=\"/artefatos/g1\" variant=\"secondary\">"
+        }
+      ]
+    },
+    {
+      "hash": "563ca34ed269ae6316d9bd7e344a64bd",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g1/mapa-stakeholders.js",
+          "startLine": 23,
+          "endLine": 32,
+          "snippet": "<p> <strong>Projeto:</strong> __________________________________ </p> <p> <strong>Data:</strong> dd/mm/aaaa"
+        },
+        {
+          "file": "pages/artefatos/g2/orcamento-baseline.js",
+          "startLine": 23,
+          "endLine": 32,
+          "snippet": "<p> <strong>Projeto:</strong> __________________________________ </p> <p> <strong>Data:</strong> dd/mm/aaaa"
+        },
+        {
+          "file": "pages/artefatos/g2/plano-comunicacao-detalhado.js",
+          "startLine": 22,
+          "endLine": 31,
+          "snippet": "<p> <strong>Projeto:</strong> __________________________________ </p> <p> <strong>Data:</strong> dd/mm/aaaa"
+        },
+        {
+          "file": "pages/artefatos/g2/plano-riscos.js",
+          "startLine": 22,
+          "endLine": 31,
+          "snippet": "<p> <strong>Projeto:</strong> __________________________________ </p> <p> <strong>Data:</strong> dd/mm/aaaa"
+        },
+        {
+          "file": "pages/artefatos/g3/plano-comunicacao.js",
+          "startLine": 21,
+          "endLine": 30,
+          "snippet": "<p> <strong>Projeto:</strong> __________________________________ </p> <p> <strong>Data:</strong> dd/mm/aaaa"
+        },
+        {
+          "file": "pages/artefatos/g4/licoes-aprendidas.js",
+          "startLine": 21,
+          "endLine": 30,
+          "snippet": "<p> <strong>Projeto:</strong> __________________________________ </p> <p> <strong>Data:</strong> dd/mm/aaaa"
+        },
+        {
+          "file": "pages/artefatos/g4/termo-aceite-sponsor.js",
+          "startLine": 21,
+          "endLine": 30,
+          "snippet": "<p> <strong>Projeto:</strong> __________________________________ </p> <p> <strong>Data:</strong> dd/mm/aaaa"
+        }
+      ]
+    },
+    {
+      "hash": "f3c9001765b6a1d01d124bb9ae24052b",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g1/mapa-stakeholders.js",
+          "startLine": 24,
+          "endLine": 33,
+          "snippet": "<strong>Projeto:</strong> __________________________________ </p> <p> <strong>Data:</strong> dd/mm/aaaa </p>"
+        },
+        {
+          "file": "pages/artefatos/g2/orcamento-baseline.js",
+          "startLine": 24,
+          "endLine": 33,
+          "snippet": "<strong>Projeto:</strong> __________________________________ </p> <p> <strong>Data:</strong> dd/mm/aaaa </p>"
+        },
+        {
+          "file": "pages/artefatos/g2/plano-comunicacao-detalhado.js",
+          "startLine": 23,
+          "endLine": 32,
+          "snippet": "<strong>Projeto:</strong> __________________________________ </p> <p> <strong>Data:</strong> dd/mm/aaaa </p>"
+        },
+        {
+          "file": "pages/artefatos/g2/plano-riscos.js",
+          "startLine": 23,
+          "endLine": 32,
+          "snippet": "<strong>Projeto:</strong> __________________________________ </p> <p> <strong>Data:</strong> dd/mm/aaaa </p>"
+        },
+        {
+          "file": "pages/artefatos/g3/plano-comunicacao.js",
+          "startLine": 22,
+          "endLine": 31,
+          "snippet": "<strong>Projeto:</strong> __________________________________ </p> <p> <strong>Data:</strong> dd/mm/aaaa </p>"
+        },
+        {
+          "file": "pages/artefatos/g4/licoes-aprendidas.js",
+          "startLine": 22,
+          "endLine": 31,
+          "snippet": "<strong>Projeto:</strong> __________________________________ </p> <p> <strong>Data:</strong> dd/mm/aaaa </p>"
+        },
+        {
+          "file": "pages/artefatos/g4/termo-aceite-sponsor.js",
+          "startLine": 22,
+          "endLine": 31,
+          "snippet": "<strong>Projeto:</strong> __________________________________ </p> <p> <strong>Data:</strong> dd/mm/aaaa </p>"
+        }
+      ]
+    },
+    {
+      "hash": "bc60a7a929b66c32eddcc68a91c1ae30",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g1/mapa-stakeholders.js",
+          "startLine": 25,
+          "endLine": 34,
+          "snippet": "</p> <p> <strong>Data:</strong> dd/mm/aaaa </p> <p>"
+        },
+        {
+          "file": "pages/artefatos/g2/cronograma.js",
+          "startLine": 24,
+          "endLine": 33,
+          "snippet": "</p> <p> <strong>Data:</strong> dd/mm/aaaa </p> <p>"
+        },
+        {
+          "file": "pages/artefatos/g2/orcamento-baseline.js",
+          "startLine": 25,
+          "endLine": 34,
+          "snippet": "</p> <p> <strong>Data:</strong> dd/mm/aaaa </p> <p>"
+        },
+        {
+          "file": "pages/artefatos/g2/plano-comunicacao-detalhado.js",
+          "startLine": 24,
+          "endLine": 33,
+          "snippet": "</p> <p> <strong>Data:</strong> dd/mm/aaaa </p> <p>"
+        },
+        {
+          "file": "pages/artefatos/g2/plano-riscos.js",
+          "startLine": 24,
+          "endLine": 33,
+          "snippet": "</p> <p> <strong>Data:</strong> dd/mm/aaaa </p> <p>"
+        },
+        {
+          "file": "pages/artefatos/g3/plano-comunicacao.js",
+          "startLine": 23,
+          "endLine": 32,
+          "snippet": "</p> <p> <strong>Data:</strong> dd/mm/aaaa </p> <p>"
+        },
+        {
+          "file": "pages/artefatos/g3/plano-gestao-fornecedores.js",
+          "startLine": 22,
+          "endLine": 31,
+          "snippet": "</p> <p> <strong>Data:</strong> dd/mm/aaaa </p> <p>"
+        },
+        {
+          "file": "pages/artefatos/g4/licoes-aprendidas.js",
+          "startLine": 23,
+          "endLine": 32,
+          "snippet": "</p> <p> <strong>Data:</strong> dd/mm/aaaa </p> <p>"
+        },
+        {
+          "file": "pages/artefatos/g4/termo-aceite-sponsor.js",
+          "startLine": 23,
+          "endLine": 32,
+          "snippet": "</p> <p> <strong>Data:</strong> dd/mm/aaaa </p> <p>"
+        }
+      ]
+    },
+    {
+      "hash": "820229fea2f804274d7fc4800b24b42b",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g2/cronograma.js",
+          "startLine": 22,
+          "endLine": 31,
+          "snippet": "<p> <strong>Projeto:</strong> __________________________ </p> <p> <strong>Data:</strong> dd/mm/aaaa"
+        },
+        {
+          "file": "pages/artefatos/g3/plano-gestao-fornecedores.js",
+          "startLine": 20,
+          "endLine": 29,
+          "snippet": "<p> <strong>Projeto:</strong> __________________________ </p> <p> <strong>Data:</strong> dd/mm/aaaa"
+        }
+      ]
+    },
+    {
+      "hash": "d5369e1663230ea1c7893b240ac6e859",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g2/cronograma.js",
+          "startLine": 23,
+          "endLine": 32,
+          "snippet": "<strong>Projeto:</strong> __________________________ </p> <p> <strong>Data:</strong> dd/mm/aaaa </p>"
+        },
+        {
+          "file": "pages/artefatos/g3/plano-gestao-fornecedores.js",
+          "startLine": 21,
+          "endLine": 30,
+          "snippet": "<strong>Projeto:</strong> __________________________ </p> <p> <strong>Data:</strong> dd/mm/aaaa </p>"
+        }
+      ]
+    },
+    {
+      "hash": "adb7a9f54a8cc7978004fa40c7612f0e",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g2/eap-wbs.js",
+          "startLine": 22,
+          "endLine": 31,
+          "snippet": "<p> <strong>Projeto:</strong> __________________________________ </p> <p> <strong>Versão:</strong> 1.0"
+        },
+        {
+          "file": "pages/artefatos/g3/registro-testes-aprovados.js",
+          "startLine": 34,
+          "endLine": 43,
+          "snippet": "<p> <strong>Projeto:</strong> __________________________________ </p> <p> <strong>Versão:</strong> 1.0"
+        },
+        {
+          "file": "pages/artefatos/g3/registro-treinamento-concluido.js",
+          "startLine": 21,
+          "endLine": 30,
+          "snippet": "<p> <strong>Projeto:</strong> __________________________________ </p> <p> <strong>Versão:</strong> 1.0"
+        }
+      ]
+    },
+    {
+      "hash": "bcca000ef46b965e9bfc5504080e8562",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g2/eap-wbs.js",
+          "startLine": 23,
+          "endLine": 32,
+          "snippet": "<strong>Projeto:</strong> __________________________________ </p> <p> <strong>Versão:</strong> 1.0 </p>"
+        },
+        {
+          "file": "pages/artefatos/g3/registro-testes-aprovados.js",
+          "startLine": 35,
+          "endLine": 44,
+          "snippet": "<strong>Projeto:</strong> __________________________________ </p> <p> <strong>Versão:</strong> 1.0 </p>"
+        },
+        {
+          "file": "pages/artefatos/g3/registro-treinamento-concluido.js",
+          "startLine": 22,
+          "endLine": 31,
+          "snippet": "<strong>Projeto:</strong> __________________________________ </p> <p> <strong>Versão:</strong> 1.0 </p>"
+        }
+      ]
+    },
+    {
+      "hash": "61f3fd790ffedaa3c929f078e3923998",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g2/eap-wbs.js",
+          "startLine": 24,
+          "endLine": 33,
+          "snippet": "</p> <p> <strong>Versão:</strong> 1.0 </p> <p>"
+        },
+        {
+          "file": "pages/artefatos/g3/registro-testes-aprovados.js",
+          "startLine": 36,
+          "endLine": 45,
+          "snippet": "</p> <p> <strong>Versão:</strong> 1.0 </p> <p>"
+        },
+        {
+          "file": "pages/artefatos/g3/registro-treinamento-concluido.js",
+          "startLine": 23,
+          "endLine": 32,
+          "snippet": "</p> <p> <strong>Versão:</strong> 1.0 </p> <p>"
+        }
+      ]
+    },
+    {
+      "hash": "de5f990e7656fe4c8beea7f168931d57",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g2/orcamento-baseline.js",
+          "startLine": 26,
+          "endLine": 35,
+          "snippet": "<p> <strong>Data:</strong> dd/mm/aaaa </p> <p> <strong>Versão:</strong> 1.0"
+        },
+        {
+          "file": "pages/artefatos/g2/plano-comunicacao-detalhado.js",
+          "startLine": 25,
+          "endLine": 34,
+          "snippet": "<p> <strong>Data:</strong> dd/mm/aaaa </p> <p> <strong>Versão:</strong> 1.0"
+        },
+        {
+          "file": "pages/artefatos/g2/plano-riscos.js",
+          "startLine": 25,
+          "endLine": 34,
+          "snippet": "<p> <strong>Data:</strong> dd/mm/aaaa </p> <p> <strong>Versão:</strong> 1.0"
+        },
+        {
+          "file": "pages/artefatos/g3/plano-comunicacao.js",
+          "startLine": 24,
+          "endLine": 33,
+          "snippet": "<p> <strong>Data:</strong> dd/mm/aaaa </p> <p> <strong>Versão:</strong> 1.0"
+        },
+        {
+          "file": "pages/artefatos/g4/licoes-aprendidas.js",
+          "startLine": 24,
+          "endLine": 33,
+          "snippet": "<p> <strong>Data:</strong> dd/mm/aaaa </p> <p> <strong>Versão:</strong> 1.0"
+        }
+      ]
+    },
+    {
+      "hash": "459fde127af61298ef116cc9b7256901",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g2/orcamento-baseline.js",
+          "startLine": 27,
+          "endLine": 36,
+          "snippet": "<strong>Data:</strong> dd/mm/aaaa </p> <p> <strong>Versão:</strong> 1.0 </p>"
+        },
+        {
+          "file": "pages/artefatos/g2/plano-comunicacao-detalhado.js",
+          "startLine": 26,
+          "endLine": 35,
+          "snippet": "<strong>Data:</strong> dd/mm/aaaa </p> <p> <strong>Versão:</strong> 1.0 </p>"
+        },
+        {
+          "file": "pages/artefatos/g2/plano-riscos.js",
+          "startLine": 26,
+          "endLine": 35,
+          "snippet": "<strong>Data:</strong> dd/mm/aaaa </p> <p> <strong>Versão:</strong> 1.0 </p>"
+        },
+        {
+          "file": "pages/artefatos/g3/plano-comunicacao.js",
+          "startLine": 25,
+          "endLine": 34,
+          "snippet": "<strong>Data:</strong> dd/mm/aaaa </p> <p> <strong>Versão:</strong> 1.0 </p>"
+        },
+        {
+          "file": "pages/artefatos/g4/licoes-aprendidas.js",
+          "startLine": 25,
+          "endLine": 34,
+          "snippet": "<strong>Data:</strong> dd/mm/aaaa </p> <p> <strong>Versão:</strong> 1.0 </p>"
+        }
+      ]
+    },
+    {
+      "hash": "acf4751cf27ab0b9ada6a2c25baa8d5d",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g2/plano-aquisicoes.js",
+          "startLine": 150,
+          "endLine": 159,
+          "snippet": "</tr> </tbody> </table> </div> </section>"
+        },
+        {
+          "file": "pages/artefatos/g2/plano-implantacao-rollback.js",
+          "startLine": 153,
+          "endLine": 162,
+          "snippet": "</tr> </tbody> </table> </div> </section>"
+        },
+        {
+          "file": "pages/artefatos/g2/plano-juridico-contratos.js",
+          "startLine": 171,
+          "endLine": 180,
+          "snippet": "</tr> </tbody> </table> </div> </section>"
+        },
+        {
+          "file": "pages/artefatos/g2/plano-operacao-logistica.js",
+          "startLine": 132,
+          "endLine": 141,
+          "snippet": "</tr> </tbody> </table> </div> </section>"
+        },
+        {
+          "file": "pages/artefatos/g2/plano-treinamento-change-management.js",
+          "startLine": 150,
+          "endLine": 159,
+          "snippet": "</tr> </tbody> </table> </div> </section>"
+        }
+      ]
+    },
+    {
+      "hash": "15a05c95df6ded996961c29cda4e7f25",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g2/plano-juridico-contratos.js",
+          "startLine": 75,
+          "endLine": 84,
+          "snippet": "<div className=\"table-wrapper\"> <table> <thead> <tr> <th>Risco</th>"
+        },
+        {
+          "file": "pages/artefatos/g3/plano-gestao-fornecedores.js",
+          "startLine": 144,
+          "endLine": 153,
+          "snippet": "<div className=\"table-wrapper\"> <table> <thead> <tr> <th>Risco</th>"
+        }
+      ]
+    },
+    {
+      "hash": "e29e4855fc970a2a302c67f4406ab887",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g2/plano-juridico-contratos.js",
+          "startLine": 76,
+          "endLine": 85,
+          "snippet": "<table> <thead> <tr> <th>Risco</th> <th>Impacto</th>"
+        },
+        {
+          "file": "pages/artefatos/g3/plano-gestao-fornecedores.js",
+          "startLine": 145,
+          "endLine": 154,
+          "snippet": "<table> <thead> <tr> <th>Risco</th> <th>Impacto</th>"
+        }
+      ]
+    },
+    {
+      "hash": "3325ee8c3d2f39f0d084cf43f48efea9",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g2/plano-operacao-logistica.js",
+          "startLine": 131,
+          "endLine": 140,
+          "snippet": "<td>Pendente</td> </tr> </tbody> </table> </div>"
+        },
+        {
+          "file": "pages/artefatos/g2/plano-pedagogico-produto.js",
+          "startLine": 128,
+          "endLine": 137,
+          "snippet": "<td>Pendente</td> </tr> </tbody> </table> </div>"
+        },
+        {
+          "file": "pages/artefatos/g2/plano-tecnologia-dados.js",
+          "startLine": 120,
+          "endLine": 129,
+          "snippet": "<td>Pendente</td> </tr> </tbody> </table> </div>"
+        }
+      ]
+    },
+    {
+      "hash": "62972f2b4a506d87ad80025af37f0e8e",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g3/plano-comunicacao.js",
+          "startLine": 17,
+          "endLine": 26,
+          "snippet": "hero={hero} > <article className=\"artifact-form\"> <section className=\"content-card\"> <p>"
+        },
+        {
+          "file": "pages/artefatos/g4/licoes-aprendidas.js",
+          "startLine": 17,
+          "endLine": 26,
+          "snippet": "hero={hero} > <article className=\"artifact-form\"> <section className=\"content-card\"> <p>"
+        },
+        {
+          "file": "pages/artefatos/g4/termo-aceite-sponsor.js",
+          "startLine": 17,
+          "endLine": 26,
+          "snippet": "hero={hero} > <article className=\"artifact-form\"> <section className=\"content-card\"> <p>"
+        }
+      ]
+    },
+    {
+      "hash": "65cf0edc325ae85a93d38d7a2cbc9c30",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g3/plano-comunicacao.js",
+          "startLine": 18,
+          "endLine": 27,
+          "snippet": "> <article className=\"artifact-form\"> <section className=\"content-card\"> <p> <strong>Projeto:</strong> __________________________________"
+        },
+        {
+          "file": "pages/artefatos/g4/licoes-aprendidas.js",
+          "startLine": 18,
+          "endLine": 27,
+          "snippet": "> <article className=\"artifact-form\"> <section className=\"content-card\"> <p> <strong>Projeto:</strong> __________________________________"
+        },
+        {
+          "file": "pages/artefatos/g4/termo-aceite-sponsor.js",
+          "startLine": 18,
+          "endLine": 27,
+          "snippet": "> <article className=\"artifact-form\"> <section className=\"content-card\"> <p> <strong>Projeto:</strong> __________________________________"
+        }
+      ]
+    },
+    {
+      "hash": "8ed259440caf625f35cda9f9ce199f19",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g3/plano-comunicacao.js",
+          "startLine": 19,
+          "endLine": 28,
+          "snippet": "<article className=\"artifact-form\"> <section className=\"content-card\"> <p> <strong>Projeto:</strong> __________________________________ </p>"
+        },
+        {
+          "file": "pages/artefatos/g4/licoes-aprendidas.js",
+          "startLine": 19,
+          "endLine": 28,
+          "snippet": "<article className=\"artifact-form\"> <section className=\"content-card\"> <p> <strong>Projeto:</strong> __________________________________ </p>"
+        },
+        {
+          "file": "pages/artefatos/g4/termo-aceite-sponsor.js",
+          "startLine": 19,
+          "endLine": 28,
+          "snippet": "<article className=\"artifact-form\"> <section className=\"content-card\"> <p> <strong>Projeto:</strong> __________________________________ </p>"
+        }
+      ]
+    },
+    {
+      "hash": "60cd4a440faae77d2e96c969b0a07ff1",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g3/plano-comunicacao.js",
+          "startLine": 20,
+          "endLine": 29,
+          "snippet": "<section className=\"content-card\"> <p> <strong>Projeto:</strong> __________________________________ </p> <p>"
+        },
+        {
+          "file": "pages/artefatos/g4/licoes-aprendidas.js",
+          "startLine": 20,
+          "endLine": 29,
+          "snippet": "<section className=\"content-card\"> <p> <strong>Projeto:</strong> __________________________________ </p> <p>"
+        },
+        {
+          "file": "pages/artefatos/g4/termo-aceite-sponsor.js",
+          "startLine": 20,
+          "endLine": 29,
+          "snippet": "<section className=\"content-card\"> <p> <strong>Projeto:</strong> __________________________________ </p> <p>"
+        }
+      ]
+    },
+    {
+      "hash": "e7052a39d665a7a2091d4b97ba3104fe",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g3/registro-testes-aprovados.js",
+          "startLine": 30,
+          "endLine": 39,
+          "snippet": "hero={hero} > <article className=\"artifact-form\"> <section className=\"content-card\"> <p>"
+        },
+        {
+          "file": "pages/artefatos/g3/registro-treinamento-concluido.js",
+          "startLine": 17,
+          "endLine": 26,
+          "snippet": "hero={hero} > <article className=\"artifact-form\"> <section className=\"content-card\"> <p>"
+        }
+      ]
+    },
+    {
+      "hash": "760a2ed49c840359e582f16632e9b46a",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g3/registro-testes-aprovados.js",
+          "startLine": 31,
+          "endLine": 40,
+          "snippet": "> <article className=\"artifact-form\"> <section className=\"content-card\"> <p> <strong>Projeto:</strong> __________________________________"
+        },
+        {
+          "file": "pages/artefatos/g3/registro-treinamento-concluido.js",
+          "startLine": 18,
+          "endLine": 27,
+          "snippet": "> <article className=\"artifact-form\"> <section className=\"content-card\"> <p> <strong>Projeto:</strong> __________________________________"
+        }
+      ]
+    },
+    {
+      "hash": "16519b5d065efb3cae5206a28a6f5769",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g3/registro-testes-aprovados.js",
+          "startLine": 32,
+          "endLine": 41,
+          "snippet": "<article className=\"artifact-form\"> <section className=\"content-card\"> <p> <strong>Projeto:</strong> __________________________________ </p>"
+        },
+        {
+          "file": "pages/artefatos/g3/registro-treinamento-concluido.js",
+          "startLine": 19,
+          "endLine": 28,
+          "snippet": "<article className=\"artifact-form\"> <section className=\"content-card\"> <p> <strong>Projeto:</strong> __________________________________ </p>"
+        }
+      ]
+    },
+    {
+      "hash": "1fe4ad024a73a1418890bb3973112592",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g3/registro-testes-aprovados.js",
+          "startLine": 33,
+          "endLine": 42,
+          "snippet": "<section className=\"content-card\"> <p> <strong>Projeto:</strong> __________________________________ </p> <p>"
+        },
+        {
+          "file": "pages/artefatos/g3/registro-treinamento-concluido.js",
+          "startLine": 20,
+          "endLine": 29,
+          "snippet": "<section className=\"content-card\"> <p> <strong>Projeto:</strong> __________________________________ </p> <p>"
+        }
+      ]
+    },
+    {
+      "hash": "2903f4eb27f9b1090050a8dbc9750985",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g3/registro-testes-aprovados.js",
+          "startLine": 37,
+          "endLine": 46,
+          "snippet": "<p> <strong>Versão:</strong> 1.0 </p> <p> <strong>Data:</strong> dd/mm/aaaa"
+        },
+        {
+          "file": "pages/artefatos/g3/registro-treinamento-concluido.js",
+          "startLine": 24,
+          "endLine": 33,
+          "snippet": "<p> <strong>Versão:</strong> 1.0 </p> <p> <strong>Data:</strong> dd/mm/aaaa"
+        }
+      ]
+    },
+    {
+      "hash": "52d3c777da786618e9b7960169d65735",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g3/registro-testes-aprovados.js",
+          "startLine": 38,
+          "endLine": 47,
+          "snippet": "<strong>Versão:</strong> 1.0 </p> <p> <strong>Data:</strong> dd/mm/aaaa </p>"
+        },
+        {
+          "file": "pages/artefatos/g3/registro-treinamento-concluido.js",
+          "startLine": 25,
+          "endLine": 34,
+          "snippet": "<strong>Versão:</strong> 1.0 </p> <p> <strong>Data:</strong> dd/mm/aaaa </p>"
+        }
+      ]
+    },
+    {
+      "hash": "bdefbc0afbb033978d05c9a8bf165075",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g3/report-executivo.js",
+          "startLine": 46,
+          "endLine": 55,
+          "snippet": "<th>Escopo</th> <th>Prazo</th> <th>Qualidade</th> <th>Risco</th> <th>Situação Contratual</th>"
+        },
+        {
+          "file": "pages/artefatos/g3/revisao-semanal-gp-pmo.js",
+          "startLine": 45,
+          "endLine": 54,
+          "snippet": "<th>Escopo</th> <th>Prazo</th> <th>Qualidade</th> <th>Risco</th> <th>Situação Contratual</th>"
+        }
+      ]
+    },
+    {
+      "hash": "8738129d1674cb27cf2b7967f90f6839",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g3/report-executivo.js",
+          "startLine": 47,
+          "endLine": 56,
+          "snippet": "<th>Prazo</th> <th>Qualidade</th> <th>Risco</th> <th>Situação Contratual</th> <th>Status Geral</th>"
+        },
+        {
+          "file": "pages/artefatos/g3/revisao-semanal-gp-pmo.js",
+          "startLine": 46,
+          "endLine": 55,
+          "snippet": "<th>Prazo</th> <th>Qualidade</th> <th>Risco</th> <th>Situação Contratual</th> <th>Status Geral</th>"
+        }
+      ]
+    },
+    {
+      "hash": "8a6b29063a402dc82c131ce75e179662",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g3/report-executivo.js",
+          "startLine": 78,
+          "endLine": 87,
+          "snippet": "<td>🟢</td> <td>🟢</td> <td>🟢</td> <td>🟢</td> <td>🟢</td>"
+        },
+        {
+          "file": "pages/artefatos/g3/revisao-semanal-gp-pmo.js",
+          "startLine": 74,
+          "endLine": 83,
+          "snippet": "<td>🟢</td> <td>🟢</td> <td>🟢</td> <td>🟢</td> <td>🟢</td>"
+        }
+      ]
+    },
+    {
+      "hash": "2cd5c396620e70a64d3eb2e4a3eb035c",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g3/report-executivo.js",
+          "startLine": 79,
+          "endLine": 88,
+          "snippet": "<td>🟢</td> <td>🟢</td> <td>🟢</td> <td>🟢</td> <td>OK</td>"
+        },
+        {
+          "file": "pages/artefatos/g3/revisao-semanal-gp-pmo.js",
+          "startLine": 75,
+          "endLine": 84,
+          "snippet": "<td>🟢</td> <td>🟢</td> <td>🟢</td> <td>🟢</td> <td>OK</td>"
+        }
+      ]
+    },
+    {
+      "hash": "0c9a2dec13f0e60d974429a9cd84aec4",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g3/report-executivo.js",
+          "startLine": 80,
+          "endLine": 89,
+          "snippet": "<td>🟢</td> <td>🟢</td> <td>🟢</td> <td>OK</td> </tr>"
+        },
+        {
+          "file": "pages/artefatos/g3/revisao-semanal-gp-pmo.js",
+          "startLine": 76,
+          "endLine": 85,
+          "snippet": "<td>🟢</td> <td>🟢</td> <td>🟢</td> <td>OK</td> </tr>"
+        }
+      ]
+    },
+    {
+      "hash": "dde76bd89f16c50a8862ead205ece0d9",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g3/report-executivo.js",
+          "startLine": 81,
+          "endLine": 90,
+          "snippet": "<td>🟢</td> <td>🟢</td> <td>OK</td> </tr> </tbody>"
+        },
+        {
+          "file": "pages/artefatos/g3/revisao-semanal-gp-pmo.js",
+          "startLine": 77,
+          "endLine": 86,
+          "snippet": "<td>🟢</td> <td>🟢</td> <td>OK</td> </tr> </tbody>"
+        }
+      ]
+    },
+    {
+      "hash": "b833f7274041a7eac43d26bbe4a61cf5",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g4/avaliacao-beneficios.js",
+          "startLine": 87,
+          "endLine": 96,
+          "snippet": "<div className=\"table-wrapper\"> <table> <thead> <tr> <th>Benefício</th>"
+        },
+        {
+          "file": "pages/artefatos/g4/avaliacao-beneficios.js",
+          "startLine": 129,
+          "endLine": 138,
+          "snippet": "<div className=\"table-wrapper\"> <table> <thead> <tr> <th>Benefício</th>"
+        },
+        {
+          "file": "pages/artefatos/g4/avaliacao-beneficios.js",
+          "startLine": 171,
+          "endLine": 180,
+          "snippet": "<div className=\"table-wrapper\"> <table> <thead> <tr> <th>Benefício</th>"
+        }
+      ]
+    },
+    {
+      "hash": "85bef93abd2ec871781009e25ae174c0",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g4/avaliacao-beneficios.js",
+          "startLine": 88,
+          "endLine": 97,
+          "snippet": "<table> <thead> <tr> <th>Benefício</th> <th>Resultado Obtido</th>"
+        },
+        {
+          "file": "pages/artefatos/g4/avaliacao-beneficios.js",
+          "startLine": 130,
+          "endLine": 139,
+          "snippet": "<table> <thead> <tr> <th>Benefício</th> <th>Resultado Obtido</th>"
+        },
+        {
+          "file": "pages/artefatos/g4/avaliacao-beneficios.js",
+          "startLine": 172,
+          "endLine": 181,
+          "snippet": "<table> <thead> <tr> <th>Benefício</th> <th>Resultado Obtido</th>"
+        }
+      ]
+    },
+    {
+      "hash": "5d917b682ad92a6fed368bf2a87ba220",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g4/avaliacao-beneficios.js",
+          "startLine": 89,
+          "endLine": 98,
+          "snippet": "<thead> <tr> <th>Benefício</th> <th>Resultado Obtido</th> <th>Status</th>"
+        },
+        {
+          "file": "pages/artefatos/g4/avaliacao-beneficios.js",
+          "startLine": 131,
+          "endLine": 140,
+          "snippet": "<thead> <tr> <th>Benefício</th> <th>Resultado Obtido</th> <th>Status</th>"
+        },
+        {
+          "file": "pages/artefatos/g4/avaliacao-beneficios.js",
+          "startLine": 173,
+          "endLine": 182,
+          "snippet": "<thead> <tr> <th>Benefício</th> <th>Resultado Obtido</th> <th>Status</th>"
+        }
+      ]
+    },
+    {
+      "hash": "29bceadffedeb36187a4e050e9cc5661",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g4/avaliacao-beneficios.js",
+          "startLine": 90,
+          "endLine": 99,
+          "snippet": "<tr> <th>Benefício</th> <th>Resultado Obtido</th> <th>Status</th> <th>Observações</th>"
+        },
+        {
+          "file": "pages/artefatos/g4/avaliacao-beneficios.js",
+          "startLine": 132,
+          "endLine": 141,
+          "snippet": "<tr> <th>Benefício</th> <th>Resultado Obtido</th> <th>Status</th> <th>Observações</th>"
+        },
+        {
+          "file": "pages/artefatos/g4/avaliacao-beneficios.js",
+          "startLine": 174,
+          "endLine": 183,
+          "snippet": "<tr> <th>Benefício</th> <th>Resultado Obtido</th> <th>Status</th> <th>Observações</th>"
+        }
+      ]
+    },
+    {
+      "hash": "8592c640e72a110e814d2311a57d73ae",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g4/avaliacao-beneficios.js",
+          "startLine": 115,
+          "endLine": 124,
+          "snippet": "</tr> <tr> <td>Dashboard semanal</td> <td>100% entregue</td> <td>🟢 OK</td>"
+        },
+        {
+          "file": "pages/artefatos/g4/avaliacao-beneficios.js",
+          "startLine": 157,
+          "endLine": 166,
+          "snippet": "</tr> <tr> <td>Dashboard semanal</td> <td>100% entregue</td> <td>🟢 OK</td>"
+        }
+      ]
+    },
+    {
+      "hash": "717ebdbc45f2d52d046a8baec2c2f58f",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g4/avaliacao-beneficios.js",
+          "startLine": 116,
+          "endLine": 125,
+          "snippet": "<tr> <td>Dashboard semanal</td> <td>100% entregue</td> <td>🟢 OK</td> <td></td>"
+        },
+        {
+          "file": "pages/artefatos/g4/avaliacao-beneficios.js",
+          "startLine": 158,
+          "endLine": 167,
+          "snippet": "<tr> <td>Dashboard semanal</td> <td>100% entregue</td> <td>🟢 OK</td> <td></td>"
+        }
+      ]
+    },
+    {
+      "hash": "56ccdd441c3251b93b4686e23c2bdef2",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g4/avaliacao-beneficios.js",
+          "startLine": 117,
+          "endLine": 126,
+          "snippet": "<td>Dashboard semanal</td> <td>100% entregue</td> <td>🟢 OK</td> <td></td> </tr>"
+        },
+        {
+          "file": "pages/artefatos/g4/avaliacao-beneficios.js",
+          "startLine": 159,
+          "endLine": 168,
+          "snippet": "<td>Dashboard semanal</td> <td>100% entregue</td> <td>🟢 OK</td> <td></td> </tr>"
+        }
+      ]
+    },
+    {
+      "hash": "8628d5219db4f2ff107ff22d5b7e883a",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g4/avaliacao-beneficios.js",
+          "startLine": 118,
+          "endLine": 127,
+          "snippet": "<td>100% entregue</td> <td>🟢 OK</td> <td></td> </tr> </tbody>"
+        },
+        {
+          "file": "pages/artefatos/g4/avaliacao-beneficios.js",
+          "startLine": 160,
+          "endLine": 169,
+          "snippet": "<td>100% entregue</td> <td>🟢 OK</td> <td></td> </tr> </tbody>"
+        }
+      ]
+    },
+    {
+      "hash": "8174e32b40252a799f3e9157e70390fb",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g4/relatorio-final-projeto.js",
+          "startLine": 34,
+          "endLine": 43,
+          "snippet": "<ul> <li> <strong>Sponsor:</strong> __________________________________ </li> <li>"
+        },
+        {
+          "file": "pages/artefatos/g4/termo-aceite-sponsor.js",
+          "startLine": 34,
+          "endLine": 43,
+          "snippet": "<ul> <li> <strong>Sponsor:</strong> __________________________________ </li> <li>"
+        }
+      ]
+    },
+    {
+      "hash": "7da825a1ed79b0653157a504c2cf2930",
+      "occurrences": [
+        {
+          "file": "pages/artefatos/g4/relatorio-final-projeto.js",
+          "startLine": 35,
+          "endLine": 44,
+          "snippet": "<li> <strong>Sponsor:</strong> __________________________________ </li> <li> <strong>Gerente de Projeto (GP):</strong> __________________________________"
+        },
+        {
+          "file": "pages/artefatos/g4/termo-aceite-sponsor.js",
+          "startLine": 35,
+          "endLine": 44,
+          "snippet": "<li> <strong>Sponsor:</strong> __________________________________ </li> <li> <strong>Gerente de Projeto (GP):</strong> __________________________________"
+        }
+      ]
+    }
+  ],
+  "antiPatterns": [
+    {
+      "file": "pages/artefatos/g0.js",
+      "issues": [
+        {
+          "type": "large-file",
+          "lines": 272
+        }
+      ]
+    },
+    {
+      "file": "pages/artefatos/g1/carta-abertura.js",
+      "issues": [
+        {
+          "type": "large-file",
+          "lines": 295
+        }
+      ]
+    },
+    {
+      "file": "pages/fluxo-pmo/index.js",
+      "issues": [
+        {
+          "type": "direct-dom-access"
+        }
+      ]
+    },
+    {
+      "file": "src/app/(public)/fluxo-pmo/_data/sections.js",
+      "issues": [
+        {
+          "type": "large-file",
+          "lines": 452
+        }
+      ]
+    },
+    {
+      "file": "src/components/layout/SiteHeader.jsx",
+      "issues": [
+        {
+          "type": "direct-dom-access"
+        }
+      ]
+    },
+    {
+      "file": "src/styles/global.css",
+      "issues": [
+        {
+          "type": "large-file",
+          "lines": 2154
+        }
+      ]
+    }
+  ],
+  "componentCandidates": [
+    "pages/artefatos/g1/business-case.js",
+    "pages/artefatos/g1/carta-abertura.js",
+    "pages/artefatos/g1/definicao-preliminar-dados.js",
+    "pages/artefatos/g1/escopo-alto-nivel.js",
+    "pages/artefatos/g1/kickoff-descoberta.js",
+    "pages/artefatos/g4/relatorio-final-projeto.js",
+    "pages/artefatos/g4/runbook.js",
+    "pages/fluxo-pmo/index.js",
+    "src/app/(public)/_components/home/HomeHero.jsx",
+    "src/app/(public)/_components/home/PositioningSection.jsx",
+    "src/app/(public)/fluxo-pmo/_components/FlowHero.jsx",
+    "src/app/(public)/fluxo-pmo/_components/FlowQuickNav.jsx",
+    "src/app/(public)/fluxo-pmo/_components/FlowSideNav.jsx",
+    "src/components/data-display/ContentCard.jsx",
+    "src/components/layout/SiteFooter.jsx",
+    "src/components/layout/SiteHeader.jsx",
+    "src/components/ui/Badge.jsx",
+    "src/components/ui/SectionBadge.jsx",
+    "src/styles/global.css"
+  ]
+}

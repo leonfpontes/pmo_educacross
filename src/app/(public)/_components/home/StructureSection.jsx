@@ -1,6 +1,6 @@
-import Badge from '../common/Badge';
-import Callout from '../common/Callout';
-import ContentCard from '../common/ContentCard';
+import Badge from '@/components/ui/Badge';
+import Callout from '@/components/data-display/Callout';
+import ContentCard from '@/components/data-display/ContentCard';
 
 /**
  * Seção que apresenta a estrutura proposta do PMO.
