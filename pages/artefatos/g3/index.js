@@ -3,6 +3,13 @@ import Button from '../../../src/components/common/Button';
 
 const g3Artifacts = [
   {
+    title: 'Registro de Treinamento Concluído – Educacross',
+    description:
+      'Comprove treinamentos realizados no Gate G3 com públicos atendidos, sessões concluídas, evidências e aprovação para o Go-Live.',
+    href: '/artefatos/g3/registro-treinamento-concluido',
+    actionLabel: 'Acessar registro',
+  },
+  {
     title: 'Plano de Gestão de Fornecedores – Educacross',
     description:
       'Garanta gestão centralizada de fornecedores no Gate G3 com escopo, processo, matriz de acompanhamento, indicadores e boas práticas Educacross.',
