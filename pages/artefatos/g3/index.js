@@ -10,6 +10,27 @@ const g3Artifacts = [
     actionLabel: 'Acessar registro',
   },
   {
+    title: 'Registro de Testes Aprovados – Educacross',
+    description:
+      'Consolide e aprove formalmente os testes do Gate G3 com matriz detalhada, checklist de aprovação e boas práticas Educacross.',
+    href: '/artefatos/g3/registro-testes-aprovados',
+    actionLabel: 'Acessar registro',
+  },
+  {
+    title: 'Revisão Semanal do GP/PMO',
+    description:
+      'Template para acompanhar a revisão semanal do portfólio no Gate G3 com visão geral, pendências, riscos e planos da próxima semana.',
+    href: '/artefatos/g3/revisao-semanal-gp-pmo',
+    actionLabel: 'Acessar template',
+  },
+  {
+    title: 'Report Executivo (Quinzenal/Mensal)',
+    description:
+      'Modelo executivo consolidado para apresentar status, pendências e recomendações do portfólio Educacross no Gate G3.',
+    href: '/artefatos/g3/report-executivo',
+    actionLabel: 'Acessar report',
+  },
+  {
     title: 'Plano de Gestão de Fornecedores – Educacross',
     description:
       'Garanta gestão centralizada de fornecedores no Gate G3 com escopo, processo, matriz de acompanhamento, indicadores e boas práticas Educacross.',
@@ -27,7 +48,7 @@ const g3Artifacts = [
     title: 'Comitê de Projeto (quinzenal)',
     description:
       'Template completo do comitê quinzenal com foco em decisões jurídicas, pendências contratuais e governança executiva do Gate G3.',
-    href: '/artefatos/g3/plano-juridico-contratos',
+    href: '/artefatos/g3/comite-de-projeto',
     actionLabel: 'Acessar guia',
   },
 ];
