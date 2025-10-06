@@ -3,6 +3,12 @@ import Button from '../../../src/components/common/Button';
 
 const g4Artifacts = [
   {
+    title: 'Lições Aprendidas – Educacross',
+    description:
+      'Consolide sucessos, falhas, pontos de melhoria e recomendações do projeto na fase G4 com o registro estruturado de lições aprendidas.',
+    href: '/artefatos/g4/licoes-aprendidas',
+  },
+  {
     title: 'Termo de Aceite do Sponsor',
     description:
       'Formalize a aprovação final do sponsor registrando escopo entregue, avaliação e assinaturas essenciais para o encerramento do projeto no Gate G4.',
