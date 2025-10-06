@@ -3,6 +3,13 @@ import Button from '../../../src/components/common/Button';
 
 const g3Artifacts = [
   {
+    title: 'Revisão Semanal do GP/PMO',
+    description:
+      'Template para acompanhar a revisão semanal do portfólio no Gate G3 com visão geral, pendências, riscos e planos da próxima semana.',
+    href: '/artefatos/g3/revisao-semanal-gp-pmo',
+    actionLabel: 'Acessar template',
+  },
+  {
     title: 'Plano de Gestão de Fornecedores – Educacross',
     description:
       'Garanta gestão centralizada de fornecedores no Gate G3 com escopo, processo, matriz de acompanhamento, indicadores e boas práticas Educacross.',
