@@ -3,6 +3,13 @@ import Button from '../../../src/components/common/Button';
 
 const checklistArtifacts = [
   {
+    title: 'Checklist - Gate 4 (Encerramento & Sustentação)',
+    description:
+      'Valide entregas finais, formalizações, sustentação e decisão do Gate 4 com este checklist completo alinhado ao método Educacross.',
+    href: '/artefatos/checklists/gate-4',
+    actionLabel: 'Acessar checklist',
+  },
+  {
     title: 'Checklist - Gate 3 (Execução / Go-Live)',
     description:
       'Garanta que todos os critérios críticos de revisão, preparo técnico, comunicação e decisão sejam cumpridos antes do Go-Live no Gate 3.',
@@ -32,6 +39,7 @@ const checklistArtifacts = [
   },
 ];
 
+export default function ChecklistArtifactsPage() {
 export default function ChecklistsPage() {
   const hero = (
     <header className="page-header-minimal">
@@ -43,6 +51,8 @@ export default function ChecklistsPage() {
 
   return (
     <Layout
+      title="Checklists - PMO Educacross"
+      description="Checklists oficiais do PMO Educacross."
       title="Artefatos Checklists - PMO Educacross"
       description="Coleção de checklists de apoio aos gates do PMO Educacross."
       title="Artefatos - Checklists - PMO Educacross"
