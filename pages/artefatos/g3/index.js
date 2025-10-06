@@ -3,6 +3,13 @@ import Button from '../../../src/components/common/Button';
 
 const g3Artifacts = [
   {
+    title: 'Revisão Semanal do GP/PMO',
+    description:
+      'Template para acompanhar a revisão semanal do portfólio no Gate G3 com visão geral, pendências, riscos e planos da próxima semana.',
+    href: '/artefatos/g3/revisao-semanal-gp-pmo',
+    actionLabel: 'Acessar template',
+  },
+  {
     title: 'Report Executivo (Quinzenal/Mensal)',
     description:
       'Modelo executivo consolidado para apresentar status, pendências e recomendações do portfólio Educacross no Gate G3.',
