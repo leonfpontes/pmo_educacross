@@ -22,6 +22,7 @@ const checklistLinks = [
 const menuItems = [
   { label: 'Home', href: '/' },
   { label: 'Fluxo PMO', href: '/fluxo-pmo' },
+  { label: 'DoD / DoR', href: '/dod-dor' },
   {
     label: 'Artefatos',
     children: artefatoLinks,
