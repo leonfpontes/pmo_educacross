@@ -24,6 +24,13 @@ const g2Artifacts = [
     actionLabel: 'Acessar guia',
   },
   {
+    title: 'Plano de Testes/QA',
+    description:
+      'Estabeleça objetivos, escopo, estratégias, matriz de testes e critérios de aprovação para garantir a qualidade das entregas no Gate G2.',
+    href: '/artefatos/g2/plano-testes-qa',
+    actionLabel: 'Acessar guia',
+  },
+  {
     title: 'Plano de Comunicação Detalhado',
     description:
       'Oriente a comunicação estratégica, tática e operacional do projeto com cadências, formatos, responsáveis e registros alinhados ao modelo Educacross para o Gate G2.',
