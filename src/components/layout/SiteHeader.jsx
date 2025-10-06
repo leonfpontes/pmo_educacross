@@ -1,69 +1,56 @@
+'use client';
+
 import Link from 'next/link';
-import { useRouter } from 'next/router';
+import { usePathname } from 'next/navigation';
 import { useEffect, useId, useMemo, useState } from 'react';
+import { mainNavigation } from '@/lib/navigation';
 
-const artefatoLinks = [
-  { href: '/artefatos/g0', label: 'G0 - Intake & Triage' },
-  { href: '/artefatos/g1', label: 'G1 - Descoberta & Iniciação' },
-  { href: '/artefatos/g2', label: 'G2 - Planejamento Detalhado' },
-  { href: '/artefatos/g3', label: 'G3 - Execução & Monitoramento' },
-  { href: '/artefatos/g4', label: 'G4 - Lançamento & Estabilização' },
-  { href: '/artefatos/checklists', label: 'Checklists Operacionais' },
-];
+const getBasePath = (path) => path.split('#')[0] || '/';
 
-const menuItems = [
-  { label: 'Home', href: '/' },
-  { label: 'Fluxo PMO', href: '/fluxo-pmo' },
-  { label: 'DoD / DoR', href: '/dod-dor' },
-  {
-    label: 'Artefatos',
-    children: artefatoLinks,
-  },
-];
-
-export default function Header() {
-  const router = useRouter();
-  const basePath = router.asPath.split('#')[0] || '/';
+export default function SiteHeader() {
+  const pathname = typeof usePathname === 'function' ? usePathname() : null;
+  const [resolvedPath, setResolvedPath] = useState(() => getBasePath(pathname ?? '/'));
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [openSubmenu, setOpenSubmenu] = useState(null);
   const submenuBaseId = useId();
 
-  const isActive = (href) => {
-    if (href === '/') {
-      return basePath === '/';
-    }
-    return basePath === href;
-  };
-
-  const hasActiveNestedLink = (link) => {
-    if (link.href && isActive(link.href)) {
-      return true;
+  useEffect(() => {
+    if (pathname) {
+      setResolvedPath(getBasePath(pathname));
+      return;
     }
 
-    if (Array.isArray(link.children) && link.children.length > 0) {
-      return link.children.some((childLink) => hasActiveNestedLink(childLink));
+    if (typeof window === 'undefined') {
+      return;
     }
 
-    return false;
-  };
+    const handleRouteChange = () => {
+      setResolvedPath(getBasePath(`${window.location.pathname}${window.location.search}` || '/'));
+    };
+
+    handleRouteChange();
+    window.addEventListener('hashchange', handleRouteChange);
+    window.addEventListener('popstate', handleRouteChange);
+
+    return () => {
+      window.removeEventListener('hashchange', handleRouteChange);
+      window.removeEventListener('popstate', handleRouteChange);
+    };
+  }, [pathname]);
 
   const itemsWithActiveState = useMemo(
     () =>
-      menuItems.map((item) => ({
+      mainNavigation.map((item) => ({
         ...item,
-        isActive: item.href ? isActive(item.href) : item.children?.some((child) => hasActiveNestedLink(child)),
+        isActive: item.href ? resolvedPath === item.href : item.children?.some((child) => resolvedPath === child.href),
       })),
-    [basePath]
+    [resolvedPath]
   );
 
   const closeMobileMenu = () => {
     setMobileMenuOpen(false);
     setOpenSubmenu(null);
   };
-
-  useEffect(() => {
-    closeMobileMenu();
-  }, [router.asPath]);
 
   useEffect(() => {
     if (mobileMenuOpen) {
@@ -137,7 +124,7 @@ export default function Header() {
                     </button>
                     <ul id={submenuId} className="site-nav__submenu">
                       {item.children.map((child) => {
-                        const childIsActive = isActive(child.href);
+                        const childIsActive = resolvedPath === child.href;
 
                         return (
                           <li key={child.href} className="site-nav__submenu-item">

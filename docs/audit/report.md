@@ -1,0 +1,122 @@
+# Relatório de Auditoria
+
+- Data: 2025-10-06T18:26:11.698Z
+- Total de arquivos analisados: 84
+- Grupos de duplicações: 92
+- Arquivos com anti-padrões: 6
+- Candidatos a componentes: 19
+
+## Duplicações (trechos de 10 linhas)
+- Hash: `27d3f958075d326eec6afed2eacd1fb7`
+  - pages/artefatos/checklists/checklist-g3-execucao-go-live.js (L17-L26) — Trecho: `hero={hero} > <article className="artifact-form"> <section className="content-card"> <p>`
+  - pages/artefatos/checklists/gate-2-planejamento-detalhado.js (L17-L26) — Trecho: `hero={hero} > <article className="artifact-form"> <section className="content-card"> <p>`
+- Hash: `f89a05ae841cc8547369f365498ae504`
+  - pages/artefatos/checklists/checklist-g3-execucao-go-live.js (L18-L27) — Trecho: `> <article className="artifact-form"> <section className="content-card"> <p> <strong>Projeto:</strong> _________________`
+  - pages/artefatos/checklists/gate-2-planejamento-detalhado.js (L18-L27) — Trecho: `> <article className="artifact-form"> <section className="content-card"> <p> <strong>Projeto:</strong> _________________`
+- Hash: `40afbf7f242c4d23ddea4a5333cf2500`
+  - pages/artefatos/checklists/checklist-g3-execucao-go-live.js (L19-L28) — Trecho: `<article className="artifact-form"> <section className="content-card"> <p> <strong>Projeto:</strong> ___________________`
+  - pages/artefatos/checklists/gate-2-planejamento-detalhado.js (L19-L28) — Trecho: `<article className="artifact-form"> <section className="content-card"> <p> <strong>Projeto:</strong> ___________________`
+- Hash: `4a6c3c38d5e309cfcf72c13bb7925029`
+  - pages/artefatos/checklists/checklist-g3-execucao-go-live.js (L20-L29) — Trecho: `<section className="content-card"> <p> <strong>Projeto:</strong> ____________________________________ </p> <p>`
+  - pages/artefatos/checklists/gate-1.js (L141-L150) — Trecho: `<section className="content-card"> <p> <strong>Projeto:</strong> ____________________________________ </p> <p>`
+  - pages/artefatos/checklists/gate-2-planejamento-detalhado.js (L20-L29) — Trecho: `<section className="content-card"> <p> <strong>Projeto:</strong> ____________________________________ </p> <p>`
+- Hash: `0df63f6288b21c5db846b76aa8ef56eb`
+  - pages/artefatos/checklists/checklist-g3-execucao-go-live.js (L21-L30) — Trecho: `<p> <strong>Projeto:</strong> ____________________________________ </p> <p> <strong>Sponsor:</strong> __________________`
+  - pages/artefatos/checklists/gate-1.js (L142-L151) — Trecho: `<p> <strong>Projeto:</strong> ____________________________________ </p> <p> <strong>Sponsor:</strong> __________________`
+  - pages/artefatos/checklists/gate-2-planejamento-detalhado.js (L21-L30) — Trecho: `<p> <strong>Projeto:</strong> ____________________________________ </p> <p> <strong>Sponsor:</strong> __________________`
+  - pages/artefatos/checklists/gate-4.js (L22-L31) — Trecho: `<p> <strong>Projeto:</strong> ____________________________________ </p> <p> <strong>Sponsor:</strong> __________________`
+- Hash: `4da41990333319f3fb7f9497928306c4`
+  - pages/artefatos/checklists/checklist-g3-execucao-go-live.js (L22-L31) — Trecho: `<strong>Projeto:</strong> ____________________________________ </p> <p> <strong>Sponsor:</strong> ______________________`
+  - pages/artefatos/checklists/gate-1.js (L143-L152) — Trecho: `<strong>Projeto:</strong> ____________________________________ </p> <p> <strong>Sponsor:</strong> ______________________`
+  - pages/artefatos/checklists/gate-2-planejamento-detalhado.js (L22-L31) — Trecho: `<strong>Projeto:</strong> ____________________________________ </p> <p> <strong>Sponsor:</strong> ______________________`
+  - pages/artefatos/checklists/gate-4.js (L23-L32) — Trecho: `<strong>Projeto:</strong> ____________________________________ </p> <p> <strong>Sponsor:</strong> ______________________`
+- Hash: `fc5630211efc2d30a083f79bdb4e2178`
+  - pages/artefatos/checklists/checklist-g3-execucao-go-live.js (L23-L32) — Trecho: `</p> <p> <strong>Sponsor:</strong> _________________________________ </p> <p>`
+  - pages/artefatos/checklists/gate-1.js (L144-L153) — Trecho: `</p> <p> <strong>Sponsor:</strong> _________________________________ </p> <p>`
+  - pages/artefatos/checklists/gate-2-planejamento-detalhado.js (L23-L32) — Trecho: `</p> <p> <strong>Sponsor:</strong> _________________________________ </p> <p>`
+  - pages/artefatos/checklists/gate-4.js (L24-L33) — Trecho: `</p> <p> <strong>Sponsor:</strong> _________________________________ </p> <p>`
+- Hash: `e22196cea1ac4bb15d2abed475dbf4ce`
+  - pages/artefatos/checklists/checklist-g3-execucao-go-live.js (L24-L33) — Trecho: `<p> <strong>Sponsor:</strong> _________________________________ </p> <p> <strong>Responsável (GP/PMO):</strong> ________`
+  - pages/artefatos/checklists/gate-1.js (L145-L154) — Trecho: `<p> <strong>Sponsor:</strong> _________________________________ </p> <p> <strong>Responsável (GP/PMO):</strong> ________`
+  - pages/artefatos/checklists/gate-2-planejamento-detalhado.js (L24-L33) — Trecho: `<p> <strong>Sponsor:</strong> _________________________________ </p> <p> <strong>Responsável (GP/PMO):</strong> ________`
+  - pages/artefatos/checklists/gate-4.js (L25-L34) — Trecho: `<p> <strong>Sponsor:</strong> _________________________________ </p> <p> <strong>Responsável (GP/PMO):</strong> ________`
+- Hash: `e8e9c875962c38ff2b8fcecba7479540`
+  - pages/artefatos/checklists/checklist-g3-execucao-go-live.js (L25-L34) — Trecho: `<strong>Sponsor:</strong> _________________________________ </p> <p> <strong>Responsável (GP/PMO):</strong> ____________`
+  - pages/artefatos/checklists/gate-1.js (L146-L155) — Trecho: `<strong>Sponsor:</strong> _________________________________ </p> <p> <strong>Responsável (GP/PMO):</strong> ____________`
+  - pages/artefatos/checklists/gate-2-planejamento-detalhado.js (L25-L34) — Trecho: `<strong>Sponsor:</strong> _________________________________ </p> <p> <strong>Responsável (GP/PMO):</strong> ____________`
+  - pages/artefatos/checklists/gate-4.js (L26-L35) — Trecho: `<strong>Sponsor:</strong> _________________________________ </p> <p> <strong>Responsável (GP/PMO):</strong> ____________`
+- Hash: `ee76fc08eb1608c50496565447f9eff7`
+  - pages/artefatos/checklists/checklist-g3-execucao-go-live.js (L26-L35) — Trecho: `</p> <p> <strong>Responsável (GP/PMO):</strong> ____________________ </p> <p>`
+  - pages/artefatos/checklists/gate-2-planejamento-detalhado.js (L26-L35) — Trecho: `</p> <p> <strong>Responsável (GP/PMO):</strong> ____________________ </p> <p>`
+  - pages/artefatos/checklists/gate-4.js (L27-L36) — Trecho: `</p> <p> <strong>Responsável (GP/PMO):</strong> ____________________ </p> <p>`
+- Hash: `7c9dc1f229ea8fc0a7a14d4eadd4fe6b`
+  - pages/artefatos/checklists/index.js (L60-L69) — Trecho: `<section key={artifact.href} className="content-card artifact-card"> <h2>{artifact.title}</h2> <p>{artifact.description}`
+  - pages/artefatos/g1/index.js (L66-L75) — Trecho: `<section key={artifact.href} className="content-card artifact-card"> <h2>{artifact.title}</h2> <p>{artifact.description}`
+  - pages/artefatos/g2/index.js (L129-L138) — Trecho: `<section key={artifact.href} className="content-card artifact-card"> <h2>{artifact.title}</h2> <p>{artifact.description}`
+  - pages/artefatos/g3/index.js (L80-L89) — Trecho: `<section key={artifact.href} className="content-card artifact-card"> <h2>{artifact.title}</h2> <p>{artifact.description}`
+  - pages/artefatos/g4/index.js (L59-L68) — Trecho: `<section key={artifact.href} className="content-card artifact-card"> <h2>{artifact.title}</h2> <p>{artifact.description}`
+- Hash: `514c4fb0f597d6cc8125bed684fdc19d`
+  - pages/artefatos/checklists/index.js (L61-L70) — Trecho: `<h2>{artifact.title}</h2> <p>{artifact.description}</p> <Button href={artifact.href} variant="secondary"> {artifact.acti`
+  - pages/artefatos/g1/index.js (L67-L76) — Trecho: `<h2>{artifact.title}</h2> <p>{artifact.description}</p> <Button href={artifact.href} variant="secondary"> {artifact.acti`
+  - pages/artefatos/g2/index.js (L130-L139) — Trecho: `<h2>{artifact.title}</h2> <p>{artifact.description}</p> <Button href={artifact.href} variant="secondary"> {artifact.acti`
+  - pages/artefatos/g3/index.js (L81-L90) — Trecho: `<h2>{artifact.title}</h2> <p>{artifact.description}</p> <Button href={artifact.href} variant="secondary"> {artifact.acti`
+  - pages/artefatos/g4/index.js (L60-L69) — Trecho: `<h2>{artifact.title}</h2> <p>{artifact.description}</p> <Button href={artifact.href} variant="secondary"> {artifact.acti`
+- Hash: `89eb19535df8bc397dc9b2a405f6b4e2`
+  - pages/artefatos/checklists/index.js (L62-L71) — Trecho: `<p>{artifact.description}</p> <Button href={artifact.href} variant="secondary"> {artifact.actionLabel} </Button> </secti`
+  - pages/artefatos/g1/index.js (L68-L77) — Trecho: `<p>{artifact.description}</p> <Button href={artifact.href} variant="secondary"> {artifact.actionLabel} </Button> </secti`
+  - pages/artefatos/g2/index.js (L131-L140) — Trecho: `<p>{artifact.description}</p> <Button href={artifact.href} variant="secondary"> {artifact.actionLabel} </Button> </secti`
+  - pages/artefatos/g3/index.js (L82-L91) — Trecho: `<p>{artifact.description}</p> <Button href={artifact.href} variant="secondary"> {artifact.actionLabel} </Button> </secti`
+  - pages/artefatos/g4/index.js (L61-L70) — Trecho: `<p>{artifact.description}</p> <Button href={artifact.href} variant="secondary"> {artifact.actionLabel} </Button> </secti`
+- Hash: `5d7e0ea4301ae46081dd0ec1a94159db`
+  - pages/artefatos/checklists/index.js (L63-L72) — Trecho: `<Button href={artifact.href} variant="secondary"> {artifact.actionLabel} </Button> </section> ))}`
+  - pages/artefatos/g1/index.js (L69-L78) — Trecho: `<Button href={artifact.href} variant="secondary"> {artifact.actionLabel} </Button> </section> ))}`
+  - pages/artefatos/g2/index.js (L132-L141) — Trecho: `<Button href={artifact.href} variant="secondary"> {artifact.actionLabel} </Button> </section> ))}`
+  - pages/artefatos/g3/index.js (L83-L92) — Trecho: `<Button href={artifact.href} variant="secondary"> {artifact.actionLabel} </Button> </section> ))}`
+  - pages/artefatos/g4/index.js (L62-L71) — Trecho: `<Button href={artifact.href} variant="secondary"> {artifact.actionLabel} </Button> </section> ))}`
+- Hash: `9eeea6a3f82695cceadf4a7938c342e4`
+  - pages/artefatos/g1/business-case.js (L1-L10) — Trecho: `import Layout from '@/components/layout/SiteLayout'; import Callout from '@/components/data-display/Callout'; import But`
+  - pages/artefatos/g1/carta-abertura.js (L1-L10) — Trecho: `import Layout from '@/components/layout/SiteLayout'; import Callout from '@/components/data-display/Callout'; import But`
+- Hash: `23aabd63c3f5c0770f9a2da657507752`
+  - pages/artefatos/g1/business-case.js (L129-L138) — Trecho: `<fieldset className="form-fieldset"> <legend>Decisão</legend> <div className="checkbox-grid"> {approvalOptions.map((opti`
+  - pages/artefatos/g1/carta-abertura.js (L240-L249) — Trecho: `<fieldset className="form-fieldset"> <legend>Decisão</legend> <div className="checkbox-grid"> {approvalOptions.map((opti`
+- Hash: `2ec7e430798976502ba2e750921749f3`
+  - pages/artefatos/g1/business-case.js (L130-L139) — Trecho: `<legend>Decisão</legend> <div className="checkbox-grid"> {approvalOptions.map((option) => ( <label key={option.id} class`
+  - pages/artefatos/g1/carta-abertura.js (L241-L250) — Trecho: `<legend>Decisão</legend> <div className="checkbox-grid"> {approvalOptions.map((option) => ( <label key={option.id} class`
+- Hash: `abd2cf646ede45537992beb3c540f670`
+  - pages/artefatos/g1/business-case.js (L131-L140) — Trecho: `<div className="checkbox-grid"> {approvalOptions.map((option) => ( <label key={option.id} className="checkbox-item" html`
+  - pages/artefatos/g1/carta-abertura.js (L242-L251) — Trecho: `<div className="checkbox-grid"> {approvalOptions.map((option) => ( <label key={option.id} className="checkbox-item" html`
+- Hash: `cf6369028ab16c2ecee6936c07dc9323`
+  - pages/artefatos/g1/business-case.js (L132-L141) — Trecho: `{approvalOptions.map((option) => ( <label key={option.id} className="checkbox-item" htmlFor={option.id}> <input id={opti`
+  - pages/artefatos/g1/carta-abertura.js (L243-L252) — Trecho: `{approvalOptions.map((option) => ( <label key={option.id} className="checkbox-item" htmlFor={option.id}> <input id={opti`
+- Hash: `2b591715f8cd39e140a769e75cdc1ea0`
+  - pages/artefatos/g1/business-case.js (L133-L142) — Trecho: `<label key={option.id} className="checkbox-item" htmlFor={option.id}> <input id={option.id} name="aprovacao" type="check`
+  - pages/artefatos/g1/carta-abertura.js (L244-L253) — Trecho: `<label key={option.id} className="checkbox-item" htmlFor={option.id}> <input id={option.id} name="aprovacao" type="check`
+
+## Anti-padrões detectados
+- pages/artefatos/g0.js: arquivo extenso (272 linhas)
+- pages/artefatos/g1/carta-abertura.js: arquivo extenso (295 linhas)
+- pages/fluxo-pmo/index.js: acesso direto ao DOM
+- src/app/(public)/fluxo-pmo/_data/sections.js: arquivo extenso (452 linhas)
+- src/components/layout/SiteHeader.jsx: acesso direto ao DOM
+- src/styles/global.css: arquivo extenso (2154 linhas)
+
+## Candidatos a Componentes Identificados
+- pages/artefatos/g1/business-case.js
+- pages/artefatos/g1/carta-abertura.js
+- pages/artefatos/g1/definicao-preliminar-dados.js
+- pages/artefatos/g1/escopo-alto-nivel.js
+- pages/artefatos/g1/kickoff-descoberta.js
+- pages/artefatos/g4/relatorio-final-projeto.js
+- pages/artefatos/g4/runbook.js
+- pages/fluxo-pmo/index.js
+- src/app/(public)/_components/home/HomeHero.jsx
+- src/app/(public)/_components/home/PositioningSection.jsx
+- src/app/(public)/fluxo-pmo/_components/FlowHero.jsx
+- src/app/(public)/fluxo-pmo/_components/FlowQuickNav.jsx
+- src/app/(public)/fluxo-pmo/_components/FlowSideNav.jsx
+- src/components/data-display/ContentCard.jsx
+- src/components/layout/SiteFooter.jsx
+- src/components/layout/SiteHeader.jsx
+- src/components/ui/Badge.jsx
+- src/components/ui/SectionBadge.jsx
+- src/styles/global.css

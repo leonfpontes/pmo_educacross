@@ -1,4 +1,4 @@
-import Layout from '../../src/components/layout/Layout';
+import Layout from '@/components/layout/SiteLayout';
 
 export default function G0Page() {
   const hero = (

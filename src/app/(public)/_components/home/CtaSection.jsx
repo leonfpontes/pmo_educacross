@@ -1,4 +1,4 @@
-import Button from '../common/Button';
+import Button from '@/components/ui/Button';
 
 /**
  * Seção de chamada para ação direcionando ao fluxo do PMO.

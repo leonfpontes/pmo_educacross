@@ -1,5 +1,5 @@
-import Layout from '../../../src/components/layout/Layout';
-import Button from '../../../src/components/common/Button';
+import Layout from '@/components/layout/SiteLayout';
+import Button from '@/components/ui/Button';
 
 const checklistArtifacts = [
   {

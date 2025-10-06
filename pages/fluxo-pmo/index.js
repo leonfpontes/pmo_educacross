@@ -1,10 +1,10 @@
 import { useEffect, useMemo, useRef } from 'react';
-import FlowHero from '../../src/components/flow/FlowHero';
-import FlowQuickNav from '../../src/components/flow/FlowQuickNav';
-import FlowSection from '../../src/components/flow/FlowSection';
-import FlowSideNav from '../../src/components/flow/FlowSideNav';
-import flowSections from '../../src/components/flow/flowSectionsData';
-import Layout from '../../src/components/layout/Layout';
+import FlowHero from '@/app/(public)/fluxo-pmo/_components/FlowHero';
+import FlowQuickNav from '@/app/(public)/fluxo-pmo/_components/FlowQuickNav';
+import FlowSection from '@/app/(public)/fluxo-pmo/_components/FlowSection';
+import FlowSideNav from '@/app/(public)/fluxo-pmo/_components/FlowSideNav';
+import flowSections from '@/app/(public)/fluxo-pmo/_data/sections';
+import Layout from '@/components/layout/SiteLayout';
 
 const navSections = flowSections.map(({ id, label }) => ({ id, label }));
 

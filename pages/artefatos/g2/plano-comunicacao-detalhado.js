@@ -1,5 +1,5 @@
-import Layout from '../../../src/components/layout/Layout';
-import Callout from '../../../src/components/common/Callout';
+import Layout from '@/components/layout/SiteLayout';
+import Callout from '@/components/data-display/Callout';
 
 export default function PlanoComunicacaoDetalhadoPage() {
   const hero = (

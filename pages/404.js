@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Layout from '../src/components/layout/Layout';
+import Layout from '@/components/layout/SiteLayout';
 
 export default function NotFoundPage() {
   const hero = (

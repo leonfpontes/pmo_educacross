@@ -3,22 +3,25 @@
  */
 export default function HomeHero() {
   return (
-    <header className="page-hero">
+    <section className="page-hero" aria-labelledby="hero-title">
       <div className="hero">
         <div className="hero-text">
-          <div className="hero-highlight">Estratégia • Governança • Resultados</div>
-          <h1>Proposta de Estruturação do Escritório de Projetos</h1>
+          <p className="hero-highlight">Estratégia • Governança • Resultados</p>
+          <h1 id="hero-title">Proposta de Estruturação do Escritório de Projetos</h1>
           <p>
             O PMO da Educacross nasce para conectar a visão estratégica da diretoria à execução impecável dos projetos,
             garantindo o crescimento sustentável, escala e previsibilidade.
           </p>
-          <div className="hero-meta">
-            <p>
-              <strong>Responsável:</strong> Leonardo Fonseca Pontes — Gerente de Projetos
-              <br />
-              <strong>Data:</strong> Setembro/2025
-            </p>
-          </div>
+          <dl className="hero-meta">
+            <div>
+              <dt>Responsável</dt>
+              <dd>Leonardo Fonseca Pontes — Gerente de Projetos</dd>
+            </div>
+            <div>
+              <dt>Data</dt>
+              <dd>Setembro/2025</dd>
+            </div>
+          </dl>
         </div>
         <div className="hero-card">
           <h2>Como o PMO se posiciona</h2>
@@ -28,6 +31,6 @@ export default function HomeHero() {
           </p>
         </div>
       </div>
-    </header>
+    </section>
   );
 }

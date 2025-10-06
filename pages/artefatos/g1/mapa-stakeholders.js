@@ -1,6 +1,6 @@
-import Layout from '../../../src/components/layout/Layout';
-import Callout from '../../../src/components/common/Callout';
-import Button from '../../../src/components/common/Button';
+import Layout from '@/components/layout/SiteLayout';
+import Callout from '@/components/data-display/Callout';
+import Button from '@/components/ui/Button';
 
 export default function StakeholderMapPage() {
   const hero = (

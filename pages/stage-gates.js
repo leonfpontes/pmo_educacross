@@ -1,9 +1,9 @@
 import Head from 'next/head';
 import Link from 'next/link';
 
-import Callout from '../src/components/common/Callout';
-import ContentCard from '../src/components/common/ContentCard';
-import Layout from '../src/components/layout/Layout';
+import Callout from '@/components/data-display/Callout';
+import ContentCard from '@/components/data-display/ContentCard';
+import Layout from '@/components/layout/SiteLayout';
 
 export default function StageGatesPage() {
   const hero = (

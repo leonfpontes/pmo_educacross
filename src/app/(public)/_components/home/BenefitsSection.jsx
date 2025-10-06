@@ -1,5 +1,5 @@
-import Badge from '../common/Badge';
-import ContentCard from '../common/ContentCard';
+import Badge from '@/components/ui/Badge';
+import ContentCard from '@/components/data-display/ContentCard';
 
 /**
  * Seção de benefícios esperados.

@@ -1,4 +1,4 @@
-import SectionBadge from '../common/SectionBadge';
+import SectionBadge from '@/components/ui/SectionBadge';
 
 /**
  * Seção reutilizável do fluxo, com selo numérico e conteúdo personalizado.

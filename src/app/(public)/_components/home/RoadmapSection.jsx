@@ -1,6 +1,6 @@
-import Badge from '../common/Badge';
-import ContentCard from '../common/ContentCard';
-import TimelineStep from '../common/TimelineStep';
+import Badge from '@/components/ui/Badge';
+import ContentCard from '@/components/data-display/ContentCard';
+import TimelineStep from '@/components/data-display/TimelineStep';
 
 /**
  * Seção do roadmap de 90 dias.
