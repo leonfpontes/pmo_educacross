@@ -7,6 +7,25 @@ const g4Artifacts = [
     description:
       'Compreenda o conceito, a finalidade e a estrutura de runbooks para garantir execuções consistentes e seguras na fase G4.',
     href: '/artefatos/g4/runbook',
+  },
+  {
+    title: 'Relatório Final do Projeto – Educacross',
+    description:
+      'Registre a conclusão do projeto com identificação, resumo executivo, indicadores, lições aprendidas e encerramento formal para a fase G4.',
+    href: '/artefatos/g4/relatorio-final-projeto',
+    actionLabel: 'Acessar modelo',
+  },
+  {
+    title: 'Lições Aprendidas – Educacross',
+    description:
+      'Consolide sucessos, falhas, pontos de melhoria e recomendações do projeto na fase G4 com o registro estruturado de lições aprendidas.',
+    href: '/artefatos/g4/licoes-aprendidas',
+  },
+  {
+    title: 'Termo de Aceite do Sponsor',
+    description:
+      'Formalize a aprovação final do sponsor registrando escopo entregue, avaliação e assinaturas essenciais para o encerramento do projeto no Gate G4.',
+    href: '/artefatos/g4/termo-aceite-sponsor',
     actionLabel: 'Acessar guia',
   },
 ];
