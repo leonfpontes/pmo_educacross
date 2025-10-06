@@ -11,24 +11,12 @@ const artefatoLinks = [
   { href: '/artefatos/checklists', label: 'Checklists Operacionais' },
 ];
 
-const checklistLinks = [
-  { href: '/artefatos/checklists/g0-triagem-intake', label: 'G0 - Triagem / Intake' },
-  { href: '/artefatos/checklists/gate-1', label: 'G1 - Iniciação / Descoberta' },
-  { href: '/artefatos/checklists/gate-2-planejamento-detalhado', label: 'G2 - Planejamento Detalhado' },
-  { href: '/artefatos/checklists/checklist-g3-execucao-go-live', label: 'G3 - Execução / Go-Live' },
-  { href: '/artefatos/checklists/gate-4', label: 'G4 - Encerramento & Sustentação' },
-];
-
 const menuItems = [
   { label: 'Home', href: '/' },
   { label: 'Fluxo PMO', href: '/fluxo-pmo' },
   {
     label: 'Artefatos',
     children: artefatoLinks,
-  },
-  {
-    label: 'Checklists',
-    children: checklistLinks,
   },
 ];
 
