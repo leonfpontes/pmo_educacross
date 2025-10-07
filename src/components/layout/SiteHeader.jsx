@@ -1,27 +1,14 @@
 'use client';
 
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
 import { useEffect, useId, useMemo, useState } from 'react';
 import { mainNavigation } from '@/lib/navigation';
+import useSafePathname from '@/hooks/useSafePathname';
 
 const getBasePath = (path) => path.split('#')[0] || '/';
 
 export default function SiteHeader() {
-  let pathname = null;
-
-  if (typeof usePathname === 'function') {
-    try {
-      pathname = usePathname();
-    } catch (error) {
-      // `usePathname` is only supported in the App Router. When this header is rendered
-      // inside the legacy Pages Router we fall back to location-based detection.
-      if (process.env.NODE_ENV !== 'production') {
-        // eslint-disable-next-line no-console
-        console.warn('SiteHeader: falling back to window.location for active link detection.', error);
-      }
-    }
-  }
+  const pathname = useSafePathname();
   const [resolvedPath, setResolvedPath] = useState(() => getBasePath(pathname ?? '/'));
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [openSubmenu, setOpenSubmenu] = useState(null);
