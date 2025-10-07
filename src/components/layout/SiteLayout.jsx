@@ -1,5 +1,6 @@
 import dynamic from 'next/dynamic';
 import Head from 'next/head';
+import { useEffect, useState } from 'react';
 import SiteFooter from './SiteFooter';
 
 const SiteHeader = dynamic(() => import('./SiteHeader'), { ssr: false });
@@ -25,6 +26,11 @@ export default function SiteLayout({
   title,
 }) {
   const mainClass = ['page-main', mainClassName].filter(Boolean).join(' ');
+  const [isClientReady, setIsClientReady] = useState(false);
+
+  useEffect(() => {
+    setIsClientReady(true);
+  }, []);
 
   return (
     <>
@@ -37,7 +43,7 @@ export default function SiteLayout({
         <a href="#conteudo-principal" className="skip-to-content">
           Ir para o conteúdo principal
         </a>
-        <SiteHeader />
+        {isClientReady ? <SiteHeader /> : null}
         {hero}
         <main id="conteudo-principal" className={mainClass}>
           {children}
