@@ -14,6 +14,61 @@ run('next build');
 const hasAppDirectory = fs.existsSync('app') || fs.existsSync(path.join('src', 'app'));
 const shouldSkipExport = hasAppDirectory || process.env.SKIP_NEXT_EXPORT === 'true';
 
+const ensureRouteGroupClientManifests = () => {
+  const appRoot = fs.existsSync('app') ? 'app' : fs.existsSync(path.join('src', 'app')) ? path.join('src', 'app') : null;
+  if (!appRoot) {
+    return;
+  }
+
+  const routeGroupPaths = [];
+  const walk = (currentDir, relativePath = '') => {
+    const entries = fs.readdirSync(currentDir, { withFileTypes: true });
+    for (const entry of entries) {
+      if (!entry.isDirectory()) {
+        continue;
+      }
+
+      const nextRelative = path.join(relativePath, entry.name);
+      const nextDir = path.join(currentDir, entry.name);
+      if (entry.name.startsWith('(') && entry.name.endsWith(')')) {
+        routeGroupPaths.push(nextRelative);
+      }
+
+      walk(nextDir, nextRelative);
+    }
+  };
+
+  walk(appRoot);
+
+  if (routeGroupPaths.length === 0) {
+    return;
+  }
+
+  const serverAppDir = path.join('.next', 'server', 'app');
+  const manifestSource = path.join(serverAppDir, 'page_client-reference-manifest.js');
+
+  if (!fs.existsSync(manifestSource)) {
+    return;
+  }
+
+  for (const routeGroup of routeGroupPaths) {
+    const targetDir = path.join(serverAppDir, routeGroup);
+    const manifestDestination = path.join(targetDir, 'page_client-reference-manifest.js');
+
+    if (fs.existsSync(manifestDestination)) {
+      continue;
+    }
+
+    fs.mkdirSync(targetDir, { recursive: true });
+    fs.copyFileSync(manifestSource, manifestDestination);
+    console.log(
+      `Copied client reference manifest for route group "${routeGroup}" to ensure Vercel build compatibility.`,
+    );
+  }
+};
+
+ensureRouteGroupClientManifests();
+
 if (shouldSkipExport) {
   console.log('\nSkipping `next export` because the App Router is enabled or export was explicitly disabled.');
   process.exit(0);
