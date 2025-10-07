@@ -242,14 +242,14 @@ button:focus-visible,
 .page-main {
   max-width: var(--layout-container);
   margin: calc(-1 * var(--spacing-8xl)) auto var(--spacing-section);
-  padding: 0 var(--spacing-gutter) var(--spacing-section);
+  padding: calc(var(--header-height) + var(--spacing-lg-plus)) var(--spacing-gutter) var(--spacing-section);
   position: relative;
 }
 
 .page-main.flow-page {
   max-width: none;
   margin: 0;
-  padding: 0;
+  padding: calc(var(--header-height) + var(--spacing-lg-plus)) 0 0;
 }
 
 .content-card {
