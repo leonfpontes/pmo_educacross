@@ -1,4 +1,5 @@
 import './globals.css';
+import logoBelinha from '@/img/Logo_Belinha.png';
 
 /** @type {import('next').Metadata} */
 export const metadata = {
@@ -10,7 +11,7 @@ export const metadata = {
   description:
     'Visão geral do PMO Educacross, com governança, metodologia, artefatos essenciais e roadmap de implantação.',
   icons: {
-    icon: '/favicon.ico',
+    icon: logoBelinha.src,
   },
 };
 
