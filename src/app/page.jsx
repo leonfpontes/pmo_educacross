@@ -11,7 +11,7 @@ export default function RootPage() {
         Ir para o conteúdo principal
       </a>
       <SiteHeader />
-      <main id="conteudo-principal" className="page-main">
+      <main id="conteudo-principal" className="page-main page-main--with-hero">
         <HomeContent />
       </main>
       <SiteFooter />
