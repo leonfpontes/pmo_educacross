@@ -111,13 +111,17 @@ const flowSections = [
         <h3>Atividades-chave</h3>
         <ol>
           <li>
-            <strong>Canal único de entrada:</strong> formulário padrão Bitrix24 + backlog de iniciativas.
+            <strong>Canal único de entrada:</strong>{' '}
+            <Link href="/artefatos/g0">formulário padrão (Ficha de Triagem)</Link> no Bitrix24 + backlog de iniciativas.
           </li>
           <li>
             <strong>Triagem semanal PMO + Liderança:</strong> classificação em Estratégico / Melhoria / Operacional.
           </li>
           <li>
-            <strong>Checklist de prontidão:</strong> objetivos claros, patrocinador, valor esperado.
+            <strong>
+              <Link href="/artefatos/checklists/g0-triagem-intake">Checklist de prontidão</Link>:
+            </strong>{' '}
+            objetivos claros, patrocinador, valor esperado.
           </li>
         </ol>
         <h3>Saídas / Critérios para G1</h3>
@@ -148,18 +152,28 @@ const flowSections = [
             <strong>Canvas de problema/objetivos:</strong> definição de sucesso, hipóteses críticas.
           </li>
           <li>
-            <strong>Charter/Business Case preliminar:</strong> objetivos, escopo macro, estimativa de investimento, riscos iniciais.
+            <strong>
+              <Link href="/artefatos/g1/carta-abertura">Charter</Link>/
+              <Link href="/artefatos/g1/business-case">Business Case</Link> preliminar:
+            </strong>{' '}
+            objetivos, escopo macro, estimativa de investimento, riscos iniciais.
           </li>
           <li>
             <strong>RACI macro:</strong> sponsor, PM, áreas envolvidas, principais responsáveis.
           </li>
           <li>
-            <strong>Kickoff Executivo (opcional):</strong> alinhar expectativas com diretoria.
+            <strong>
+              <Link href="/artefatos/g1/kickoff-descoberta">Kickoff Executivo (opcional)</Link>:
+            </strong>{' '}
+            alinhar expectativas com diretoria.
           </li>
         </ol>
         <h3>Saídas / Critérios para G2</h3>
         <ul>
-          <li>Charter/Business Case aprovado pela diretoria.</li>
+          <li>
+            <Link href="/artefatos/g1/carta-abertura">Charter</Link>/
+            <Link href="/artefatos/g1/business-case">Business Case</Link> aprovado pela diretoria.
+          </li>
           <li>Financiamento aprovado (se necessário) + estimativa inicial de ROI.</li>
           <li>Time núcleo definido (PM + leads de área).
           </li>
@@ -180,16 +194,35 @@ const flowSections = [
         <h3>Atividades-chave</h3>
         <ol>
           <li>
-            <strong>Plano do Projeto:</strong> escopo detalhado, entregáveis, milestones, orçamento, riscos, stakeholders.
+            <strong>
+              Plano do Projeto (
+              <Link href="/artefatos/g2/eap-wbs">EAP/WBS</Link>,{' '}
+              <Link href="/artefatos/g2/cronograma">Cronograma</Link>,{' '}
+              <Link href="/artefatos/g2/orcamento-baseline">Orçamento Baseline</Link>
+              ):
+            </strong>{' '}
+            escopo detalhado, entregáveis, milestones, orçamento, riscos, stakeholders.
           </li>
           <li>
-            <strong>Plano de Comunicação:</strong> cadência de ritos, responsáveis, canais, templates.
+            <strong>
+              <Link href="/artefatos/g2/plano-comunicacao-detalhado">Plano de Comunicação</Link>:
+            </strong>{' '}
+            cadência de ritos, responsáveis, canais, templates.
           </li>
           <li>
-            <strong>Plano de Entrega:</strong> detalhamento das ondas de execução, recursos necessários, integrações.
+            <strong>
+              Plano de Entrega (
+              <Link href="/artefatos/g2/plano-operacao-logistica">Operações &amp; Logística</Link> e{' '}
+              <Link href="/artefatos/g2/plano-pedagogico-produto">Produto/Pedagógico</Link>
+              ):
+            </strong>{' '}
+            detalhamento das ondas de execução, recursos necessários, integrações.
           </li>
           <li>
-            <strong>Plano de Implantação (se aplicável):</strong> preparação de operações, treinamento, suporte.
+            <strong>
+              <Link href="/artefatos/g2/plano-implantacao-rollback">Plano de Implantação</Link> (se aplicável):
+            </strong>{' '}
+            preparação de operações, treinamento, suporte.
           </li>
         </ol>
         <h3>Saídas / Critérios para G3</h3>
@@ -220,7 +253,10 @@ const flowSections = [
             <strong>Gestão de riscos/issues:</strong> registro, análise, plano de ação, escalonamento quando necessário.
           </li>
           <li>
-            <strong>Status Report quinzenal:</strong> semáforo padrão (escopo, prazo, orçamento, riscos, próximos passos).
+            <strong>
+              <Link href="/artefatos/g3/report-executivo">Status Report quinzenal</Link>:
+            </strong>{' '}
+            semáforo padrão (escopo, prazo, orçamento, riscos, próximos passos).
           </li>
           <li>
             <strong>Gestão de mudanças:</strong> avaliação de impactos, aprovação de sponsor, atualização de plano.
@@ -229,7 +265,9 @@ const flowSections = [
         <h3>Saídas / Critérios para G4</h3>
         <ul>
           <li>Entregáveis concluídos e validados (critérios de aceite).</li>
-          <li>Plano de lançamento/implantação aprovado.</li>
+          <li>
+            <Link href="/artefatos/g2/plano-implantacao-rollback">Plano de lançamento/implantação</Link> aprovado.
+          </li>
           <li>Riscos críticos mitigados ou com plano robusto.</li>
         </ul>
       </>
@@ -248,16 +286,26 @@ const flowSections = [
         <h3>Atividades-chave</h3>
         <ol>
           <li>
-            <strong>Plano de Handover:</strong> transição para operações, documentação final, treinamento.
+            <strong>
+              Plano de Handover (
+              <Link href="/artefatos/g4/termo-aceite-sponsor">Termo de Aceite do Sponsor</Link>
+              ):
+            </strong>{' '}
+            transição para operações, documentação final, treinamento.
           </li>
           <li>
-            <strong>Runbook/Playbook:</strong> procedimentos operacionais, SLAs, contatos de suporte.
+            <strong>
+              <Link href="/artefatos/g4/runbook">Runbook/Playbook</Link>:
+            </strong>{' '}
+            procedimentos operacionais, SLAs, contatos de suporte.
           </li>
           <li>
             <strong>Monitoramento pós-lançamento:</strong> KPIs, indicadores de adoção/satisfação, correções rápidas.
           </li>
           <li>
-            <strong>Reunião de Encerramento:</strong> validação de entregas, lições aprendidas, assinatura de termo de encerramento.
+            <strong>Reunião de Encerramento:</strong> validação de entregas, lições aprendidas, assinatura de{' '}
+            <Link href="/artefatos/g4/relatorio-final-projeto">relatório final</Link> e{' '}
+            <Link href="/artefatos/g4/termo-aceite-sponsor">termo de encerramento</Link>.
           </li>
         </ol>
         <h3>Saídas / Critérios para Pós-Projeto</h3>
@@ -282,18 +330,27 @@ const flowSections = [
         <h3>Atividades-chave</h3>
         <ol>
           <li>
-            <strong>Follow-ups 30/60/90:</strong> monitorar KPIs, confirmar geração de valor, ajustar rota.
+            <strong>
+              <Link href="/artefatos/g4/avaliacao-beneficios">Follow-ups 30/60/90</Link>:
+            </strong>{' '}
+            monitorar KPIs, confirmar geração de valor, ajustar rota.
           </li>
           <li>
-            <strong>Relatório de Benefícios:</strong> ROI, ganhos financeiros/operacionais, indicadores qualitativos.
+            <strong>
+              <Link href="/artefatos/g4/avaliacao-beneficios">Relatório de Benefícios</Link>:
+            </strong>{' '}
+            ROI, ganhos financeiros/operacionais, indicadores qualitativos.
           </li>
           <li>
-            <strong>Encerramento formal:</strong> aprovação da diretoria, arquivamento de artefatos, atualização de base de conhecimento.
+            <strong>Encerramento formal:</strong> aprovação da diretoria, arquivamento de artefatos, atualização de base de conhecimento com{' '}
+            <Link href="/artefatos/g4/relatorio-final-projeto">relatório final</Link>.
           </li>
         </ol>
         <h3>Saídas</h3>
         <ul>
-          <li>Relatório de Benefícios assinado.</li>
+          <li>
+            <Link href="/artefatos/g4/avaliacao-beneficios">Relatório de Benefícios</Link> assinado.
+          </li>
           <li>Atualização do portfólio (pipeline) com status final e aprendizados.</li>
           <li>Inputs para melhoria contínua de metodologia.</li>
         </ul>
@@ -335,8 +392,15 @@ const flowSections = [
           <article>
             <h3>PMO</h3>
             <ul>
-              <li>Playbook do fluxo</li>
-              <li>Modelos de Charter, Plano de Projeto, Status Report</li>
+              <li>
+                <Link href="/artefatos/g4/runbook">Playbook do fluxo</Link>
+              </li>
+              <li>
+                Modelos de{' '}
+                <Link href="/artefatos/g1/carta-abertura">Charter</Link>,{' '}
+                <Link href="/artefatos/g2">Plano de Projeto</Link>,{' '}
+                <Link href="/artefatos/g3/report-executivo">Status Report</Link>
+              </li>
               <li>Template de Comitê de Portfólio</li>
             </ul>
           </article>
@@ -350,14 +414,18 @@ const flowSections = [
           <article>
             <h3>Operações</h3>
             <ul>
-              <li>Planos de implantação e suporte</li>
+              <li>
+                <Link href="/artefatos/g2/plano-implantacao-rollback">Planos de implantação e suporte</Link>
+              </li>
               <li>Rituais de operação assistida</li>
             </ul>
           </article>
           <article>
             <h3>Comercial/CS</h3>
             <ul>
-              <li>Planos de comunicação com clientes</li>
+              <li>
+                <Link href="/artefatos/g3/plano-comunicacao">Planos de comunicação com clientes</Link>
+              </li>
               <li>Scripts e playbooks de atendimento</li>
             </ul>
           </article>
@@ -365,13 +433,18 @@ const flowSections = [
             <h3>Tecnologia</h3>
             <ul>
               <li>Roadmap técnico, documentação de integrações</li>
-              <li>Plano de contingência</li>
+              <li>
+                <Link href="/artefatos/g2/plano-implantacao-rollback">Plano de contingência</Link>
+              </li>
             </ul>
           </article>
           <article>
             <h3>Financeiro/Jurídico</h3>
             <ul>
-              <li>Análises de viabilidade, contratos, compliance</li>
+              <li>
+                <Link href="/artefatos/g1/business-case">Análises de viabilidade</Link>,{' '}
+                <Link href="/artefatos/g2/plano-juridico-contratos">contratos</Link>, compliance
+              </li>
             </ul>
           </article>
         </div>
