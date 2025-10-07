@@ -248,6 +248,10 @@ button:focus-visible,
   position: relative;
 }
 
+.page-main.page-main--with-hero {
+  padding-top: var(--header-height);
+}
+
 .page-main.flow-page {
   max-width: none;
   margin: 0;
