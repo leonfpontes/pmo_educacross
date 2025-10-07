@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import { useEffect, useState } from 'react';
 import SiteFooter from './SiteFooter';
 import SiteHeader from './SiteHeader';
 
@@ -24,12 +23,6 @@ export default function SiteLayout({
   title,
 }) {
   const mainClass = ['page-main', mainClassName].filter(Boolean).join(' ');
-  const [isClientReady, setIsClientReady] = useState(false);
-
-  useEffect(() => {
-    setIsClientReady(true);
-  }, []);
-
   return (
     <>
       <Head>
@@ -41,7 +34,7 @@ export default function SiteLayout({
         <a href="#conteudo-principal" className="skip-to-content">
           Ir para o conteúdo principal
         </a>
-        {isClientReady ? <SiteHeader /> : null}
+        <SiteHeader />
         {hero}
         <main id="conteudo-principal" className={mainClass}>
           {children}
