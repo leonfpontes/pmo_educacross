@@ -212,6 +212,7 @@ button:focus-visible,
   display: inline-flex;
   align-items: center;
   gap: var(--spacing-sm-plus);
+  margin-top: var(--spacing-3xl);
   background: var(--color-white-ghost);
   border-radius: var(--radius-xs);
   padding: var(--spacing-md) var(--spacing-card-gap);
