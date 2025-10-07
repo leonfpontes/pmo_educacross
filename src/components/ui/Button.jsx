@@ -5,6 +5,8 @@ const VARIANT_CLASSNAMES = {
   secondary: 'btn btn-secondary',
 };
 
+const EXTERNAL_LINK_PATTERN = /^(?:[a-z][a-z0-9+.-]*:|\/\/)/i;
+
 /**
  * Botão reutilizável que suporta renderização como link ou elemento de botão.
  */
@@ -12,11 +14,25 @@ export default function Button({ as: Component = 'button', children, className =
   const baseClassName = VARIANT_CLASSNAMES[variant] || VARIANT_CLASSNAMES.primary;
   const composedClassName = [baseClassName, className].filter(Boolean).join(' ');
 
-  if (href) {
+  const hasHref = typeof href === 'string' ? href.trim().length > 0 : Boolean(href);
+
+  if (hasHref) {
+    const isStringHref = typeof href === 'string';
+    const isHashLink = isStringHref && href.startsWith('#');
+    const isExternalLink = isStringHref && EXTERNAL_LINK_PATTERN.test(href);
+
+    if (!isExternalLink && !isHashLink) {
+      return (
+        <Link href={href} className={composedClassName} {...props}>
+          {children}
+        </Link>
+      );
+    }
+
     return (
-      <Link href={href} className={composedClassName} {...props}>
+      <a href={href} className={composedClassName} {...props}>
         {children}
-      </Link>
+      </a>
     );
   }
 
