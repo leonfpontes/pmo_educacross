@@ -1,9 +1,11 @@
 'use client';
 
+import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect, useId, useMemo, useState } from 'react';
 import { mainNavigation } from '@/lib/navigation';
 import useSafePathname from '@/hooks/useSafePathname';
+import LogoBelinha from '@/img/Logo_Belinha.png';
 
 const getBasePath = (path) => path.split('#')[0] || '/';
 
@@ -102,8 +104,16 @@ export default function SiteHeader() {
             aria-label="PMO Educacross - Página inicial"
             onClick={() => handleLinkClick('/')}
           >
-            <span className="brand-mark" aria-hidden="true">
-              EC
+            <span className="brand-mark">
+              <Image
+                src={LogoBelinha}
+                alt="Belinha"
+                className="brand-mark__image"
+                width={LogoBelinha.width}
+                height={LogoBelinha.height}
+                sizes="44px"
+                priority
+              />
             </span>
             <span className="brand-text">PMO Educacross</span>
           </Link>
