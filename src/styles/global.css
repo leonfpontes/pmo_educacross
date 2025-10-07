@@ -137,6 +137,8 @@ button:focus-visible,
   padding: var(--spacing-7xl-plus) 0 var(--spacing-section-max);
   position: relative;
   overflow: hidden;
+  width: 100vw;
+  margin-inline: calc(50% - 50vw);
 }
 
 .page-hero::before,
