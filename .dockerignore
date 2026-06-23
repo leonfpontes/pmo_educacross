@@ -1,0 +1,9 @@
+node_modules
+.next
+out
+.git
+.gitignore
+.prettierrc.json
+.eslintrc.json
+README.md
+docs
