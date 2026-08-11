@@ -1,50 +1,61 @@
 import Button from '@/components/ui/Button';
 
 /**
- * Seção de chamada para ação direcionando ao fluxo do PMO.
+ * Seção de chamada para ação direcionando ao fluxo do PMO — estilo Windows 2000.
  */
 export default function CtaSection() {
   return (
     <section className="cta-section" id="fluxo-pmo">
       <div className="cta-card">
-        <h2>PMO Educacross: governança para transformar caos em orquestra</h2>
-        <p className="cta-intro">
-          Quer entender como organizamos a entrada de demandas, priorizamos projetos e entregamos com previsibilidade?
-          Desenvolvemos um fluxo único de ponta a ponta que une estratégia, tecnologia e pessoas para reduzir custos
-          operacionais e escalar resultados.
-        </p>
-        <div className="cta-highlights">
-          <h3>Principais destaques:</h3>
-          <ul>
-            <li>
-              <div className="highlight-icon">G0→G4</div>
-              <div className="highlight-content">
-                <strong>Governança com Stage Gates</strong>
-                <p>Decisões rápidas e eficientes do intake à estabilização e ao pós-projeto, com critérios claros em cada etapa.</p>
-              </div>
-            </li>
-            <li>
-              <div className="highlight-icon">RACI</div>
-              <div className="highlight-content">
-                <strong>Papéis e responsabilidades sem ruído</strong>
-                <p>Sponsor, Liderança, PMO, Gerentes de Projeto e Leads atuam com accountability definida — ninguém joga no escuro.</p>
-              </div>
-            </li>
-            <li>
-              <div className="highlight-icon">BI</div>
-              <div className="highlight-content">
-                <strong>Pipeline automatizado no Bitrix24</strong>
-                <p>Semáforo padrão, dashboards executivos e artefatos essenciais — tudo enxuto para gerar valor real, sem burocracia.</p>
-              </div>
-            </li>
-          </ul>
+        {/* Win2K Window Title Bar */}
+        <div className="cta-card-titlebar">
+          <span>PMO Educacross — Governança e Fluxo de Projetos</span>
+          <div className="cta-card-titlebar-controls" aria-hidden="true">
+            <span className="titlebar-btn">_</span>
+            <span className="titlebar-btn">□</span>
+            <span className="titlebar-btn">×</span>
+          </div>
         </div>
-        <div className="cta-footer">
-          <p>
-            Para conhecer o passo a passo, os critérios de cada Gate e o roadmap de implantação, consulte o material completo
-            disponível em “Saiba Mais”.
+
+        <div className="cta-card-body">
+          <h2>PMO Educacross: governança para transformar caos em orquestra</h2>
+          <p className="cta-intro">
+            Quer entender como organizamos a entrada de demandas, priorizamos projetos e entregamos com previsibilidade?
+            Desenvolvemos um fluxo único de ponta a ponta que une estratégia, tecnologia e pessoas para reduzir custos
+            operacionais e escalar resultados.
           </p>
-          <Button href="/fluxo-pmo">Saiba Mais</Button>
+          <div className="cta-highlights">
+            <h3>Principais destaques:</h3>
+            <ul>
+              <li>
+                <div className="highlight-icon">G0→G4</div>
+                <div className="highlight-content">
+                  <strong>Governança com Stage Gates</strong>
+                  <p>Decisões rápidas e eficientes do intake à estabilização e ao pós-projeto, com critérios claros em cada etapa.</p>
+                </div>
+              </li>
+              <li>
+                <div className="highlight-icon">RACI</div>
+                <div className="highlight-content">
+                  <strong>Papéis e responsabilidades sem ruído</strong>
+                  <p>Sponsor, Liderança, PMO, Gerentes de Projeto e Leads atuam com accountability definida.</p>
+                </div>
+              </li>
+              <li>
+                <div className="highlight-icon">BI</div>
+                <div className="highlight-content">
+                  <strong>Pipeline automatizado no Bitrix24</strong>
+                  <p>Semáforo padrão, dashboards executivos e artefatos essenciais — enxuto para gerar valor real.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div className="cta-footer">
+            <p>
+              Para conhecer o passo a passo, os critérios de cada Gate e o roadmap de implantação, consulte o material completo.
+            </p>
+            <Button href="/fluxo-pmo">Saiba Mais</Button>
+          </div>
         </div>
       </div>
     </section>
